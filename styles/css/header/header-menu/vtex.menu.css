@@ -46,9 +46,9 @@
   border-bottom: 1px solid #e3e4e6;
 }
 
-.menuItem:first-child {
+/* .menuItem:first-child {
   border-top: 1px solid #e3e4e6;
-}
+} */
 
 .submenuAccordion .menuItem {
   border-bottom: none;

@@ -1,0 +1,14 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer__container_one-mobile",
+      "flex-layout.row#footer__container_two-mobile",
+      "flex-layout.row#footer__container__three-mobile",
+      "flex-layout.row#footer__container__four-mobile",
+      "flex-layout.row#footer__container__five-mobile"
+    ],
+    "props": {
+      "blockClass": "footer-layout-mobile"
+    }
+  }
+}
