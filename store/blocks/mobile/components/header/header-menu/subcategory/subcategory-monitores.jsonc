@@ -1,0 +1,48 @@
+{
+  // Monitores
+  //  Item 1
+  "menu-item#category--monitores-tradicional": {
+    "title": "subcategoria item 1",
+    "props": {
+      "id": "category-monitores-tradicional",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Monitor Tradicional",
+        "text": "Monitor Tradicional"
+      }
+    }
+  },
+  // item 2
+  "menu-item#category--monitores-gamer": {
+    "title": "subcategoria item 2",
+    "props": {
+      "id": "category-monitores-gamer",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Monitor Gamer",
+        "text": "Monitor Gamer"
+      }
+    }
+  },
+  // item 3
+  "menu-item#category--monitores-vertodomonitor": {
+    "title": "subcategoria item 3 link",
+    "props": {
+      "id": "category-monitores-vertodomonitor",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ver todo",
+        "text": "Ver todo"
+      }
+    }
+  }
+}

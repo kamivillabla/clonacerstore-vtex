@@ -1,0 +1,61 @@
+{
+  // categoria 1 notebook tradicional
+  "menu-item#notebook__category--notebook-tradicional": {
+    "title": "Categoria notebook tradicional",
+    "props": {
+      "id": "category-notebook-tradicional",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Notebook Tradicional",
+        "text": "Notebook Tradicional"
+      }
+    },
+    "blocks": ["submenu.accordion#category--notebook-tradicional-submenu"]
+  },
+  "submenu.accordion#category--notebook-tradicional-submenu": {
+    "children": ["menu#category--notebook-tradicional"]
+  },
+  "menu#category--notebook-tradicional": {
+    "children": [
+      "menu-item#category--notebook-tradi-aspirevero",
+      "menu-item#category--notebook-tradi-aspire1",
+      "menu-item#category--notebook-tradi-aspire3",
+      "menu-item#category--notebook-tradi-aspire5",
+      "menu-item#category--notebook-tradi-vertodo-tradicional"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // categoria 2 notebook ultraliviano
+  "menu-item#notebook__category--notebook-ultraliv": {
+    "title": "Categoria notebook ultraliviano",
+    "props": {
+      "id": "category-notebook-ultraliv",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Notebook Ultraliviano",
+        "text": "Ultraliviano"
+      }
+    },
+    "blocks": ["submenu.accordion#category--notebook-ultraliv-submenu"]
+  },
+  "submenu.accordion#category--notebook-ultraliv-submenu": {
+    "children": ["menu#category--notebook-ultraliv"]
+  },
+  "menu#category--notebook-ultraliv": {
+    "children": [
+      "menu-item#category--notebook-ultraliv-swift3",
+      "menu-item#category--notebook-tradi-vertodoultraliv"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

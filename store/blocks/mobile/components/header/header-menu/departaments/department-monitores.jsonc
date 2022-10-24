@@ -1,0 +1,26 @@
+{
+  "menu-item#department__monitores": {
+    "title": "departamento monitores",
+    "props": {
+      "id": "department-monitores",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Monitores",
+        "text": "Monitores"
+      }
+    },
+    "blocks": ["submenu.accordion#department__monitores-submenu"]
+  },
+  "submenu.accordion#department__monitores-submenu": {
+    "children": ["menu#department__monitores--submenu"]
+  },
+  "menu#department__monitores--submenu": {
+    "children": ["menu-item#monitores__category--monitores-pc"],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

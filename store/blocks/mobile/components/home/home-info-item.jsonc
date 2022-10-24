@@ -1,0 +1,193 @@
+{
+  // row 1
+  "flex-layout.row#mobile__home--infoitem": {
+    "title": "Mobile row 1 sección información",
+    "children": [
+      "flex-layout.col#mobile__home--infoitem--one",
+      "flex-layout.col#mobile__home--infoitem--two"
+    ],
+    "props": {
+      "paddingTop": 7,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  // row 2
+  "flex-layout.row#mobile__home--infoitem-dos": {
+    "title": "Mobile row 2 sección información",
+    "children": [
+      "flex-layout.col#mobile__home--infoitem--three",
+      "flex-layout.col#mobile__home--infoitem--four"
+    ],
+    "props": {
+      "paddingTop": 6,
+      "paddingBottom": 7,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#mobile__home--infoitem--one": {
+    "children": ["flex-layout.row#mobile__home--infoitem--one"]
+  },
+  "flex-layout.row#mobile__home--infoitem--one": {
+    "title": "Item 1: Icono y texto",
+    "children": [
+      "flex-layout.col#home--infoitem--one-mobile",
+      "flex-layout.col#home--infoitem--two-mobile"
+    ],
+    "props": {
+      "blockClass": "home__container-infoitem--mobile",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#home--infoitem--one-mobile": {
+    "children": ["image#home--infoitem--one-mobile"]
+  },
+  "image#home--infoitem--one-mobile": {
+    "title": "Item 1: icono",
+    "props": {
+      "blockClass": "infoitem-icon",
+      "src": "assets/icons/icono_pedido.png",
+      "link": {
+        "url": "/"
+      },
+      "maxHeight": 24
+    }
+  },
+  "flex-layout.col#home--infoitem--two-mobile": {
+    "children": ["rich-text#home--infoitem-text-one"]
+  },
+  "rich-text#home--infoitem-text-one": {
+    "title": "Item 1: texto",
+    "props": {
+      "text": "[Sigue tu pedido](/)",
+      "blockClass": "info__item-mobil"
+    }
+  },
+
+  //   Segundo item
+  "flex-layout.col#mobile__home--infoitem--two": {
+    "children": ["flex-layout.row#mobile__home--infoitem-two-one"]
+  },
+  "flex-layout.row#mobile__home--infoitem-two-one": {
+    "title": "Item 2: Icono y texto",
+    "children": [
+      "flex-layout.col#home--infoitem-two-one-mobile",
+      "flex-layout.col#home--infoitem-two-two-mobile"
+    ],
+    "props": {
+      "blockClass": "home__container-infoitem--mobile",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#home--infoitem-two-one-mobile": {
+    "children": ["image#home--infoitem-two-one-mobile"]
+  },
+  "image#home--infoitem-two-one-mobile": {
+    "title": "Item 2: icono",
+    "props": {
+      "blockClass": "infoitem-icon",
+      "src": "assets/icons/icono_pedido.png",
+      "link": {
+        "url": "/"
+      },
+      "maxHeight": 24
+    }
+  },
+  "flex-layout.col#home--infoitem-two-two-mobile": {
+    "children": ["rich-text#home--infoitem-text-two-one"],
+    "props": {
+      "blockClass": "infoitem-text-two-one"
+    }
+  },
+  "rich-text#home--infoitem-text-two-one": {
+    "title": "Item 2: texto",
+    "props": {
+      "text": "[12 cuotas sin interes](/)",
+      "blockClass": "info__item-mobil"
+    }
+  },
+
+  // tercer item
+  "flex-layout.col#mobile__home--infoitem--three": {
+    "children": ["flex-layout.row#mobile__home--infoitem-three-one"]
+  },
+  "flex-layout.row#mobile__home--infoitem-three-one": {
+    "title": "Item 3: Icono y texto",
+    "children": [
+      "flex-layout.col#home--infoitem-three-one-mobile",
+      "flex-layout.col#home--infoitem-three-two-mobile"
+    ],
+    "props": {
+      "blockClass": "home__container-infoitem--mobile",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#home--infoitem-three-one-mobile": {
+    "children": ["image#home--infoitem-three-one-mobile"]
+  },
+  "image#home--infoitem-three-one-mobile": {
+    "title": "Item 3: icono",
+    "props": {
+      "blockClass": "infoitem-icon",
+      "src": "assets/icons/icono_sucursales.png",
+      "link": {
+        "url": "/"
+      },
+      "maxHeight": 24
+    }
+  },
+  "flex-layout.col#home--infoitem-three-two-mobile": {
+    "children": ["rich-text#home--infoitem-text-three-one"],
+    "props": {
+      "blockClass": "infoitem-text-two-one"
+    }
+  },
+  "rich-text#home--infoitem-text-three-one": {
+    "title": "Item 3: texto",
+    "props": {
+      "text": "[soporte técnico](/)",
+      "blockClass": "info__item-mobil"
+    }
+  },
+  // Cuarto item
+  "flex-layout.col#mobile__home--infoitem--four": {
+    "children": ["flex-layout.row#mobile__home--infoitem-two-one"]
+  },
+  "flex-layout.row#mobile__home--infoitem-four-one": {
+    "title": "Item 3: Icono y texto",
+    "children": [
+      "flex-layout.col#home--infoitem-four-one-mobile",
+      "flex-layout.col#home--infoitem-four-two-mobile"
+    ],
+    "props": {
+      "blockClass": "home__container-infoitem--mobile",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#home--infoitem-four-one-mobile": {
+    "children": ["image#home--infoitem-four-one-mobile"]
+  },
+  "image#home--infoitem-four-one-mobile": {
+    "title": "Item 3: icono",
+    "props": {
+      "blockClass": "infoitem-icon",
+      "src": "assets/icons/icono_contacto.png",
+      "link": {
+        "url": "/"
+      },
+      "maxHeight": 24
+    }
+  },
+  "flex-layout.col#home--infoitem-four-two-mobile": {
+    "children": ["rich-text#home--infoitem-text-two-one"],
+    "props": {
+      "blockClass": "infoitem-text-four-one"
+    }
+  },
+  "rich-text#home--infoitem-text-four-one": {
+    "title": "Item 3: texto",
+    "props": {
+      "text": "[contáctanos(/)",
+      "blockClass": "info__item-mobil"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.flexRowContent--product-images-link-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .flexRowContent--product-images-link-mobile {
+    gap: 5px;
+  }
+}

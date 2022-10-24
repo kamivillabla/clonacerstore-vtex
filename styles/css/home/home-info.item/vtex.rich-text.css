@@ -1,0 +1,29 @@
+.link--info__item {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.paragraph--info__item,
+.paragraph--info__item--text2 {
+  margin: 0;
+}
+.link--info__item--text2 {
+  font-size: 12px;
+  color: var(--primary-color);
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/* Mobile */
+
+.link--info__item-mobil {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 15px;
+}

@@ -1,0 +1,29 @@
+{
+  "menu-item#department__notebook": {
+    "title": "departamento notebook",
+    "props": {
+      "id": "department-notebook",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Notebook",
+        "text": "Notebook"
+      }
+    },
+    "blocks": ["submenu.accordion#department__notebook-submenu"]
+  },
+  "submenu.accordion#department__notebook-submenu": {
+    "children": ["menu#department__notebook--submenu"]
+  },
+  "menu#department__notebook--submenu": {
+    "children": [
+      "menu-item#notebook__category--notebook-tradicional",
+      "menu-item#notebook__category--notebook-ultraliv"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

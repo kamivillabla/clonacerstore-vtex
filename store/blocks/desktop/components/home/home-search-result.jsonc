@@ -1,0 +1,87 @@
+{
+  "flex-layout.row#search-result-layout": {
+    "children": ["flex-layout.col#search-result-layout"]
+  },
+  "flex-layout.col#search-result-layout": {
+    "children": [
+      "flex-layout.row#search-result-layout-title",
+      "flex-layout.row#search-result-layout-layoutcustom"
+    ]
+  },
+  "flex-layout.row#search-result-layout-title": {
+    "children": ["rich-text#search-result-tittle"],
+    "props": {
+      "paddingTop": 2
+    }
+  },
+  "flex-layout.row#search-result-layout-layoutcustom": {
+    "children": ["search-result-layout.customQuery#home__search-desktop"],
+    "props": {
+      "fullWidth": true,
+      "paddingTop": 0
+    }
+  },
+
+  "rich-text#search-result-tittle": {
+    "props": {
+      "text": "Recomendados para ti",
+      "blockClass": "search-result-tittle"
+    }
+  },
+  "search-result-layout.customQuery#home__search-desktop": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop": {
+    "children": ["flex-layout.row#home__search-result"]
+  },
+  "flex-layout.row#home__search-result": {
+    "children": ["flex-layout.col#home__search-result"]
+  },
+  "flex-layout.col#home__search-result": {
+    "children": ["list-context.product-list#home__results--products-shelf"],
+    "props": {
+      "blockClass": "home__results--products-shelf-container"
+    }
+  },
+  "list-context.product-list#home__results--products-shelf": {
+    "blocks": ["product-summary.shelf#products__shelf"],
+    "children": ["slider-layout#products__shelf"]
+  },
+  // muestra las caracteristicas de los productos
+  "product-summary.shelf#products__shelf": {
+    "title": "productos shelf",
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "slider-layout#products__shelf": {
+    "title": "Slider productos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "blockClass": "slider-products__shelf",
+      "fullWidth": false
+    }
+  }
+  /*   "add-to-cart-button": {
+    "props": {
+      "text": "Ver producto",
+      "onClickBehavior": "go-to-product-page"
+    }
+  } */
+}

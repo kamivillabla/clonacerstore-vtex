@@ -1,0 +1,58 @@
+{
+  // categoria 1 notebook tradicional
+  "menu-item#notebookGamer__category--notebookGamer-predator": {
+    "title": "departamento notebook gamer predator",
+    "props": {
+      "id": "category-notebookGamer-predator",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Notebook Tradicional",
+        "text": "Notebook Tradicional"
+      }
+    },
+    "blocks": ["submenu.accordion#category--notebookGamer-submenu-1"]
+  },
+  "submenu.accordion#category--notebookGamer-submenu-1": {
+    "children": ["menu#category--notebookGamer-predator"]
+  },
+  "menu#category--notebookGamer-predator": {
+    "children": [
+      "menu-item#category--notebookGamer-helios300",
+      "menu-item#category--notebookGamer-vertodopredator"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // categoria 2 notebook ultraliviano
+  "menu-item#notebookGamer__category--notebookGamer-nitro": {
+    "title": "departamento notebook nitro",
+    "props": {
+      "id": "category-notebookGamer-nitro",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Nitro",
+        "text": "Nitro"
+      }
+    },
+    "blocks": ["submenu.accordion#category--notebookGamer-submenu-2"]
+  },
+  "submenu.accordion#category--notebookGamer-submenu-2": {
+    "children": ["menu#category--notebookGamer-nitro"]
+  },
+  "menu#category--notebookGamer-nitro": {
+    "children": [
+      "menu-item#category--notebookGamer-nitro5",
+      "menu-item#category--notebookGamer-vertodonitro"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

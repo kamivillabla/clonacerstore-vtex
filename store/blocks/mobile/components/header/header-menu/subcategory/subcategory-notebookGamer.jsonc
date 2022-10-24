@@ -1,0 +1,65 @@
+{
+  // notebook gamer predator
+  //  Item 1
+  "menu-item#category--notebookGamer-helios300": {
+    "title": "subcategoria item 1",
+    "props": {
+      "id": "category-notebookGamer-helios300",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "helio 300",
+        "text": "Helio 300"
+      }
+    }
+  },
+  // item 2
+  "menu-item#category--notebookGamer-vertodopredator": {
+    "title": "subcategoria item 2 link",
+    "props": {
+      "id": "category-notebook-tradi-vertodopredator",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ver todo",
+        "text": "Ver todo"
+      }
+    }
+  },
+
+  // notebookGamer nitro
+  //item 1
+  "menu-item#category--notebookGamer-nitro5": {
+    "title": "subcategoria item 1",
+    "props": {
+      "id": "category-notebookGamer-nitro",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "nitro 5",
+        "text": "Nitro 5"
+      }
+    }
+  },
+  //item 2
+  "menu-item#category--notebookGamer-vertodonitro": {
+    "title": "subcategoria item 2 link",
+    "props": {
+      "id": "category-notebookGamer-vertodonitro",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ver todo",
+        "text": "Ver todo"
+      }
+    }
+  }
+}

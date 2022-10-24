@@ -1,0 +1,16 @@
+/* ------------------------ Versión Global -------------------------- */
+
+.flexRow--home__container-infoitem {
+  border-right: 1px solid rgba(107, 129, 136, 0.32);
+}
+
+.flexRowContent--home__container-infoitem {
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.flexRowContent--home__container-infoitem--mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

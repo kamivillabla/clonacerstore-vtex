@@ -1,0 +1,22 @@
+{
+  "header-row#header__top-mobile": {
+    "title": "Header superior mobile",
+    "children": [
+      "header-spacer#spacer",
+      "drawer#header__mobile--menu",
+      "header-spacer#spacer",
+      "logo#header__top-mobile",
+      "header-spacer#spacer",
+      "minicart.v2",
+      "login#header__top-mobile",
+      "header-spacer#spacer"
+    ],
+    "props": {
+      "sticky": true,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "header__top-mobile"
+    }
+  },
+  "header-spacer#spacer": {}
+}
