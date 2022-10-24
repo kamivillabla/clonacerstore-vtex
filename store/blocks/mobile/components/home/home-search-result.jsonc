@@ -1,4 +1,26 @@
 {
+  "flex-layout.row#search-result-layout-mobile": {
+    "children": ["flex-layout.col#search-result-layout-mobile"]
+  },
+  "flex-layout.col#search-result-layout-mobile": {
+    "children": [
+      "flex-layout.row#search-result-layout-title-mobile",
+      "flex-layout.row#search-result-layout-layoutcustom-mobile"
+    ]
+  },
+  "flex-layout.row#search-result-layout-title-mobile": {
+    "children": ["rich-text#search-result-tittle"],
+    "props": {
+      "paddingTop": 2
+    }
+  },
+
+  "flex-layout.row#search-result-layout-layoutcustom-mobile": {
+    "children": ["search-result-layout.customQuery#home__search-mobile"],
+    "props": {
+      "fullWidth": true
+    }
+  },
   "search-result-layout.customQuery#home__search-mobile": {
     "props": {
       "querySchema": {

@@ -1,13 +1,11 @@
 /* ***************************   desktop ********************************** */
 .slide--slider-products__shelf {
   box-sizing: border-box;
-
   background: #edeeef;
   padding: 1rem;
   margin: 0px 0.4rem;
   transition: all 0.3s ease-in-out;
   max-width: 100% !important;
-  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
 }
 
 .sliderLayoutContainer--slider-products__shelf {

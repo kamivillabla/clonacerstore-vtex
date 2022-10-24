@@ -1,4 +1,33 @@
 {
+  "flex-layout.row#search-result-layout": {
+    "children": ["flex-layout.col#search-result-layout"]
+  },
+  "flex-layout.col#search-result-layout": {
+    "children": [
+      "flex-layout.row#search-result-layout-title",
+      "flex-layout.row#search-result-layout-layoutcustom"
+    ]
+  },
+  "flex-layout.row#search-result-layout-title": {
+    "children": ["rich-text#search-result-tittle"],
+    "props": {
+      "paddingTop": 2
+    }
+  },
+  "flex-layout.row#search-result-layout-layoutcustom": {
+    "children": ["search-result-layout.customQuery#home__search-desktop"],
+    "props": {
+      "fullWidth": true,
+      "paddingTop": 0
+    }
+  },
+
+  "rich-text#search-result-tittle": {
+    "props": {
+      "text": "Recomendados para ti",
+      "blockClass": "search-result-tittle"
+    }
+  },
   "search-result-layout.customQuery#home__search-desktop": {
     "props": {
       "querySchema": {
