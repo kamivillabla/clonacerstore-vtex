@@ -1,0 +1,36 @@
+{
+  // categoria 1 Accesorios
+  "menu-item#accesorios__category--accesorios-pc": {
+    "title": "departamento accesorios de pc",
+    "props": {
+      "id": "category-accesorios-pc",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios PC"
+      }
+    },
+    "blocks": ["submenu.accordion#category--accesorios-submenu"]
+  },
+  "submenu.accordion#category--accesorios-submenu": {
+    "children": ["menu#category--accesorios-pc"]
+  },
+  "menu#category--accesorios-pc": {
+    "children": [
+      "menu-item#category--accesorios-mouse",
+      "menu-item#category--accesorios-headset",
+      "menu-item#category--accesorios-webcam",
+      "menu-item#category--accesorios-smartband",
+      "menu-item#category--accesorios-fundas",
+      "menu-item#category--accesorios-mochilas",
+      "menu-item#category--accesorios-chromebook",
+      "menu-item#category--accesorios-vertodoaccesorios"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

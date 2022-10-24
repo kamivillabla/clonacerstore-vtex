@@ -1,0 +1,11 @@
+.paragraph--header--phone-num {
+  margin-left: 5px;
+  padding-top: 6px;
+  font-weight: bold;
+}
+
+.link--header--phone-num {
+  text-decoration: none;
+
+  color: var(--link-color);
+}

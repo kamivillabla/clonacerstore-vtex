@@ -1,0 +1,96 @@
+{
+  "minicart.v2#header__desktop--minicart": {
+    "children": ["minicart-base-content"],
+    "props": {
+      "blockClass": "header__desktop--minicart",
+      "itemCountMode": "total"
+    }
+  },
+  "icon-cart#minicart-icon": {
+    "props": {
+      "size": 20
+    }
+  },
+
+  // product liste trae la lista de productos al carrito
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+  },
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": [
+      "minicart-summary",
+      "rich-text#iva",
+      "minicart-checkout-button"
+    ]
+  },
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"]
+  },
+  "product-list#minicart": {
+    "blocks": ["product-list-content-mobile"]
+  },
+  "rich-text#iva": {
+    "props": {
+      "text": "Precios incluyen IVA. El costo del despacho se calculará al finalizar la compra. Revisar condiciones"
+    }
+  },
+  "minicart-summary": {
+    "blocks": ["checkout-summary.compact#minicart"]
+  },
+  // boton ir a pagar
+  "minicart-checkout-button": {
+    "props": {
+      "finishShoppingButtonLink": "/checkout/#/orderform"
+    }
+  },
+
+  // item y descuentos
+  "checkout-summary.compact#minicart": {
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
+    }
+  },
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": false
+    }
+  },
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+  "flex-layout.row#empty-state": {
+    "children": ["flex-layout.col#empty-state"]
+  },
+  "flex-layout.col#empty-state": {
+    "children": [
+      "icon-cart#minicart-empty-state",
+      "rich-text#minicart-default-empty-state"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5
+    }
+  },
+  "icon-cart#minicart-empty-state": {
+    "props": {
+      "size": 60,
+      "blockClass": "minicart-empty-state"
+    }
+  },
+  // Mensaje al comienzo cuando esta vacio
+  "rich-text#minicart-default-empty-state": {
+    "props": {
+      "text": "Tu carro esta vacio"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  // notebook tradicionales
+  //  Item 1
+  "menu-item#category--notebook-tradi-aspirevero": {
+    "title": "subcategoria item 1",
+    "props": {
+      "id": "category-notebook-tradi-aspirevero",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Aspire Vero",
+        "text": "Aspire Vero"
+      }
+    }
+  },
+  // item 2
+  "menu-item#category--notebook-tradi-aspire1": {
+    "title": "subcategoria item 2",
+    "props": {
+      "id": "category-notebook-tradi-aspire1",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "aspire 1",
+        "text": "Aspire 1"
+      }
+    }
+  },
+  // item 3
+  "menu-item#category--notebook-tradi-aspire3": {
+    "title": "subcategoria item 3",
+    "props": {
+      "id": "category-notebook-tradi-aspire3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "aspire 3",
+        "text": "Aspire 3"
+      }
+    }
+  },
+  // item 4
+  "menu-item#category--notebook-tradi-aspire5": {
+    "title": "subcategoria item 4",
+    "props": {
+      "id": "category-notebook-tradi-aspire5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "aspire 5",
+        "text": "Aspire 5"
+      }
+    }
+  },
+  // item 5
+  "menu-item#category--notebook-tradi-vertodo-tradicional": {
+    "title": "subcategoria item 5 link",
+    "props": {
+      "id": "category-notebook-tradi-link",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "todo",
+        "text": "Ver todo"
+      }
+    }
+  },
+  // notebook ultralivianos
+  //item 1
+  "menu-item#category--notebook-ultraliv-swift3": {
+    "title": "subcategoria item 1",
+    "props": {
+      "id": "category-notebook-ultraliv-swift3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Swift 3",
+        "text": "Swift 3"
+      }
+    }
+  },
+  "menu-item#category--notebook-tradi-vertodoultraliv": {
+    "title": "subcategoria item 2 link",
+    "props": {
+      "id": "category-notebook-vertodoultraliv",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "vertodoultraliv",
+        "text": "vertodoultraliv"
+      }
+    }
+  }
+}

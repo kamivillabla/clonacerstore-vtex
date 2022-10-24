@@ -1,0 +1,10 @@
+:global(.vtex-store__template) {
+  --primary-color: #2c2e2f;
+  --secondary-color: #80c342;
+  --third--color: #606060;
+  --link-color: #6b8189;
+  --titleemphasis: #3f3f40
+  /* fonts */
+
+  --fonts-primary: "Roboto', sans-serif";
+}

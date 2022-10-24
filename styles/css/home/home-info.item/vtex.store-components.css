@@ -1,0 +1,12 @@
+/* ------------------------ Versión Global -------------------------- */
+.imageElementLink--infoitem-icon {
+  height: 50px;
+  width: 50px;
+  background: #ececec;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  position: relative;
+}

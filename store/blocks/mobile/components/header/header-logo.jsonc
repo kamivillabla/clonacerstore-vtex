@@ -1,0 +1,11 @@
+{
+  "logo#header__top-mobile": {
+    "title": "Logo",
+    "props": {
+      "href": "/",
+      "url": "assets/img/acer_img.png",
+      "width": 85,
+      "height": 37
+    }
+  }
+}

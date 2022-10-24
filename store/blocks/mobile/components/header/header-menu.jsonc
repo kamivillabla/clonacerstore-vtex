@@ -1,0 +1,26 @@
+{
+  "drawer#header__mobile--menu": {
+    "children": ["menu#header__menu"]
+  },
+  "menu#header__menu": {
+    "title": "Menu y sus categorias",
+    "children": [
+      "rich-text#header__menu-title",
+      "menu-item#department__notebook",
+      "menu-item#department__notebookGamer",
+      "menu-item#department__monitores",
+      "menu-item#department__accesorios",
+      "menu-item#department__sale"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "rich-text#header__menu-title": {
+    "props": {
+      "text": "Categorías",
+      "textColor": " --titleemphasis",
+      "blockClass": "header__menu-title"
+    }
+  }
+}

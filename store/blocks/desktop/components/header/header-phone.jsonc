@@ -1,0 +1,21 @@
+{
+  "image#header--phone": {
+    "title": "phone header",
+    "props": {
+      "blockClass": "phone__header",
+      "src": "assets/icons/phone_contacto.png",
+      "alt": "Phone",
+      "maxHeight": 20,
+
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "rich-text#header--phone-num": {
+    "props": {
+      "text": "[600 361 0255](/)",
+      "blockClass": "header--phone-num"
+    }
+  }
+}

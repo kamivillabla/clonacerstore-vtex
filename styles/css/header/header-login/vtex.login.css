@@ -1,0 +1,22 @@
+.container :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+.container :global(.vtex-login-2-x-label) {
+  color: var(--link-color);
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+
+.container :global(.vtex-login-2-x-label):hover {
+  color: var(--secondary-color);
+}
+
+.container :global(.vtex-login-2-x-formTitle) {
+  font-weight: bold;
+  font-size: 1rem;
+  color: red;
+}

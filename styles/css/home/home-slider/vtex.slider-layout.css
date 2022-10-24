@@ -1,0 +1,17 @@
+/* ------------------------ Versión desktop -------------------------- */
+.paginationDotsContainer--home__slider {
+  transform: translateY(-12px) !important;
+  -webkit-transform: translateY(-12px) !important;
+  -moz-transform: translateY(-12px) !important;
+  -ms-transform: translateY(-12px) !important;
+  -o-transform: translateY(-12px) !important;
+}
+.sliderArrows--home__slider {
+  color: white;
+}
+.paginationDot--home__slider {
+  background-color: #818181;
+}
+.paginationDot--isActive {
+  background-color: #000;
+}

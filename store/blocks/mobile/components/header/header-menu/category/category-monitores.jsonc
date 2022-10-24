@@ -1,0 +1,31 @@
+{
+  // categoria 1 Monitores
+  "menu-item#monitores__category--monitores-pc": {
+    "title": "departamento monitores de pc",
+    "props": {
+      "id": "category-monitores-pc",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Monitores",
+        "text": "Monitores"
+      }
+    },
+    "blocks": ["submenu.accordion#category--monitores-submenu"]
+  },
+  "submenu.accordion#category--monitores-submenu": {
+    "children": ["menu#category--monitores-pc"]
+  },
+  "menu#category--monitores-pc": {
+    "children": [
+      "menu-item#category--monitores-tradicional",
+      "menu-item#category--monitores-gamer",
+      "menu-item#category--monitores-vertodomonitor"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

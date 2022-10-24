@@ -1,0 +1,19 @@
+/* ------------------------ Versión desktop -------------------------- */
+
+.headerRowContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------------ Versión Mobile -------------------------- */
+.headerRowBackground--header__down-mobile {
+  padding-bottom: 5px;
+}
+.headerRowBackground--header__top-mobile {
+  padding-top: 5px;
+}
+.headerRow--header__down-mobile {
+  -webkit-box-shadow: 0 18px -6px rgb(161 161 161 / 75%);
+  -moz-box-shadow: 0 18px -6px rgb(161 161 161 / 75%);
+  box-shadow: 0 18px -6px rgb(161 161 161 / 75%);
+}
