@@ -6,7 +6,7 @@
       "slider-layout#desktop__home-promotion-slider",
       "flex-layout.row#desktop__home--mediospagos",
       "flex-layout.row#section--product-imagesLink",
-      "search-result-layout.customQuery#home__search",
+      "search-result-layout.customQuery#home__search-desktop",
       "flex-layout.row#desktop__home--beneficios"
     ]
   }

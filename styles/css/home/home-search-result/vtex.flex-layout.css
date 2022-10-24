@@ -1,4 +1,8 @@
+/* ***************************   desktop ********************************** */
+
 .flexCol--home__results--products-shelf-container :global(.vtex-button) {
   background-color: var(--secondary-color);
   border: none;
 }
+
+/* ***************************   mobile ********************************** */

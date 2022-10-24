@@ -1,20 +1,39 @@
+/* ***************************   desktop ********************************** */
 .slide--slider-products__shelf {
   box-sizing: border-box;
-  border-radius: 0;
-  background: #edeeef;
 
+  background: #edeeef;
   padding: 1rem;
   margin: 0px 0.4rem;
   transition: all 0.3s ease-in-out;
   max-width: 100% !important;
-
   box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
 }
 
 .sliderLayoutContainer--slider-products__shelf {
   height: 30rem;
 }
+.sliderLayoutContainer--slider-products__shelf-mobile {
+  height: 40rem;
+  padding: 1rem 0px;
+}
 
-.paginationDot--slider-products__shelf--isActive {
+.paginationDot--isActive {
   background-color: var(--secondary-color) !important;
+}
+
+/* ***************************   mobile ********************************** */
+
+.slide--slider-products__shelf-mobile {
+  box-sizing: border-box;
+  border: 1px solid rgb(219, 219, 219);
+  background: #fff;
+  padding: 1rem;
+  margin: 0px 0.4rem;
+  transition: all 0.3s ease-in-out;
+  max-width: 100% !important;
+}
+
+.slide--slider-products__shelf-mobile:hover {
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
 }

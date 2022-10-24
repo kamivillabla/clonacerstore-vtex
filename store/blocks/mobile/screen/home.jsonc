@@ -7,7 +7,7 @@
       "slider-layout#mobile__home-promotion-slider",
       "flex-layout.row#mobile__home--mediospagos",
       "flex-layout.row#section--product-imagesLink",
-      "search-result-layout.customQuery#home__search"
+      "search-result-layout.customQuery#home__search-mobile"
     ]
   }
 }

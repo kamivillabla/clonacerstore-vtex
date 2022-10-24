@@ -1,5 +1,5 @@
 {
-  "search-result-layout.customQuery#home__search": {
+  "search-result-layout.customQuery#home__search-desktop": {
     "props": {
       "querySchema": {
         "skusFilter": "ALL",

@@ -3,7 +3,6 @@
     "blocks": [
       "responsive-layout.desktop#home__desktop",
       "responsive-layout.mobile#home__mobile"
-      // "search-result-layout.customQuery#home__search"
     ]
   }
 }
