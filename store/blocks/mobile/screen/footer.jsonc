@@ -1,5 +1,8 @@
 {
   "footer-layout.mobile": {
-    "children": ["disclosure-layout-group#footer__group"]
+    "children": ["flex-layout.row#footer__container__three-mobile"],
+    "props": {
+      "blockClass": "footer-layout-mobile"
+    }
   }
 }

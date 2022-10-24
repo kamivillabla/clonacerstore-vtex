@@ -16,3 +16,12 @@ background-color: #2c2e2f;
   text-align: center;
   font-size: 13px;
 }
+
+.paragraph--footer__container-col-title-mobile {
+  color: white;
+  font-weight: bold;
+}
+
+.container--footer__container-col-title-mobile {
+  border-bottom: 1px solid white;
+}

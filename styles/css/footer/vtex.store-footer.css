@@ -3,3 +3,8 @@
   background: linear-gradient(90deg, #2c2e2f 10%, #424546 90%);
   height: 40rem;
 }
+
+.footerLayout--footer-layout-mobile {
+  background: #2c2e2f;
+  background: linear-gradient(90deg, #2c2e2f 10%, #424546 90%);
+}

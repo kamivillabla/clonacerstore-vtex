@@ -33,3 +33,27 @@
   height: 20rem;
   padding: 1rem;
 }
+
+/******************************* mobile  *****************************/
+
+.flexRowContent--footer__container__three-mobile .items-stretch {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--footer__container__three-mobile
+  :global(.vtex-disclosure-layout-1-x-trigger) {
+  border: none;
+  background-color: transparent;
+}
+
+.flexRowContent--footer__container__three-mobile
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--footer__container__three-mobile
+  :global(.vtex-menu-2-x-menuItem) {
+  border-bottom: none;
+}

@@ -1,4 +1,12 @@
 {
+  "flex-layout.row#footer__container__three-mobile": {
+    "children": ["disclosure-layout-group#footer__group"],
+    "props": {
+      "blockClass": "footer__container__three-mobile"
+      /*       "preventHorizontalStretch": true,
+      "preventVerticalStretch": true */
+    }
+  },
   "disclosure-layout-group#footer__group": {
     "children": [
       "disclosure-layout#purchasing-guide",
@@ -6,7 +14,7 @@
       "disclosure-layout#company"
     ],
     "props": {
-      "orientation": "vertical"
+      "blockClass": "footer__group-mobile"
     }
   },
   /* Disclosure 1 */
@@ -21,7 +29,8 @@
   },
   "rich-text#purchasing-guide": {
     "props": {
-      "text": "CÓMO COMPRAR"
+      "text": "CÓMO COMPRAR",
+      "blockClass": "footer__container-col-title-mobile"
     }
   },
   "disclosure-content#purchasing-guide": {
@@ -98,7 +107,8 @@
   },
   "rich-text#customer-service": {
     "props": {
-      "text": "ATENCIÓN AL CLIENTE"
+      "text": "ATENCIÓN AL CLIENTE",
+      "blockClass": "footer__container-col-title-mobile"
     }
   },
   "disclosure-content#customer-service": {
@@ -184,7 +194,8 @@
   },
   "rich-text#company": {
     "props": {
-      "text": "EMPRESA"
+      "text": "EMPRESA",
+      "blockClass": "footer__container-col-title-mobile"
     }
   },
   "disclosure-content#company": {
