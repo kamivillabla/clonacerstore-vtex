@@ -25,3 +25,24 @@ background-color: #2c2e2f;
 .container--footer__container-col-title-mobile {
   border-bottom: 1px solid white;
 }
+
+.wrapper--footer__container-title-mobile {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.container--footer__container-title-mobile {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--footer__container-five-text {
+  color: white;
+  font-size: 12px;
+}
+
+.container--footer__container-five-text {
+  display: flex;
+  justify-content: center;
+}

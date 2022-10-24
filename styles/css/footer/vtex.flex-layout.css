@@ -19,6 +19,12 @@
   border-top: 1px solid var(--secondary-color);
 }
 
+@media (max-width: 700px) {
+  .flexCol--footer__container_one-line {
+    width: 80% !important;
+  }
+}
+
 .flexRowContent--footer__container-three {
   display: flex;
   flex-direction: column;
@@ -56,4 +62,20 @@
 .flexRowContent--footer__container__three-mobile
   :global(.vtex-menu-2-x-menuItem) {
   border-bottom: none;
+}
+.flexRowContent--footer__container__three-mobile
+  :global(.vtex-menu-2-x-styledLinkContent) {
+  padding: 0.5rem;
+  font-size: 14px;
+  color: #b4b4b4;
+}
+
+.flexRow--footer__container__four-mobile {
+  display: flex;
+  height: 10rem;
+  align-items: center;
+}
+
+.flexRowContent--footer__container__five-mobile .container {
+  background: #2c2e2f;
 }
