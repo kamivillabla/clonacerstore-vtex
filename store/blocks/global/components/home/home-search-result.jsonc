@@ -18,7 +18,10 @@
     "children": ["flex-layout.col#home__search-result"]
   },
   "flex-layout.col#home__search-result": {
-    "children": ["list-context.product-list#home__results--products-shelf"]
+    "children": ["list-context.product-list#home__results--products-shelf"],
+    "props": {
+      "blockClass": "home__results--products-shelf-container"
+    }
   },
   "list-context.product-list#home__results--products-shelf": {
     "blocks": ["product-summary.shelf#products__shelf"],
@@ -41,7 +44,9 @@
         "desktop": 4,
         "tablet": 3,
         "phone": 2
-      }
+      },
+      "blockClass": "slider-products__shelf",
+      "fullWidth": false
     }
   }
   /*   "add-to-cart-button": {
