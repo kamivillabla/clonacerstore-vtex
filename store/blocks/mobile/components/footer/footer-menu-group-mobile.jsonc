@@ -1,0 +1,252 @@
+{
+  "disclosure-layout-group#footer__group": {
+    "children": [
+      "disclosure-layout#purchasing-guide",
+      "disclosure-layout#customer-service",
+      "disclosure-layout#company"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  /* Disclosure 1 */
+  "disclosure-layout#purchasing-guide": {
+    "children": [
+      "disclosure-trigger#purchasing-guide",
+      "disclosure-content#purchasing-guide"
+    ]
+  },
+  "disclosure-trigger#purchasing-guide": {
+    "children": ["rich-text#purchasing-guide"]
+  },
+  "rich-text#purchasing-guide": {
+    "props": {
+      "text": "CÓMO COMPRAR"
+    }
+  },
+  "disclosure-content#purchasing-guide": {
+    "children": ["menu#purchasing-guide"]
+  },
+  "menu#purchasing-guide": {
+    "children": [
+      "menu-item#create-account",
+      "menu-item#all-shipment",
+      "menu-item#exchanges-returns",
+      "menu-item#warranty"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#create-account": {
+    "props": {
+      "id": "menu-create-account",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "crear cuenta",
+        "text": "Crear cuenta"
+      }
+    }
+  },
+  "menu-item#all-shipment": {
+    "props": {
+      "id": "menu-all-shipment",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "metodos de envio",
+        "text": "Métodos de envío"
+      }
+    }
+  },
+  "menu-item#exchanges-returns": {
+    "props": {
+      "id": "menu-exchanges-returns",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "cambios y devoluciones",
+        "text": "Cambios y devoluciones"
+      }
+    }
+  },
+  "menu-item#warranty": {
+    "props": {
+      "id": "menu-warranty",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "garantias",
+        "text": "Garantías"
+      }
+    }
+  },
+  /* Disclosure 2 */
+  "disclosure-layout#customer-service": {
+    "children": [
+      "disclosure-trigger#customer-service",
+      "disclosure-content#customer-service"
+    ]
+  },
+  "disclosure-trigger#customer-service": {
+    "children": ["rich-text#customer-service"]
+  },
+  "rich-text#customer-service": {
+    "props": {
+      "text": "ATENCIÓN AL CLIENTE"
+    }
+  },
+  "disclosure-content#customer-service": {
+    "children": ["menu#customer-service"]
+  },
+  "menu#customer-service": {
+    "children": [
+      "menu-item#call-center",
+      "menu-item#deliveries",
+      "menu-item#support",
+      "menu-item#download-drivers"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#call-center": {
+    "props": {
+      "id": "menu-call-center",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "call center",
+        "text": "Call center"
+      }
+    }
+  },
+  "menu-item#deliveries": {
+    "props": {
+      "id": "menu-deliveries",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "deliveries",
+        "text": "Deliveries"
+      }
+    }
+  },
+  "menu-item#support": {
+    "props": {
+      "id": "menu-support",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "soporte técnico",
+        "text": "Soporte técnico"
+      }
+    }
+  },
+  "menu-item#download-drivers": {
+    "props": {
+      "id": "menu-download-drivers",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "descarga de driver",
+        "text": "Descarga de drivers"
+      }
+    }
+  },
+  "menu-item#download-asked-questions": {
+    "props": {
+      "id": "menu-asked-questions",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  /* Disclosure 3 */
+  "disclosure-layout#company": {
+    "children": ["disclosure-trigger#company", "disclosure-content#company"]
+  },
+  "disclosure-trigger#company": {
+    "children": ["rich-text#company"]
+  },
+  "rich-text#company": {
+    "props": {
+      "text": "EMPRESA"
+    }
+  },
+  "disclosure-content#company": {
+    "children": ["menu#company"]
+  },
+  "menu#company": {
+    "children": [
+      "menu-item#about-us",
+      "menu-item#cookie-policy",
+      "menu-item#terms-and-conditions",
+      "menu-item#earthion"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-about-us",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "quienes somos",
+        "text": "Quiénes Somos"
+      }
+    }
+  },
+  "menu-item#cookie-policy": {
+    "props": {
+      "id": "menu-cookie-policy",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "politica de cookies",
+        "text": "Política de Cookies"
+      }
+    }
+  },
+  "menu-item#terms-and-conditions": {
+    "props": {
+      "id": "menu-terms-and-conditions",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "terminos y condiciones",
+        "text": "Términos y Condiciones"
+      }
+    }
+  },
+  "menu-item#earthion": {
+    "props": {
+      "id": "menu-earthion",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "earthion",
+        "text": "Earthion"
+      }
+    }
+  }
+}

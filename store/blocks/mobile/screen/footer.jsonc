@@ -1,0 +1,5 @@
+{
+  "footer-layout.mobile": {
+    "children": ["disclosure-layout-group#footer__group"]
+  }
+}

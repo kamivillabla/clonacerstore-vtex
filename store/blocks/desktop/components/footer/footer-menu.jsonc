@@ -1,0 +1,45 @@
+{
+  "flex-layout.row#footer__container": {
+    "children": [
+      "flex-layout.col#footer__container-col-one",
+      "flex-layout.col#footer__container-col-two",
+      "flex-layout.col#footer__container-col-three",
+      "flex-layout.col#footer__container-col-four"
+    ]
+  },
+  "flex-layout.col#footer__container-col-one": {
+    "children": ["menu#purchasing-guide"]
+  },
+  "flex-layout.col#footer__container-col-two": {
+    "children": ["menu#customer-service"]
+  },
+  "flex-layout.col#footer__container-col-three": {
+    "children": ["menu#company"]
+  },
+  "flex-layout.col#footer__container-col-four": {
+    "children": ["social-networks", "accepted-payment-methods"]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://facebook.com/acerstore",
+          "name": "facebook"
+        },
+        {
+          "url": "https://facebook.com/acerstore",
+          "name": "twitter"
+        },
+        {
+          "url": "https://facebook.com/acerstore",
+          "name": "instagram"
+        }
+      ]
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"]
+    }
+  }
+}
