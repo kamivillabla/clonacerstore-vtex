@@ -138,9 +138,9 @@
   },
   /* MENU 5 */
   "flex-layout.col#footer__container-col-five": {
-    "children": ["rich-text#footer__container-col-three-title"]
+    "children": ["rich-text#footer__container-col-five"]
   },
-  "rich-text#footer__container-col-five-title": {
+  "rich-text#footer__container-col-five": {
     "props": {
       "text": "¡SÉ EL PRIMERO EN CONOCER LAS OFERTAS SEMANALES",
       "blockClass": "footer__container-col-title"

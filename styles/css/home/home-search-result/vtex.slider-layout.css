@@ -1,7 +1,6 @@
 /* ***************************   desktop ********************************** */
 .slide--slider-products__shelf {
   box-sizing: border-box;
-  background: #edeeef;
   padding: 1rem;
   margin: 0px 0.4rem;
   transition: all 0.3s ease-in-out;

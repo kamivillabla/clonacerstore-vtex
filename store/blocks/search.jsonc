@@ -26,15 +26,7 @@
       }
     }
   },
-  "store.search#department": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
-    }
-  },
+
   "store.search#subcategory": {
     "blocks": ["search-result-layout"],
     "props": {
