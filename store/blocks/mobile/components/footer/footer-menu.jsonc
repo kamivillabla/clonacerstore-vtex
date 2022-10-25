@@ -172,7 +172,8 @@
       "menu-item#call-center",
       "menu-item#deliveries",
       "menu-item#support",
-      "menu-item#download-drivers"
+      "menu-item#download-drivers",
+      "menu-item#download-asked-questions"
     ],
     "props": {
       "orientation": "vertical"

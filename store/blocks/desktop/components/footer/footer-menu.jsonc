@@ -55,7 +55,8 @@
       "menu#purchasing-guide"
     ],
     "props": {
-      "blocKClass": "footer__container-col"
+      "blocKClass": "footer__container-col",
+      "preventVerticalStretch": true
     }
   },
   "rich-text#footer__container-col-one-title": {
@@ -71,7 +72,8 @@
       "menu#customer-service"
     ],
     "props": {
-      "blocKClass": "footer__container-col"
+      "blocKClass": "footer__container-col",
+      "preventVerticalStretch": true
     }
   },
   "rich-text#footer__container-col-two-title": {
@@ -84,7 +86,8 @@
   "flex-layout.col#footer__container-col-three": {
     "children": ["rich-text#footer__container-col-three-title", "menu#company"],
     "props": {
-      "blocKClass": "footer__container-col"
+      "blocKClass": "footer__container-col",
+      "preventVerticalStretch": true
     }
   },
   "rich-text#footer__container-col-three-title": {
@@ -97,11 +100,11 @@
   "flex-layout.col#footer__container-col-four": {
     "children": [
       "rich-text#footer__container-col-four-title",
-      "social-networks",
-      "accepted-payment-methods"
+      "social-networks"
     ],
     "props": {
-      "blocKClass": "footer__container-col"
+      "blocKClass": "footer__container-col",
+      "preventVerticalStretch": true
     }
   },
   "rich-text#footer__container-col-four-title": {
@@ -132,14 +135,13 @@
       ]
     }
   },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["mastercard", "visa", "diners club"]
-    }
-  },
   /* MENU 5 */
   "flex-layout.col#footer__container-col-five": {
-    "children": ["rich-text#footer__container-col-five-title"]
+    "children": ["rich-text#footer__container-col-five-title"],
+    "props": {
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
   },
   "rich-text#footer__container-col-five-title": {
     "props": {

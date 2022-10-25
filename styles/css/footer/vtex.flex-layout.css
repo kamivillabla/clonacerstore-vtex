@@ -28,9 +28,8 @@
 .flexRowContent--footer__container-three {
   display: flex;
   flex-direction: column;
-
   align-items: center;
-  height: 15rem;
+
   background: #2c2e2f;
   padding: 1rem;
 }
@@ -75,6 +74,14 @@
   align-items: center;
 }
 
-.flexRowContent--footer__container__five-mobile .container {
+.flexRow--footer__container__five-mobile .container {
   background: #2c2e2f;
+  margin-left: 0;
+}
+
+.flexRow--footer__container__five-mobile {
+  background: #2c2e2f !important;
+  display: flex;
+  align-items: end;
+  height: 5rem;
 }
