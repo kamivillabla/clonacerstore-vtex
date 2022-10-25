@@ -4,12 +4,6 @@
   font-weight: bold;
   text-align: center;
 }
-
-/* 
-background-color: #2c2e2f;
-    color: #fff;
-    padding: 1rem; */
-
 .paragraph--footer__container-text-two,
 .paragraph--footer__container-text-one {
   color: white;
@@ -45,4 +39,10 @@ background-color: #2c2e2f;
 .container--footer__container-five-text {
   display: flex;
   justify-content: center;
+}
+
+.container--footer__container-col-title-one {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
 }

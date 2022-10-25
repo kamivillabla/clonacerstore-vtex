@@ -28,16 +28,14 @@
 .flexRowContent--footer__container-three {
   display: flex;
   flex-direction: column;
-
   align-items: center;
-  height: 15rem;
+
   background: #2c2e2f;
   padding: 1rem;
 }
 
 .flexRowContent--footer__container {
-  height: 20rem;
-  padding: 1rem;
+  padding: 3rem 1rem;
 }
 
 /******************************* mobile  *****************************/
@@ -76,6 +74,14 @@
   align-items: center;
 }
 
-.flexRowContent--footer__container__five-mobile .container {
-  background: #2c2e2f;
+.flexRow--footer__container__five-mobile
+  :global(.vtex-store-components-3-x-container) {
+  margin-left: 0;
+}
+
+.flexRow--footer__container__five-mobile {
+  background: #2c2e2f !important;
+  display: flex;
+  align-items: end;
+  height: 5rem;
 }
