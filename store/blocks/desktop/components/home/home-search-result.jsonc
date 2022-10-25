@@ -56,7 +56,7 @@
     "blocks": ["product-summary.shelf#products__shelf"],
     "children": ["slider-layout#products__shelf"]
   },
-  // muestra las caracteristicas de los productos
+  // muestra los productos
   "product-summary.shelf#products__shelf": {
     "title": "productos shelf",
     "children": [
