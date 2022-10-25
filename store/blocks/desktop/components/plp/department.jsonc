@@ -80,5 +80,28 @@
   },
   "search-content": {
     "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "props": {
+      "blockClass": "result-gallery",
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          }
+        },
+        {
+          "name": "listProduct",
+          "component": "Summary",
+          "itemsPerRow": 1
+        }
+      ],
+      "Summary": "product-summary.shelf#products__shelf",
+      "GridSummary": "product-summary.shelf"
+    }
   }
 }
