@@ -74,8 +74,8 @@
   align-items: center;
 }
 
-.flexRow--footer__container__five-mobile .container {
-  background: #2c2e2f;
+.flexRow--footer__container__five-mobile
+  :global(.vtex-store-components-3-x-container) {
   margin-left: 0;
 }
 
