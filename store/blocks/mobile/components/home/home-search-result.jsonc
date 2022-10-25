@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#search-result-layout-mobile": {
+  /* "flex-layout.row#search-result-layout-mobile": {
     "children": ["flex-layout.col#search-result-layout-mobile"]
   },
   "flex-layout.col#search-result-layout-mobile": {
@@ -78,7 +78,7 @@
         "stopOnHover": true
       }
     }
-  }
+  } */
   /*   "add-to-cart-button": {
     "props": {
       "text": "Ver producto",

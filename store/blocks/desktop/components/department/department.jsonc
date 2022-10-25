@@ -1,0 +1,59 @@
+{
+  "store.search#department": {
+    "blocks": ["search-result-layout#department"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout#department": {
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
+    ]
+  },
+
+  // desktop
+  "search-result-layout.desktop#department": {
+    "children": ["flex-layout.row#department__breadcrumb"]
+  },
+  "flex-layout.row#department__breadcrumb": {
+    "children": ["flex-layout.col#department__breadcrumb"]
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+
+  //mobile
+  "search-result-layout.mobile#department": {
+    "children": [
+      "flex-layout.col#department__breadcrumb",
+      "flex-layout.row#department__results"
+    ]
+  },
+  "flex-layout.row#department__results": {
+    "title": "Department Results Mobile",
+    "children": ["gallery-layout-switcher" /* "search-content#phone" */]
+  },
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#grid__three-columns",
+      "gallery-layout-option#grid__two-columns"
+    ]
+  },
+  "gallery-layout-option#grid__three-columns": {
+    "props": {
+      "name": "grid__three-columns",
+      "blockClass": "grid__selector--two-column"
+    }
+  },
+  "gallery-layout-option#grid__two-columns": {
+    "props": {
+      "name": "grid__two-columns",
+      "blockClass": "grid__selector--three-column"
+    }
+  }
+}
