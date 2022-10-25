@@ -1,0 +1,84 @@
+{
+  "flex-layout.row#department__breadcrumb": {
+    "children": ["flex-layout.col#department__breadcrumb"]
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+  "flex-layout.row#department__results-desktop": {
+    "children": [
+      "flex-layout.col#department__results--filter",
+      "flex-layout.col#department__results--content"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#department__results--filter": {
+    "children": ["filter-navigator.v3"]
+  },
+  "flex-layout.col#department__results--content": {
+    "children": [
+      "flex-layout.row#results__filter",
+      "flex-layout.row#results__products"
+    ]
+  },
+  "flex-layout.row#results__filter": {
+    "children": [
+      "flex-layout.col#results__filter--productCount",
+      "flex-layout.col#results__filter--orderby",
+      "flex-layout.col#results__filter--gallerySwitcher"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "fullWidth": true,
+      "colGap": 5
+    }
+  },
+  "flex-layout.col#results__filter--productCount": {
+    "children": ["total-products.v2"],
+    "props": {
+      "verticalAlign": "middle",
+      "width": "40%"
+    }
+  },
+  "flex-layout.col#results__filter--orderby": {
+    "children": ["order-by.v2"],
+    "props": {
+      "verticalAlign": "middle",
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#results__filter--gallerySwitcher": {
+    "children": ["gallery-layout-switcher#result__filter--gallerySwitcher"],
+    "props": {
+      "verticalAlign": "middle",
+      "width": "30%"
+    }
+  },
+  "gallery-layout-switcher#result__filter--gallerySwitcher": {
+    "children": [
+      "gallery-layout-option#grid__result--gallerySwitcher",
+      "gallery-layout-option#listProduct__result--gallerySwitcher"
+    ]
+  },
+  "gallery-layout-option#grid__result--gallerySwitcher": {
+    "props": {
+      "name": "grid"
+    },
+    "children": ["icon-grid"]
+  },
+  "gallery-layout-option#listProduct__result--gallerySwitcher": {
+    "props": {
+      "name": "listProduct"
+    },
+    "children": ["icon-inline-grid"]
+  },
+  "flex-layout.row#results__products": {
+    "children": ["search-content"]
+  },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  }
+}
