@@ -3,6 +3,7 @@
   box-sizing: border-box;
   padding: 1rem;
   margin: 0px 0.4rem;
+  background-color: #edeeef;
   transition: all 0.3s ease-in-out;
   max-width: 100% !important;
 }
@@ -17,6 +18,8 @@
 
 .paginationDot--isActive {
   background-color: var(--secondary-color) !important;
+  height: 0.625rem;
+  width: 0.625rem;
 }
 
 /* ***************************   mobile ********************************** */
@@ -33,4 +36,20 @@
 
 .slide--slider-products__shelf-mobile:hover {
   box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+
+.slideChildrenContainer--slider-products__shelf
+  :global(.vtex-product-summary-2-x-imageContainer),
+.slideChildrenContainer--slider-products__shelf-mobile
+  :global(.vtex-product-summary-2-x-imageContainer) {
+  width: 15rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.slideChildrenContainer--slider-products__shelf :global(.vtex-button),
+.slideChildrenContainer--slider-products__shelf-mobile :global(.vtex-button) {
+  margin-top: auto;
 }

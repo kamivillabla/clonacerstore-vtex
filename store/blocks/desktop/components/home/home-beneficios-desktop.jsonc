@@ -1,5 +1,28 @@
 {
   "flex-layout.row#desktop__home--beneficios": {
+    "children": ["flex-layout.col#desktop__home--beneficios"],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#desktop__home--beneficios": {
+    "children": [
+      "flex-layout.row#desktop__home--beneficios-title",
+      "flex-layout.row#desktop__home--beneficios-content"
+    ]
+  },
+  "flex-layout.row#desktop__home--beneficios-title": {
+    "children": ["rich-text#home--beneficios-title"]
+  },
+  "rich-text#home--beneficios-title": {
+    "props": {
+      "text": "Beneficios de comprar en ACER",
+      "blockClass": "home--beneficios-title"
+    }
+  },
+
+  "flex-layout.row#desktop__home--beneficios-content": {
     "title": "Desktop item sección beneficios",
     "children": [
       "flex-layout.col#desktop__home--beneficios--one",
@@ -12,9 +35,9 @@
     "props": {
       "paddingTop": 7,
       "paddingBottom": 7,
-      "horizontalAlign": "center"
-      // para prevenir que se quiebre en movil
-      // "preserveLayoutOnMobile": true
+      "marginTop": 6,
+      "fullWidth": true,
+      "blockClass": "desktop__home-beneficios"
     }
   },
   //item 1
@@ -26,25 +49,26 @@
     ],
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "desktop__home--beneficios"
     }
   },
   "image#home--beneficios--one-img": {
     "title": "Imagen",
     "props": {
-      "blockClass": "infoitem-icon",
+      "blockClass": "beneficios-icon",
       "src": "assets/icons/beneficios_beneficios.png",
       "link": {
         "url": "/"
-      },
-      "maxHeight": 50
+      }
     }
   },
   "rich-text#home--beneficios-one-text": {
     "title": "texto",
     "props": {
-      "text": "Beneficios \n compra conline",
-      "textAlignment": "CENTER"
+      "text": "[Beneficios \n compra conline](/)",
+      "textAlignment": "CENTER",
+      "blockClass": "beneficios-text"
     }
   },
   // item 2
@@ -56,25 +80,26 @@
     ],
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "desktop__home--beneficios"
     }
   },
   "image#home--beneficios--two-img": {
     "title": "Imagen",
     "props": {
-      "blockClass": "infoitem-icon",
+      "blockClass": "beneficios-icon",
       "src": "assets/icons/call_beneficio.png",
       "link": {
         "url": "/"
-      },
-      "maxHeight": 50
+      }
     }
   },
   "rich-text#home--beneficios-two-text": {
     "title": "texto",
     "props": {
-      "text": "call center",
-      "textAlignment": "CENTER"
+      "text": "[call center](/)",
+      "textAlignment": "CENTER",
+      "blockClass": "beneficios-text"
     }
   },
   // item 3
@@ -86,25 +111,26 @@
     ],
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "desktop__home--beneficios"
     }
   },
   "image#home--beneficios--three-img": {
     "title": "Imagen",
     "props": {
-      "blockClass": "infoitem-icon",
+      "blockClass": "beneficios-icon",
       "src": "assets/icons/soporte_beneficio.png",
       "link": {
         "url": "/"
-      },
-      "maxHeight": 50
+      }
     }
   },
   "rich-text#home--beneficios-three-text": {
     "title": "texto",
     "props": {
-      "text": "Soporte servicio \n técnico",
-      "textAlignment": "CENTER"
+      "text": "[Soporte servicio \n técnico](/)",
+      "textAlignment": "CENTER",
+      "blockClass": "beneficios-text"
     }
   },
   // item 4
@@ -116,25 +142,26 @@
     ],
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "desktop__home--beneficios"
     }
   },
   "image#home--beneficios--four-img": {
     "title": "Imagen",
     "props": {
-      "blockClass": "infoitem-icon",
+      "blockClass": "beneficios-icon",
       "src": "assets/icons/despacho_beneficio.png",
       "link": {
         "url": "/"
-      },
-      "maxHeight": 50
+      }
     }
   },
   "rich-text#home--beneficios-four-text": {
     "title": "texto",
     "props": {
-      "text": "Despacho a \n domicilio",
-      "textAlignment": "CENTER"
+      "text": "[Despacho a \n domicilio](/)",
+      "textAlignment": "CENTER",
+      "blockClass": "beneficios-text"
     }
   },
   // item 5
@@ -146,25 +173,26 @@
     ],
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "desktop__home--beneficios"
     }
   },
   "image#home--beneficios--five-img": {
     "title": "Imagen",
     "props": {
-      "blockClass": "infoitem-icon",
+      "blockClass": "beneficios-icon",
       "src": "assets/icons/comprasegu_beneficio.png",
       "link": {
         "url": "/"
-      },
-      "maxHeight": 50
+      }
     }
   },
   "rich-text#home--beneficios-five-text": {
     "title": "texto",
     "props": {
-      "text": "compra fácil \n y domicilio",
-      "textAlignment": "CENTER"
+      "text": "[compra fácil \n y domicilio](/)",
+      "textAlignment": "CENTER",
+      "blockClass": "beneficios-text"
     }
   },
   // item 6
@@ -176,25 +204,26 @@
     ],
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "desktop__home--beneficios--linenone"
     }
   },
   "image#home--beneficios--six-img": {
     "title": "Imagen",
     "props": {
-      "blockClass": "infoitem-icon",
+      "blockClass": "beneficios-icon",
       "src": "assets/icons/garantia_beneficio.png",
       "link": {
         "url": "/"
-      },
-      "maxHeight": 50
+      }
     }
   },
   "rich-text#home--beneficios-six-text": {
     "title": "texto",
     "props": {
-      "text": "garantía, cambios \n y devoluciones",
-      "textAlignment": "CENTER"
+      "text": "[garantía, cambios \n y devoluciones](/)",
+      "textAlignment": "CENTER",
+      "blockClass": "beneficios-text"
     }
   }
 }

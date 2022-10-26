@@ -1,7 +1,7 @@
 {
   "responsive-layout.desktop#home__desktop": {
     "children": [
-      "slider-layout#desktop__home--slider",
+      "flex-layout.row#desktop__home--slider",
       "flex-layout.row#desktop__home--infoitem",
       "slider-layout#desktop__home-promotion-slider",
       "flex-layout.row#desktop__home--mediospagos",

@@ -1,0 +1,9 @@
+.imageElement--beneficios-icon {
+  width: 2.1rem;
+}
+
+@media (max-width: 425px) {
+  .imageElement--beneficios-icon {
+    width: 1.6rem;
+  }
+}
