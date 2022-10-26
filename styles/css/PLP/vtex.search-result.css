@@ -23,3 +23,14 @@
 .galleryItem--result-gallery:hover {
   box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
 }
+
+:global(.vtex-search-result-3-x-filterMessage) {
+  font-weight: bold;
+  font-size: 25px;
+}
+:global(.vtex-slider__base-internal),
+:global(.vtex-slider__selector),
+:global(.vtex-search-result-3-x-filterIcon) {
+  color: var(--secondary-color);
+  background-color: var(--secondary-color);
+}

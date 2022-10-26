@@ -3,7 +3,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
@@ -13,7 +13,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
@@ -23,7 +23,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
@@ -33,7 +33,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "ALL",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
