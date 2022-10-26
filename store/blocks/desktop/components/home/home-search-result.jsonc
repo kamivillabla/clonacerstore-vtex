@@ -62,9 +62,15 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
-      "product-summary-price",
+      "product-list-price",
+      /*    "product-summary-price", */
       "add-to-cart-button"
     ]
+  },
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
   },
   "slider-layout#products__shelf": {
     "title": "Slider productos",
