@@ -96,11 +96,11 @@
         },
         {
           "name": "listProduct",
-          "component": "Summary",
+          "component": "listProduct",
           "itemsPerRow": 1
         }
       ],
-      "Summary": "product-summary.shelf#products__shelf",
+      "listProduct": "product-summary.shelf#products__shelf",
       "GridSummary": "product-summary.shelf"
     }
   }

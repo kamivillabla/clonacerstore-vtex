@@ -6,8 +6,8 @@
       "flex-layout.row#mobile__home--infoitem-dos",
       "slider-layout#mobile__home-promotion-slider",
       "flex-layout.row#mobile__home--mediospagos",
-      "flex-layout.row#section--product-imagesLink"
-      /*       "flex-layout.row#search-result-layout-mobile" */
+      "flex-layout.row#section--product-imagesLink",
+      "flex-layout.row#search-result-layout-mobile"
     ]
   }
 }
