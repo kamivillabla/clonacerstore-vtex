@@ -44,22 +44,24 @@
       "tab-content.item#tabs__content--reviews-and-ratings"
     ]
   },
-  "tab-content.item#tabs__content--description": {
-    "props": {
-      "tabId": "description"
-    },
-    "children": []
-  },
+
   "tab-content.item#tabs__content--specification": {
     "props": {
       "tabId": "specification"
     },
-    "children": []
+    "children": ["product-specifications"]
+  },
+
+  "tab-content.item#tabs__content--description": {
+    "props": {
+      "tabId": "description"
+    },
+    "children": ["product-description"]
   },
   "tab-content.item#tabs__content--reviews-and-ratings": {
     "props": {
       "tabId": "reviews-and-ratings"
     },
-    "children": []
+    "children": ["product-reviews"]
   }
 }
