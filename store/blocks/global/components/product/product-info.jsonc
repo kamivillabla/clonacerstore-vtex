@@ -25,7 +25,8 @@
   "product-images": {
     "props": {
       "displayThumbnailsArrows": true,
-      "thumbnailsOrientation": "horizontal"
+      "thumbnailsOrientation": "horizontal",
+      "aspectRatio": "1:1"
     }
   },
   "flex-layout.col#product__info--data": {
@@ -77,8 +78,8 @@
   },
   "product-price#product-details": {
     "props": {
-      /*   "showInstallments": true,
-      "showSavings": true */
+      "showInstallments": true,
+      "showSavings": true
     }
   },
   "flex-layout.row#product__info--imageandtext": {
