@@ -9,9 +9,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding-bottom: 3rem;
 }
 
+.galleryItem--result-gallery :global(.vtex-product-summary-2-x-imageWrapper) {
+  border-bottom: var(--secondary-color);
+}
+.galleryItem--result-gallery
+  :global(.vtex-search-result-3-x-filter__container--title) {
+  border-color: var(--secondary-color) !important;
+}
+
+.galleryItem--result-gallery :global(.vtex-checkbox__label) {
+  font-size: 18px;
+}
 .galleryItem--result-gallery {
   border: 1px solid rgb(219, 219, 219);
   background: #fff;
@@ -29,8 +40,10 @@
   font-size: 25px;
 }
 :global(.vtex-slider__base-internal),
-:global(.vtex-slider__selector),
+:global(.vtex-slider__selector) {
+  background-color: var(--secondary-color);
+}
+
 :global(.vtex-search-result-3-x-filterIcon) {
   color: var(--secondary-color);
-  background-color: var(--secondary-color);
 }

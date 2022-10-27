@@ -35,7 +35,7 @@
   "flex-layout.col#department__results--filter": {
     "children": ["filter-navigator.v3"],
     "props": {
-      "width": "10%"
+      "width": "15%"
     }
   },
   "flex-layout.col#department__results--content": {
@@ -44,7 +44,7 @@
       "flex-layout.row#results__products"
     ],
     "props": {
-      "width": "90%",
+      "width": "85%",
       "blockClass": "department__results--content"
     }
   },
