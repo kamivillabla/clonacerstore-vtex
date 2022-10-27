@@ -10,13 +10,13 @@
     }
   },
   "list-context.product-list#list__product-summary": {
-    "blocks": ["product-summary.shelf#list__product-summary"],
+    "blocks": ["product-summary.shelf"],
     "props": {
       "blockClass": "list__product-summary-context"
     }
   },
   // muestra los productos
-  "product-summary.shelf#list__product-summary": {
+  "product-summary.shelf": {
     "title": "productos shelf",
     "children": [
       "add-to-list-btn",

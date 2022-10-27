@@ -2,8 +2,10 @@
   //mobile
   "search-result-layout.mobile#department": {
     "children": [
-      "flex-layout.col#department__breadcrumb",
-      "flex-layout.row#department__results"
+      "flex-layout.row#banner-plp",
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results-desktop",
+      "flex-layout.row#results__text"
     ]
   }
 }

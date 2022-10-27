@@ -126,18 +126,18 @@
           "component": "GridSummary",
           "itemsPerRow": {
             "desktop": 4,
-            "tablet": 3,
-            "phone": 2
+            "tablet": 2,
+            "phone": 1
           }
         },
         {
           "name": "listProduct",
-          "component": "listProduct",
+          "component": "listProductCont",
           "itemsPerRow": 1
         }
       ],
-      "listProduct": "product-summary.shelf#list__product-summary",
-      "GridSummary": "product-summary.shelf#list__product-summary"
+      "listProductCont": "product-summary.shelf",
+      "GridSummary": "product-summary.shelf"
     }
   },
   "flex-layout.row#results__text": {
