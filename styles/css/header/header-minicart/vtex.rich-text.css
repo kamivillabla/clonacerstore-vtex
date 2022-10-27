@@ -1,0 +1,13 @@
+.paragraph--text-iva {
+  font-size: 12px;
+  color: gray;
+}
+
+.link--text-iva {
+  text-decoration: none;
+  color: #80c342;
+}
+
+.container--text-iva {
+  padding-left: 1.5rem;
+}

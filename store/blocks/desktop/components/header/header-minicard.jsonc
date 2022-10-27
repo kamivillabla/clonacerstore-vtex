@@ -28,7 +28,10 @@
       "minicart-summary",
       "rich-text#iva",
       "minicart-checkout-button"
-    ]
+    ],
+    "props": {
+      "blockClass": "minicart-footer"
+    }
   },
   "minicart-product-list": {
     "blocks": ["product-list#minicart"]
@@ -66,7 +69,8 @@
   },
   "rich-text#iva": {
     "props": {
-      "text": "Precios incluyen IVA. El costo del despacho se calculará al finalizar la compra. Revisar condiciones"
+      "text": "Precios incluyen IVA. El costo del despacho se calculará al finalizar la compra. [Revisar condiciones](/)",
+      "blockClass": "text-iva"
     }
   },
   "minicart-summary": {
