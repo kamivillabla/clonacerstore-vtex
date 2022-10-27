@@ -1,0 +1,166 @@
+{
+  "flex-layout.row#banner-plp": {
+    "children": ["flex-layout.col#banner-plp"],
+    "props": {
+      "fullWidth": true,
+      "paddingBottom": 8
+    }
+  },
+  "flex-layout.col#banner-plp": {
+    "children": ["image#baner-plp"]
+  },
+  "image#baner-plp": {
+    "title": "Banner PLP",
+    "props": {
+      "src": "assets/img/banner-plp.png"
+    }
+  },
+  "flex-layout.row#department__breadcrumb": {
+    "children": ["flex-layout.col#department__breadcrumb"]
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+  "flex-layout.row#department__results-desktop": {
+    "children": [
+      "flex-layout.col#department__results--filter",
+      "flex-layout.col#department__results--content"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "fullWidth": true,
+      "blockClass": "department__results-desktop"
+    }
+  },
+  "flex-layout.col#department__results--filter": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "width": "15%"
+    }
+  },
+  "flex-layout.col#department__results--content": {
+    "children": [
+      "flex-layout.row#results__filter",
+      "flex-layout.row#results__products"
+    ],
+    "props": {
+      "width": "85%",
+      "blockClass": "department__results--content"
+    }
+  },
+  "flex-layout.row#results__filter": {
+    "children": [
+      "flex-layout.col#results__filter--productCount",
+      "flex-layout.col#results__filter--orderby",
+      "flex-layout.col#results__filter--gallerySwitcher"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "fullWidth": true,
+      "paddingBottom": 8,
+      "blockClass": "results__filter"
+    }
+  },
+  "flex-layout.col#results__filter--productCount": {
+    "children": ["total-products.v2"],
+    "props": {
+      "verticalAlign": "middle",
+      "width": "60%",
+      "horizontalAlign": "left"
+      /* "blockClass": "result__filter--productCount" */
+    }
+  },
+  "flex-layout.col#results__filter--orderby": {
+    "children": ["order-by.v2"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right",
+      "width": "30%",
+      "blockClass": "result__filter--orderby"
+    }
+  },
+  "flex-layout.col#results__filter--gallerySwitcher": {
+    "children": ["gallery-layout-switcher#result__filter--gallerySwitcher"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right",
+      "width": "10%",
+      "blockClass": "result__filter--gallerySwitcher"
+    }
+  },
+
+  "gallery-layout-switcher#result__filter--gallerySwitcher": {
+    "children": [
+      "gallery-layout-option#grid__result--gallerySwitcher",
+      "gallery-layout-option#listProduct__result--gallerySwitcher"
+    ]
+  },
+  "gallery-layout-option#grid__result--gallerySwitcher": {
+    "props": {
+      "name": "grid"
+    },
+    "children": ["icon-grid"]
+  },
+  "gallery-layout-option#listProduct__result--gallerySwitcher": {
+    "props": {
+      "name": "listProduct"
+    },
+    "children": ["icon-inline-grid"]
+  },
+  "flex-layout.row#results__products": {
+    "children": ["search-content"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "results__products"
+    }
+  },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "props": {
+      "blockClass": "result-gallery",
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 2,
+            "phone": 1
+          }
+        },
+        {
+          "name": "listProduct",
+          "component": "listProductCont",
+          "itemsPerRow": 1
+        }
+      ],
+      "listProductCont": "product-summary.shelf",
+      "GridSummary": "product-summary.shelf"
+    }
+  },
+  "flex-layout.row#results__text": {
+    "children": ["flex-layout.col#results__text"],
+    "props": {
+      "fullWidth": true,
+      "paddingTop": 8
+    }
+  },
+  "flex-layout.col#results__text": {
+    "children": [
+      "rich-text#results__text-title",
+      "rich-text#results__text-content"
+    ]
+  },
+  "rich-text#results__text-title": {
+    "props": {
+      "text": "Encuentra lo mejor del mundo gamer en netnow.cl"
+    }
+  },
+  "rich-text#results__text-content": {
+    "props": {
+      "text": "Si te gusta disfrutar de los mejores juegos online con tus amigos, necesitas un buen equipo con los componentes adecuados para jugar todo tipo de videojuegos. En nuestro catálogo online encontrarás todos los artículos de última tecnología como desktops, notebooks y una completa selección de accesorios gamer para que tengas la mejor experiencia de juego."
+    }
+  }
+}

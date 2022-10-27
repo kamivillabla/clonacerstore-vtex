@@ -1,0 +1,49 @@
+.galleryItem--result-gallery :global(.vtex-button) {
+  background-color: var(--secondary-color);
+  border: none;
+  margin-top: auto;
+}
+.galleryItem--result-gallery :global(.vtex-product-summary-2-x-imageContainer) {
+  width: 15rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.galleryItem--result-gallery :global(.vtex-product-summary-2-x-imageWrapper) {
+  border-bottom: var(--secondary-color);
+}
+.galleryItem--result-gallery
+  :global(.vtex-search-result-3-x-filter__container--title) {
+  border-color: var(--secondary-color) !important;
+}
+
+.galleryItem--result-gallery :global(.vtex-checkbox__label) {
+  font-size: 18px;
+}
+.galleryItem--result-gallery {
+  border: 1px solid rgb(219, 219, 219);
+  background: #fff;
+  padding: 1rem;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.galleryItem--result-gallery:hover {
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+
+:global(.vtex-search-result-3-x-filterMessage) {
+  font-weight: bold;
+  font-size: 25px;
+}
+:global(.vtex-slider__base-internal),
+:global(.vtex-slider__selector) {
+  background-color: var(--secondary-color);
+}
+
+:global(.vtex-search-result-3-x-filterIcon) {
+  color: var(--secondary-color);
+}

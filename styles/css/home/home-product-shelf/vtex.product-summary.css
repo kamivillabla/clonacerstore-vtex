@@ -1,0 +1,34 @@
+/* ***************************   desktop  ********************************** */
+
+.brandName {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-stars) {
+  color: var(--secondary-color);
+}
+
+:global(.vtex-product-summary-2-x-nameContainer) {
+  display: flex;
+  justify-content: left;
+}
+
+:global(.vtex-product-summary-2-x-productBrand) {
+  font-style: normal;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-inlineContainer) {
+  margin-left: 0;
+}
+
+:global(.vtex-product-summary-2-x-description) {
+  display: flex;
+  padding: 1rem 0;
+}

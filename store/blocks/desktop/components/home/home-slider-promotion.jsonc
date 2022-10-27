@@ -2,6 +2,7 @@
   "slider-layout#desktop__home-promotion-slider": {
     "title": "Imagen de promoción",
     "props": {
+      "fullWidth": true,
       "itemsPerPage": {
         "desktop": 1
       },

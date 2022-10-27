@@ -1,7 +1,14 @@
 {
+  "flex-layout.row#desktop__home--slider": {
+    "children": ["slider-layout#desktop__home--slider"],
+    "props": {
+      "fullWidth": true
+    }
+  },
   "slider-layout#desktop__home--slider": {
     "title": "desktop: slider home",
     "props": {
+      "fullWidth": true,
       "itemsPerPage": {
         "desktop": 1
       },
