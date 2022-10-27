@@ -18,3 +18,9 @@
 .openIconContainer :global(.vtex-button):hover {
   background-color: transparent;
 }
+
+.minicartSideBarContentWrapper--header__desktop--minicart
+  :global(.vtex-flex-layout-0-x-flexRow) {
+  border-bottom: 1px solid #e3e4e6;
+  padding: 1rem 0 3rem 0rem;
+}

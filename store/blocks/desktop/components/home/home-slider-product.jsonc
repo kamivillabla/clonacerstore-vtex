@@ -1,25 +1,25 @@
 {
-  "flex-layout.row#search-result-layout": {
-    "children": ["flex-layout.col#search-result-layout"],
+  "flex-layout.row#home__slider-product": {
+    "children": ["flex-layout.col#home__slider-product"],
     "props": {
       "fullWidth": true
     }
   },
-  "flex-layout.col#search-result-layout": {
+  "flex-layout.col#home__slider-product": {
     "children": [
-      "flex-layout.row#search-result-layout-title",
-      "flex-layout.row#search-result-layout-layoutcustom"
+      "flex-layout.row#slider-product--title",
+      "flex-layout.row#slider-product--result"
     ]
   },
-  "flex-layout.row#search-result-layout-title": {
-    "children": ["rich-text#search-result-tittle"],
+  "flex-layout.row#slider-product--title": {
+    "children": ["rich-text#slider-product--title"],
     "props": {
       "paddingTop": 2,
       "blockClass": "product-shelf-title"
     }
   },
-  "flex-layout.row#search-result-layout-layoutcustom": {
-    "children": ["flex-layout.col#home__search-result"],
+  "flex-layout.row#slider-product--result": {
+    "children": ["flex-layout.col#slider-product--result"],
     "props": {
       "fullWidth": true,
       "paddingTop": 0,
@@ -27,25 +27,25 @@
     }
   },
 
-  "rich-text#search-result-tittle": {
+  "rich-text#slider-product--title": {
     "props": {
       "text": "Recomendados para ti",
       "blockClass": "search-result-tittle"
     }
   },
 
-  "flex-layout.col#home__search-result": {
-    "children": ["list-context.product-list#home__results--products-shelf"],
+  "flex-layout.col#slider-product--result": {
+    "children": ["list-context.product-list#slider-product--result"],
     "props": {
       "blockClass": "home__results--products-shelf-container"
     }
   },
-  "list-context.product-list#home__results--products-shelf": {
-    "blocks": ["product-summary.shelf#products__shelf"],
-    "children": ["slider-layout#products__shelf"]
+  "list-context.product-list#slider-product--result": {
+    "blocks": ["product-summary.shelf#slider-product--result"],
+    "children": ["slider-layout#slider-product--result"]
   },
   // muestra los productos
-  "product-summary.shelf#products__shelf": {
+  "product-summary.shelf#slider-product--result": {
     "title": "productos shelf",
     "children": [
       "product-summary-image",
@@ -59,7 +59,7 @@
       "tag": "h3"
     }
   },
-  "slider-layout#products__shelf": {
+  "slider-layout#slider-product--result": {
     "title": "Slider productos",
     "props": {
       "itemsPerPage": {
