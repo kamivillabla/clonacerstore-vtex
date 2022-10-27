@@ -1,5 +1,6 @@
 {
   "search-result-layout.desktop#department": {
+    "title": "search",
     "children": [
       "flex-layout.row#banner-plp",
       "flex-layout.row#department__breadcrumb",
