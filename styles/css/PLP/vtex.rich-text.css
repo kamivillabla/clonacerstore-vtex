@@ -1,0 +1,21 @@
+.paragraph--results__text-title,
+.paragraph--results__title-hidden {
+  font-weight: 700;
+  font-size: 1.75rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.paragraph--results__text-hidden,
+.paragraph--results__text-content {
+  font-size: 14px;
+}
+
+.link--results__text-hidden {
+  color: var(--secondary-color);
+}
+
+.paragraph--quick-view__trigger {
+  text-decoration: underline;
+  font-size: 14px;
+}

@@ -10,11 +10,9 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 3rem;
-}
-
-.galleryItem--result-gallery :global(.vtex-product-summary-2-x-imageWrapper) {
   border-bottom: var(--secondary-color);
 }
+
 .galleryItem--result-gallery
   :global(.vtex-search-result-3-x-filter__container--title) {
   border-color: var(--secondary-color) !important;
