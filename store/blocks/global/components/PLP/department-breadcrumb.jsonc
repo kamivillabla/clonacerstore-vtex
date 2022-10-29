@@ -1,0 +1,9 @@
+{
+  "flex-layout.row#department__breadcrumb": {
+    "title": "breadcrumb",
+    "children": ["flex-layout.col#department__breadcrumb"]
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "children": ["breadcrumb.search"]
+  }
+}
