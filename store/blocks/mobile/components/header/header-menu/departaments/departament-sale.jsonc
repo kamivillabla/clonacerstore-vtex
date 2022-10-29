@@ -1,0 +1,25 @@
+{
+  "menu-item#department__sale": {
+    "title": "departamento sale",
+    "props": {
+      "id": "department__sale",
+      "type": "custom",
+      "iconPosition": "left",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "sale",
+        "text": "Sale"
+      },
+      "iconProps": {
+        "id": "mpa-bag",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "--link-color",
+        "mutedClassName": "--link-color"
+      }
+      // "iconToTheRight": true
+    }
+  }
+}

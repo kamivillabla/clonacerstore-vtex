@@ -1,0 +1,15 @@
+/* ***************************   desktop ********************************** */
+
+.flexCol--home__results--products-shelf-container :global(.vtex-button) {
+  background-color: var(--secondary-color);
+  border: none;
+}
+@media (min-width: 1450px) {
+  .flexRowContent--home__product-shelf {
+    padding: 0 8rem;
+  }
+  .flexRowContent--product-shelf-title {
+    padding: 0 8rem;
+  }
+}
+/* ***************************   mobile ********************************** */

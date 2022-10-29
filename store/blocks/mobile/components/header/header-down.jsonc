@@ -1,0 +1,14 @@
+{
+  "header-row#header__down-mobile": {
+    "title": "Header inferior mobile",
+    "children": ["search-bar"],
+    "props": {
+      "sticky": true,
+      "blockClass": "header__down-mobile",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  }
+}

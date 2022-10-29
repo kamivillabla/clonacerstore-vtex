@@ -1,0 +1,11 @@
+{
+  "search-result-layout.desktop#department": {
+    "title": "search",
+    "children": [
+      "flex-layout.row#banner-plp",
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results-desktop",
+      "flex-layout.row#results__text"
+    ]
+  }
+}

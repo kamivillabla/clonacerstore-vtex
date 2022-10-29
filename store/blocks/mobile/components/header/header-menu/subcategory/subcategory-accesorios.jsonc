@@ -1,0 +1,123 @@
+{
+  // Monitores
+  //  Item 1
+  "menu-item#category--accesorios-mouse": {
+    "title": "subcategoria item 1",
+    "props": {
+      "id": "category-accesorios-mouse",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "mouse",
+        "text": "Mouse"
+      }
+    }
+  },
+  // item 2
+  "menu-item#category--accesorios-headset": {
+    "title": "subcategoria item 2",
+    "props": {
+      "id": "category-accesorios-headset",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "aheadset",
+        "text": "Headset"
+      }
+    }
+  },
+  // item 3
+  "menu-item#category--accesorios-webcam": {
+    "title": "subcategoria item 3",
+    "props": {
+      "id": "category-accesorios-webcam",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "webcam",
+        "text": "Webcam"
+      }
+    }
+  },
+  // item 4
+  "menu-item#category--accesorios-smartband": {
+    "title": "subcategoria item 4",
+    "props": {
+      "id": "category-accesorios-smartband",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "smartband",
+        "text": "Smartband"
+      }
+    }
+  },
+  // item 5
+  "menu-item#category--accesorios-fundas": {
+    "title": "subcategoria item 5",
+    "props": {
+      "id": "category-accesorios-fundas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "fundas",
+        "text": "fundas"
+      }
+    }
+  },
+  // item 6
+  "menu-item#category--accesorios-mochilas": {
+    "title": "subcategoria item 6",
+    "props": {
+      "id": "category-accesorios-mochilas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "mochilas",
+        "text": "Mochilas"
+      }
+    }
+  },
+  // item 7
+  "menu-item#category--accesorios-chromebook": {
+    "title": "subcategoria item 7",
+    "props": {
+      "id": "category-accesorios-chromebook",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "carcasa chromebook",
+        "text": "Carcasas Chromebook"
+      }
+    }
+  },
+  // item 8
+  "menu-item#category--accesorios-vertodoaccesorios": {
+    "title": "subcategoria item 8 link",
+    "props": {
+      "id": "category-accesorios-vertodoaccesorios",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ver todo",
+        "text": "Ver todo"
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "flex-layout.row#product__info": {
+    "title": "Información general de PDP",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    }
+  },
+  "flex-layout.col#product__info--image": {
+    "title": "Imágenes de Producto",
+    "children": ["product-images"],
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    }
+  },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true,
+      "thumbnailsOrientation": "horizontal",
+      "aspectRatio": "1:1"
+    }
+  },
+  "flex-layout.col#product__info--data": {
+    "title": "Data de Productos",
+    "children": [
+      "flex-layout.row#product__info-data",
+      "product-rating-inline",
+      "product-price#product-details",
+      "flex-layout.row#product__info--selectorandbutton",
+      "flex-layout.row#product__info--imageandtext"
+      /*       "share#default" */
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    }
+  },
+  "product-quantity": {
+    "props": {
+      "selectorType": "stepper"
+    }
+  },
+  "flex-layout.row#product__info-data": {
+    "children": [
+      "flex-layout.col#product__info-left",
+      "flex-layout.col#product__info-right"
+    ]
+  },
+  "flex-layout.col#product__info-left": {
+    "children": [
+      "vtex.store-components:product-name",
+      "product-identifier.product"
+    ]
+  },
+  "flex-layout.row#product__info--selectorandbutton": {
+    "children": [
+      "flex-layout.col#product__info--selector",
+      "flex-layout.col#product__info--button"
+    ]
+  },
+  "flex-layout.col#product__info--selector": {
+    "children": ["product-quantity"]
+  },
+  "flex-layout.col#product__info--button": {
+    "children": ["buy-button"]
+  },
+  "flex-layout.col#product__info-right": {
+    "children": ["vtex.store-components:product-description"]
+  },
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+  "flex-layout.row#product__info--imageandtext": {
+    "children": [
+      "flex-layout.col#product__info--image-pagos",
+      "flex-layout.col#product__info--text"
+    ]
+  },
+  "flex-layout.col#product__info--image-pagos": {
+    "children": ["image#product__info--image-pagos"]
+  },
+  "image#product__info--image-pagos": {
+    "title": "Imagen de medios de pagos",
+    "props": {
+      "src": "assets/img/home-mediospagos-mobile.png"
+    }
+  },
+  "flex-layout.col#product__info--text": {
+    "children": ["rich-text#product__info-text"]
+  },
+  "rich-text#product__info-text": {
+    "title": "texto multiproposito",
+    "props": {
+      "text": "SOLO PAGANDO CON MERCADO PAGO"
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": true,
+        "Pinterest": false
+      }
+    }
+  }
+}

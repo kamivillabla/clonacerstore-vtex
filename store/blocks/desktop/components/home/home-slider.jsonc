@@ -1,0 +1,71 @@
+{
+  "flex-layout.row#desktop__home--slider": {
+    "children": ["slider-layout#desktop__home--slider"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "slider-layout#desktop__home--slider": {
+    "title": "desktop: slider home",
+    "props": {
+      "fullWidth": true,
+      "itemsPerPage": {
+        "desktop": 1
+      },
+
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#desktop__home--slider--one",
+      "image#desktop__home--slider--two",
+      "image#desktop__home--slider--three"
+    ]
+  },
+  "image#desktop__home--slider--one": {
+    "title": "primera imagen",
+    "props": {
+      "src": "assets/img/home-slider-one.jpg",
+      "blockClass": "slider--image",
+      "link": {
+        "url": "https://www.google.com",
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__home--slider--two": {
+    "title": "Segunda imagen ",
+    "props": {
+      "src": "assets/img/home-slider-two.jpg",
+      "blockClass": "slider--image",
+      "link": {
+        "url": "https://www.google.com",
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__home--slider--three": {
+    "title": "Tercera imagen",
+    "props": {
+      "src": "assets/img/home-slider-three.jpg",
+      "label": "More details >",
+      "link": {
+        "label": "soy un texto",
+        "url": "https://www.google.com",
+        "openNewTab": true,
+        "attributeNoFollow": true,
+        "displayMode": "buttonProps",
+        "buttonProps": {
+          "variant": "primary",
+          "size": "regular"
+        }
+      }
+    }
+  }
+}

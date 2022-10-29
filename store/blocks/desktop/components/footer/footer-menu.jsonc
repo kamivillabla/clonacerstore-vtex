@@ -1,0 +1,196 @@
+{
+  "flex-layout.row#footer__container_one": {
+    "title": "Footer desktop",
+    "children": [
+      "flex-layout.col#footer__container_one",
+      "flex-layout.col#footer__container_two",
+      "flex-layout.col#footer__container_three"
+    ],
+    "props": {
+      "blockClass": "footer__container-one"
+    }
+  },
+  "flex-layout.col#footer__container_one": {
+    "title": "Footer uno",
+    "props": {
+      "blockClass": "footer__container_one-line"
+    }
+  },
+  "flex-layout.col#footer__container_two": {
+    "title": "Footer dos ",
+    "children": ["image#footer__container_logo"],
+    "props": {
+      "blockClass": "footer__container_one-two"
+    }
+  },
+  "image#footer__container_logo": {
+    "props": {
+      "blockClass": "footer__container-logo",
+      "src": "assets/img/logo__footer.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "flex-layout.col#footer__container_three": {
+    "title": "Footer tres",
+    "props": {
+      "blockClass": "footer__container_one-line"
+    }
+  },
+  "flex-layout.row#footer__container_two": {
+    "children": [
+      "flex-layout.col#footer__container-col-one",
+      "flex-layout.col#footer__container-col-two",
+      "flex-layout.col#footer__container-col-three",
+      "flex-layout.col#footer__container-col-four",
+      "flex-layout.col#footer__container-col-five"
+    ],
+    "props": {
+      "blockClass": "footer__container",
+      "colSizing": "auto"
+    }
+  },
+  /* MENU 1 */
+
+  "flex-layout.col#footer__container-col-one": {
+    "title": "Contenedor titulo menú uno en desktop ",
+    "children": [
+      "rich-text#footer__container-col-one-title",
+      "menu#purchasing-guide"
+    ],
+    "props": {
+      "blocKClass": "footer__container-col",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer__container-col-one-title": {
+    "title": "Titulo menú uno en desktop ",
+    "props": {
+      "text": "CÓMO COMPRAR",
+      "blockClass": "footer__container-col-title"
+    }
+  },
+  /* MENU 2 */
+  "flex-layout.col#footer__container-col-two": {
+    "title": "Contenedor titulo menú ´dos en desktop ",
+    "children": [
+      "rich-text#footer__container-col-two-title",
+      "menu#customer-service"
+    ],
+    "props": {
+      "blocKClass": "footer__container-col",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer__container-col-two-title": {
+    "title": "Titulo menú dos en desktop ",
+    "props": {
+      "text": "ATENCIÓN AL CLIENTE",
+      "blockClass": "footer__container-col-title"
+    }
+  },
+  /* MENU 3 */
+  "flex-layout.col#footer__container-col-three": {
+    "title": "Contenedor titulo menú tres en desktop ",
+    "children": ["rich-text#footer__container-col-three-title", "menu#company"],
+    "props": {
+      "blocKClass": "footer__container-col",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer__container-col-three-title": {
+    "title": "Título para menú tres en desktop",
+    "props": {
+      "text": "EMPRESA",
+      "blockClass": "footer__container-col-title"
+    }
+  },
+  /* MENU 4 */
+  "flex-layout.col#footer__container-col-four": {
+    "title": "Contenedor redes sociales",
+    "children": [
+      "rich-text#footer__container-col-four-title",
+      "social-networks"
+    ],
+    "props": {
+      "blocKClass": "footer__container-col",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer__container-col-four-title": {
+    "title": "Título redes sociales",
+    "props": {
+      "text": "SÍGUENOS EN:",
+      "blockClass": "footer__container-col-title"
+    }
+  },
+  "social-networks": {
+    "title": "Redes sociales",
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/AcerChile/",
+          "name": "facebook"
+        },
+        {
+          "url": "https://www.instagram.com/acerchile/",
+          "name": "instagram"
+        },
+        {
+          "url": "https://twitter.com/acer_chile",
+          "name": "twitter"
+        },
+        {
+          "url": "https://www.youtube.com/user/AcerChile",
+          "name": "youtube"
+        }
+      ]
+    }
+  },
+  /* MENU 5 */
+  "flex-layout.col#footer__container-col-five": {
+    "title": "Contenedor newsletter",
+    "children": ["rich-text#footer__container-col-five-title"],
+    "props": {
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer__container-col-five-title": {
+    "title": "Título newsletter",
+    "props": {
+      "text": "¡SÉ EL PRIMERO EN CONOCER LAS OFERTAS SEMANALES!",
+      "blockClass": "footer__container-col-title-one"
+    }
+  },
+
+  /* Footer 3 */
+  "flex-layout.row#footer__container_three": {
+    "title": "Footer sección tres",
+    "children": [
+      "rich-text#footer_container_text-one",
+      "rich-text#footer_container_text-two"
+    ],
+    "props": {
+      "blockClass": "footer__container-three",
+      "fullWidth": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#footer_container_text-one": {
+    "title": "Texto de copyright",
+    "props": {
+      "text": "Copyright (c) 2022. Reservados todos los derechos.",
+      "blockClass": "footer__container-text-one"
+    }
+  },
+  "rich-text#footer_container_text-two": {
+    "title": "Más texto informativo de footer",
+    "props": {
+      "text": "Cualquier especificación puedes ser modificada sin previo aviso, por favor revíselas con su distribuidor autorizado antes de realizar la compra. - Las imágenes son representativas y pueden no ser el modelo específico que estés solicitando, por favor revíselo con su distribuidor autorizado \n antes de realizar la compra. - Este modelo está disponible en las tiendas seleccionadas. - Los productos aquí mencionados pueden ser marcas registradas de sus respectivos propietarios. \n Sitio optimizado para Mozilla Firefox 3 o superior, Internet explorer 7 o superior y Google Chrome",
+      "blockClass": "footer__container-text-two"
+    }
+  }
+}

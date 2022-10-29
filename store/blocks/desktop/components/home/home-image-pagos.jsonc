@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#desktop__home--mediospagos": {
+    "title": "Imagen de forma de pagos",
+    "children": ["flex-layout.col#desktop__home--mediospagos"],
+    "props": {
+      "horizontalAlign": "center",
+      "paddingBottom": 6,
+      "paddingTop": 6
+    }
+  },
+  "flex-layout.col#desktop__home--mediospagos": {
+    "children": ["image#desktop__home--image-pagos"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#desktop__home--image-pagos": {
+    "props": {
+      "src": "assets/img/home-mediospagos-desktop.png",
+      "maxHeight": 60
+    }
+  }
+}

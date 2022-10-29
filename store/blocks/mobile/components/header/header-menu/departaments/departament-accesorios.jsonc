@@ -1,0 +1,26 @@
+{
+  "menu-item#department__accesorios": {
+    "title": "departamento accesorios",
+    "props": {
+      "id": "department-accesorios",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": ["submenu.accordion#department__accesorios-submenu"]
+  },
+  "submenu.accordion#department__accesorios-submenu": {
+    "children": ["menu#department__accesorios--submenu"]
+  },
+  "menu#department__accesorios--submenu": {
+    "children": ["menu-item#accesorios__category--accesorios-pc"],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

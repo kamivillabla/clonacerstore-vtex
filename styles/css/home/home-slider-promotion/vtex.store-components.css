@@ -1,0 +1,18 @@
+/* ------------------------ Versión Mobile - tablet-------------------------- */
+@media screen and (max-width: 1024px) {
+  .imageElement--slider__image-promotion {
+    object-fit: cover !important;
+    object-position: center;
+    width: 100%;
+    height: 786px;
+  }
+}
+/* ------------------------ Versión desktop -------------------------- */
+@media screen and (max-width: 1920px) {
+  .imageElement--slider__image-promotion-desktop {
+    object-fit: cover !important;
+    object-position: center;
+    width: 100%;
+    height: 576px;
+  }
+}

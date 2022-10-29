@@ -1,0 +1,13 @@
+{
+  "footer-layout.desktop": {
+    "title": "Footer desktop",
+    "children": [
+      "flex-layout.row#footer__container_one",
+      "flex-layout.row#footer__container_two",
+      "flex-layout.row#footer__container_three"
+    ],
+    "props": {
+      "blockClass": "footer__layout"
+    }
+  }
+}

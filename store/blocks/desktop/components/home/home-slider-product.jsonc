@@ -1,0 +1,80 @@
+{
+  "flex-layout.row#home__slider-product": {
+    "children": ["flex-layout.col#home__slider-product"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#home__slider-product": {
+    "children": [
+      "flex-layout.row#slider-product--title",
+      "flex-layout.row#slider-product--result"
+    ]
+  },
+  "flex-layout.row#slider-product--title": {
+    "children": ["rich-text#slider-product--title"],
+    "props": {
+      "paddingTop": 2,
+      "blockClass": "product-shelf-title"
+    }
+  },
+  "flex-layout.row#slider-product--result": {
+    "children": ["flex-layout.col#slider-product--result"],
+    "props": {
+      "fullWidth": true,
+      "paddingTop": 0,
+      "blockClass": "home__product-shelf"
+    }
+  },
+
+  "rich-text#slider-product--title": {
+    "props": {
+      "text": "Recomendados para ti",
+      "blockClass": "search-result-tittle"
+    }
+  },
+
+  "flex-layout.col#slider-product--result": {
+    "children": ["list-context.product-list#slider-product--result"],
+    "props": {
+      "blockClass": "home__results--products-shelf-container"
+    }
+  },
+  "list-context.product-list#slider-product--result": {
+    "blocks": ["product-summary.shelf#slider-product--result"],
+    "children": ["slider-layout#slider-product--result"]
+  },
+  // muestra los productos
+  "product-summary.shelf#slider-product--result": {
+    "title": "productos shelf",
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button#products__shelf-home"
+    ]
+  },
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
+  },
+  "slider-layout#slider-product--result": {
+    "title": "Slider productos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "blockClass": "slider-products__shelf",
+      "fullWidth": false
+    }
+  },
+  "add-to-cart-button#products__shelf-home": {
+    "props": {
+      "text": "Ver producto",
+      "onClickBehavior": "go-to-product-page"
+    }
+  }
+}

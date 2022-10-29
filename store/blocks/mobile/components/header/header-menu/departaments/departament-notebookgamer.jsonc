@@ -1,0 +1,29 @@
+{
+  "menu-item#department__notebookGamer": {
+    "title": "departamento notebook gamer",
+    "props": {
+      "id": "department-notebook-gamer",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "notebook gamer",
+        "text": "Notebook Gamer"
+      }
+    },
+    "blocks": ["submenu.accordion#department__notebookGamer-submenu"]
+  },
+  "submenu.accordion#department__notebookGamer-submenu": {
+    "children": ["menu#department__notebookGamer--submenu"]
+  },
+  "menu#department__notebookGamer--submenu": {
+    "children": [
+      "menu-item#notebookGamer__category--notebookGamer-predator",
+      "menu-item#notebookGamer__category--notebookGamer-nitro"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

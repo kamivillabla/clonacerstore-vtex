@@ -1,0 +1,136 @@
+{
+  "flex-layout.row#mobile__home--beneficios": {
+    "children": ["flex-layout.col#mobile__home--beneficios"],
+    "props": {
+      "horizontalAlign": "center",
+      "paddingTop": 5
+    }
+  },
+  "flex-layout.col#mobile__home--beneficios": {
+    "children": [
+      "flex-layout.row#mobile__home--beneficios-title",
+      "flex-layout.row#mobile__home--beneficios-content"
+    ]
+  },
+  "flex-layout.row#mobile__home--beneficios-title": {
+    "children": ["rich-text#home--beneficios-title-mobile"],
+    "props": {
+      "blockClass": "container-home--beneficios-title-mobile"
+    }
+  },
+  "rich-text#home--beneficios-title-mobile": {
+    "props": {
+      "text": "Beneficios de comprar en ACER",
+      "blockClass": "home--beneficios-title-mobile"
+    }
+  },
+  "flex-layout.row#mobile__home--beneficios-content": {
+    "children": ["flex-layout.col#mobile__home--beneficios-content"]
+  },
+  "flex-layout.col#mobile__home--beneficios-content": {
+    "children": [
+      "flex-layout.row#home--beneficios-content-one",
+      "flex-layout.row#home--beneficios-content-two",
+      "flex-layout.row#home--beneficios-content-three"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  // row 1
+  "flex-layout.row#home--beneficios-content-one": {
+    "children": [
+      "flex-layout.col#beneficios-content-col-one",
+      "flex-layout.col#beneficios-content-col-two"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#beneficios-content-col-one": {
+    "children": [
+      "image#home--beneficios--one-img",
+      "rich-text#home--beneficios-one-text"
+    ],
+    "props": {
+      "blockClass": ["beneficios-content-col", "beneficios-content-col-line"],
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#beneficios-content-col-two": {
+    "children": [
+      "image#home--beneficios--two-img",
+      "rich-text#home--beneficios-two-text"
+    ],
+    "props": {
+      "blockClass": "beneficios-content-col",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  // row 2
+  "flex-layout.row#home--beneficios-content-two": {
+    "children": [
+      "flex-layout.col#beneficios-content-col-three",
+      "flex-layout.col#beneficios-content-col-four"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#beneficios-content-col-three": {
+    "children": [
+      "image#home--beneficios--three-img",
+      "rich-text#home--beneficios-three-text"
+    ],
+    "props": {
+      "blockClass": ["beneficios-content-col", "beneficios-content-col-line"],
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#beneficios-content-col-four": {
+    "children": [
+      "image#home--beneficios--four-img",
+      "rich-text#home--beneficios-four-text"
+    ],
+    "props": {
+      "blockClass": "beneficios-content-col",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  // row 3
+  "flex-layout.row#home--beneficios-content-three": {
+    "children": [
+      "flex-layout.col#beneficios-content-col-five",
+      "flex-layout.col#beneficios-content-col-six"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#beneficios-content-col-five": {
+    "children": [
+      "image#home--beneficios--five-img",
+      "rich-text#home--beneficios-five-text"
+    ],
+    "props": {
+      "blockClass": ["beneficios-content-col", "beneficios-content-col-line"],
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#beneficios-content-col-six": {
+    "children": [
+      "image#home--beneficios--six-img",
+      "rich-text#home--beneficios-six-text"
+    ],
+    "props": {
+      "blockClass": "beneficios-content-col",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  }
+}

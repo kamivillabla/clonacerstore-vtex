@@ -1,0 +1,377 @@
+{
+  // primer footer
+  "flex-layout.row#footer__container_one-mobile": {
+    "title": "Footer one",
+    "children": [
+      "flex-layout.col#footer__container_one-mobile",
+      "flex-layout.col#footer__container_two-mobile",
+      "flex-layout.col#footer__container_three-mobile"
+    ],
+    "props": {
+      "blockClass": "footer__container-one",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#footer__container_one-mobile": {
+    "title": "Footer linea",
+    "props": {
+      "blockClass": "footer__container_one-line"
+    }
+  },
+  "flex-layout.col#footer__container_two-mobile": {
+    "title": "Footer contenedor imagen ",
+    "children": ["image#footer__container_logo-mobile"],
+    "props": {
+      "blockClass": "footer__container_one-two"
+    }
+  },
+  "image#footer__container_logo-mobile": {
+    "title": "Footer imagen",
+    "props": {
+      "blockClass": "footer__container-logo",
+      "src": "assets/img/logo__footer.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "flex-layout.col#footer__container_three-mobile": {
+    "title": "Footer linea",
+    "props": {
+      "blockClass": "footer__container_one-line"
+    }
+  },
+
+  // segundo bloque
+  "flex-layout.row#footer__container_two-mobile": {
+    "title": "Footer dos",
+    "children": ["rich-text#footer__container-title-mobile"],
+    "props": {
+      "horizontalAlign": "true",
+      "blockClass": "footer__container_two-mobile"
+    }
+  },
+  "rich-text#footer__container-title-mobile": {
+    "title": "Footer newsletter",
+    "props": {
+      "text": "¡SÉ EL PRIMERO EN CONOCER LAS \n  OFERTAS SEMANALES!",
+      "blockClass": "footer__container-title-mobile"
+    }
+  },
+  // tercer footer
+  "flex-layout.row#footer__container__three-mobile": {
+    "title": "Footer tres",
+    "children": ["disclosure-layout-group#footer__group"],
+    "props": {
+      "blockClass": "footer__container__three-mobile"
+      /*       "preventHorizontalStretch": true,
+      "preventVerticalStretch": true */
+    }
+  },
+  "disclosure-layout-group#footer__group": {
+    "title": "disclosure menú",
+    "children": [
+      "disclosure-layout#purchasing-guide",
+      "disclosure-layout#customer-service",
+      "disclosure-layout#company"
+    ],
+    "props": {
+      "blockClass": "footer__group-mobile"
+    }
+  },
+  /* Disclosure 1 */
+  "disclosure-layout#purchasing-guide": {
+    "title": "Menú uno",
+    "children": [
+      "disclosure-trigger#purchasing-guide",
+      "disclosure-content#purchasing-guide"
+    ]
+  },
+  "disclosure-trigger#purchasing-guide": {
+    "title": "Menú contenedor título",
+    "children": ["rich-text#purchasing-guide"]
+  },
+  "rich-text#purchasing-guide": {
+    "title": "Menú uno: title",
+    "props": {
+      "text": "CÓMO COMPRAR",
+      "blockClass": "footer__container-col-title-mobile"
+    }
+  },
+  "disclosure-content#purchasing-guide": {
+    "children": ["menu#purchasing-guide"]
+  },
+  "menu#purchasing-guide": {
+    "title": "Menú uno: contenedor",
+    "children": [
+      "menu-item#create-account",
+      "menu-item#all-shipment",
+      "menu-item#exchanges-returns",
+      "menu-item#warranty"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#create-account": {
+    "title": "Menú uno: link uno",
+    "props": {
+      "id": "menu-create-account",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "crear cuenta",
+        "text": "Crear cuenta"
+      }
+    }
+  },
+  "menu-item#all-shipment": {
+    "title": "Menú uno: link dos",
+    "props": {
+      "id": "menu-all-shipment",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "metodos de envio",
+        "text": "Métodos de envío"
+      }
+    }
+  },
+  "menu-item#exchanges-returns": {
+    "title": "Menú uno: link tres",
+    "props": {
+      "id": "menu-exchanges-returns",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "cambios y devoluciones",
+        "text": "Cambios y devoluciones"
+      }
+    }
+  },
+  "menu-item#warranty": {
+    "title": "Menú uno: link cuatro",
+    "props": {
+      "id": "menu-warranty",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "garantias",
+        "text": "Garantías"
+      }
+    }
+  },
+  /* Disclosure 2 */
+  "disclosure-layout#customer-service": {
+    "title": "Menú dos",
+    "children": [
+      "disclosure-trigger#customer-service",
+      "disclosure-content#customer-service"
+    ]
+  },
+  "disclosure-trigger#customer-service": {
+    "title": "Menú dos: contenedor texto",
+    "children": ["rich-text#customer-service"]
+  },
+  "rich-text#customer-service": {
+    "title": "Menú dos: title",
+    "props": {
+      "text": "ATENCIÓN AL CLIENTE",
+      "blockClass": "footer__container-col-title-mobile"
+    }
+  },
+  "disclosure-content#customer-service": {
+    "children": ["menu#customer-service"]
+  },
+  "menu#customer-service": {
+    "title": "Menú dos: contenedor",
+    "children": [
+      "menu-item#call-center",
+      "menu-item#deliveries",
+      "menu-item#support",
+      "menu-item#download-drivers",
+      "menu-item#download-asked-questions"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#call-center": {
+    "title": "Menú dos: link uno",
+    "props": {
+      "id": "menu-call-center",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "call center",
+        "text": "Call center"
+      }
+    }
+  },
+  "menu-item#deliveries": {
+    "title": "Menú dos: link dos",
+    "props": {
+      "id": "menu-deliveries",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "deliveries",
+        "text": "Despachos"
+      }
+    }
+  },
+  "menu-item#support": {
+    "title": "Menú dos: link tres",
+    "props": {
+      "id": "menu-support",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "soporte técnico",
+        "text": "Soporte técnico"
+      }
+    }
+  },
+  "menu-item#download-drivers": {
+    "title": "Menú dos: link cuatro",
+    "props": {
+      "id": "menu-download-drivers",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "descarga de driver",
+        "text": "Descarga de drivers"
+      }
+    }
+  },
+  "menu-item#download-asked-questions": {
+    "title": "Menú dos: link cinco",
+    "props": {
+      "id": "menu-asked-questions",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  /* Disclosure 3 */
+  "disclosure-layout#company": {
+    "title": "Menú tres",
+    "children": ["disclosure-trigger#company", "disclosure-content#company"]
+  },
+  "disclosure-trigger#company": {
+    "title": "Menú tres: contenedor texto",
+    "children": ["rich-text#company"]
+  },
+  "rich-text#company": {
+    "title": "Menú tres: title",
+    "props": {
+      "text": "EMPRESA",
+      "blockClass": "footer__container-col-title-mobile"
+    }
+  },
+  "disclosure-content#company": {
+    "children": ["menu#company"]
+  },
+  "menu#company": {
+    "title": "Menú tres: contenedor menú",
+    "children": [
+      "menu-item#about-us",
+      "menu-item#cookie-policy",
+      "menu-item#terms-and-conditions",
+      "menu-item#earthion"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#about-us": {
+    "title": "Menú tres: link uno",
+    "props": {
+      "id": "menu-about-us",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "quienes somos",
+        "text": "Quiénes Somos"
+      }
+    }
+  },
+  "menu-item#cookie-policy": {
+    "title": "Menú tres: link dos",
+    "props": {
+      "id": "menu-cookie-policy",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "politica de cookies",
+        "text": "Política de Cookies"
+      }
+    }
+  },
+  "menu-item#terms-and-conditions": {
+    "title": "Menú tres: link tres",
+    "props": {
+      "id": "menu-terms-and-conditions",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "terminos y condiciones",
+        "text": "Términos y Condiciones"
+      }
+    }
+  },
+  "menu-item#earthion": {
+    "title": "Menú tres: link cuatro",
+    "props": {
+      "id": "menu-earthion",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "earthion",
+        "text": "Earthion"
+      }
+    }
+  },
+  // row 4
+  "flex-layout.row#footer__container__four-mobile": {
+    "title": "Contenedor redes sociales mobile",
+    "children": [
+      "rich-text#footer__container-col-four-title",
+      "social-networks",
+      "accepted-payment-methods"
+    ],
+    "props": {
+      "blockClass": "footer__container__four-mobile"
+    }
+  },
+  //row 5
+  "flex-layout.row#footer__container__five-mobile": {
+    "title": "Contenedor newsletter mobile",
+    "children": ["rich-text#footer__container__five-mobile"],
+    "props": {
+      "blockClass": "footer__container__five-mobile"
+    }
+  },
+  "rich-text#footer__container__five-mobile": {
+    "props": {
+      "text": "Todos los derechos reservados - ACER -2021",
+      "blockClass": "footer__container-five-text"
+    }
+  }
+}

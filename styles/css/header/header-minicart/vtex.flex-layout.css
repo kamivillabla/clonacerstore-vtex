@@ -1,0 +1,15 @@
+.flexRowContent--minicart-footer :global(.vtex-button) {
+  background-color: #80c342;
+  border: none;
+}
+
+.flexRowContent--minicart-footer
+  :global(.vtex-checkout-summary-0-x-summaryItemLabel):last-child {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.flexRowContent--minicart-footer
+  :global(.vtex-checkout-summary-0-x-price):last-child {
+  font-weight: bold;
+}

@@ -1,0 +1,6 @@
+{
+  "header-layout.desktop": {
+    "title": "Header Desktop",
+    "children": ["sticky-layout#header__desktop"]
+  }
+}

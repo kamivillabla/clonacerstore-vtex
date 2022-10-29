@@ -1,0 +1,31 @@
+{
+  "slider-layout#desktop__home-promotion-slider": {
+    "title": "Imagen de promoción",
+    "props": {
+      "fullWidth": true,
+      "itemsPerPage": {
+        "desktop": 1
+      },
+
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": ["image#desktop__home-promotion-slider"]
+  },
+  "image#desktop__home-promotion-slider": {
+    "title": "Imagen",
+    "props": {
+      "src": "assets/img/home-promotion-slider-desktop.png",
+      "blockClass": "slider__image-promotion-desktop",
+      "link": {
+        "url": "https://www.google.com",
+        "openNewTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "flex-layout.row#mobile__home--mediospagos": {
+    "children": ["flex-layout.col#mobile__home--mediospagos"],
+    "props": {
+      "horizontalAlign": "center",
+      "paddingBottom": 6,
+      "paddingTop": 6
+    }
+  },
+  "flex-layout.col#mobile__home--mediospagos": {
+    "children": ["image#mobile__home--image-pagos"],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#mobile__home--image-pagos": {
+    "props": {
+      "src": "assets/img/home-mediospagos-mobile.png",
+      "maxHeight": 60
+    }
+  }
+}

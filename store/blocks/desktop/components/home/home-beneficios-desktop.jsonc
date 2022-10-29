@@ -1,0 +1,229 @@
+{
+  "flex-layout.row#desktop__home--beneficios": {
+    "children": ["flex-layout.col#desktop__home--beneficios"],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#desktop__home--beneficios": {
+    "children": [
+      "flex-layout.row#desktop__home--beneficios-title",
+      "flex-layout.row#desktop__home--beneficios-content"
+    ]
+  },
+  "flex-layout.row#desktop__home--beneficios-title": {
+    "children": ["rich-text#home--beneficios-title"]
+  },
+  "rich-text#home--beneficios-title": {
+    "props": {
+      "text": "Beneficios de comprar en ACER",
+      "blockClass": "home--beneficios-title"
+    }
+  },
+
+  "flex-layout.row#desktop__home--beneficios-content": {
+    "title": "Desktop item sección beneficios",
+    "children": [
+      "flex-layout.col#desktop__home--beneficios--one",
+      "flex-layout.col#desktop__home--beneficios--two",
+      "flex-layout.col#desktop__home--beneficios--three",
+      "flex-layout.col#desktop__home--beneficios--four",
+      "flex-layout.col#desktop__home--beneficios--five",
+      "flex-layout.col#desktop__home--beneficios--six"
+    ],
+    "props": {
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "marginTop": 6,
+      "fullWidth": true,
+      "blockClass": "desktop__home-beneficios"
+    }
+  },
+  //item 1
+  "flex-layout.col#desktop__home--beneficios--one": {
+    "title": "Beneficios n° uno",
+    "children": [
+      "image#home--beneficios--one-img",
+      "rich-text#home--beneficios-one-text"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "desktop__home--beneficios"
+    }
+  },
+  "image#home--beneficios--one-img": {
+    "title": "Imagen",
+    "props": {
+      "blockClass": "beneficios-icon",
+      "src": "assets/icons/beneficios_beneficios.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "rich-text#home--beneficios-one-text": {
+    "title": "texto",
+    "props": {
+      "text": "[Beneficios \n compra conline](/)",
+      "textAlignment": "CENTER",
+      "blockClass": "beneficios-text"
+    }
+  },
+  // item 2
+  "flex-layout.col#desktop__home--beneficios--two": {
+    "title": "Beneficios n° dos",
+    "children": [
+      "image#home--beneficios--two-img",
+      "rich-text#home--beneficios-two-text"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "desktop__home--beneficios"
+    }
+  },
+  "image#home--beneficios--two-img": {
+    "title": "Imagen",
+    "props": {
+      "blockClass": "beneficios-icon",
+      "src": "assets/icons/call_beneficio.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "rich-text#home--beneficios-two-text": {
+    "title": "texto",
+    "props": {
+      "text": "[call center](/)",
+      "textAlignment": "CENTER",
+      "blockClass": "beneficios-text"
+    }
+  },
+  // item 3
+  "flex-layout.col#desktop__home--beneficios--three": {
+    "title": "Beneficios n° tres",
+    "children": [
+      "image#home--beneficios--three-img",
+      "rich-text#home--beneficios-three-text"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "desktop__home--beneficios"
+    }
+  },
+  "image#home--beneficios--three-img": {
+    "title": "Imagen",
+    "props": {
+      "blockClass": "beneficios-icon",
+      "src": "assets/icons/soporte_beneficio.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "rich-text#home--beneficios-three-text": {
+    "title": "texto",
+    "props": {
+      "text": "[Soporte servicio \n técnico](/)",
+      "textAlignment": "CENTER",
+      "blockClass": "beneficios-text"
+    }
+  },
+  // item 4
+  "flex-layout.col#desktop__home--beneficios--four": {
+    "title": "Beneficios n° cuatro",
+    "children": [
+      "image#home--beneficios--four-img",
+      "rich-text#home--beneficios-four-text"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "desktop__home--beneficios"
+    }
+  },
+  "image#home--beneficios--four-img": {
+    "title": "Imagen",
+    "props": {
+      "blockClass": "beneficios-icon",
+      "src": "assets/icons/despacho_beneficio.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "rich-text#home--beneficios-four-text": {
+    "title": "texto",
+    "props": {
+      "text": "[Despacho a \n domicilio](/)",
+      "textAlignment": "CENTER",
+      "blockClass": "beneficios-text"
+    }
+  },
+  // item 5
+  "flex-layout.col#desktop__home--beneficios--five": {
+    "title": "Beneficios n° cinco",
+    "children": [
+      "image#home--beneficios--five-img",
+      "rich-text#home--beneficios-five-text"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "desktop__home--beneficios"
+    }
+  },
+  "image#home--beneficios--five-img": {
+    "title": "Imagen",
+    "props": {
+      "blockClass": "beneficios-icon",
+      "src": "assets/icons/comprasegu_beneficio.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "rich-text#home--beneficios-five-text": {
+    "title": "texto",
+    "props": {
+      "text": "[compra fácil \n y domicilio](/)",
+      "textAlignment": "CENTER",
+      "blockClass": "beneficios-text"
+    }
+  },
+  // item 6
+  "flex-layout.col#desktop__home--beneficios--six": {
+    "title": "Beneficios n° cinco",
+    "children": [
+      "image#home--beneficios--six-img",
+      "rich-text#home--beneficios-six-text"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "desktop__home--beneficios--linenone"
+    }
+  },
+  "image#home--beneficios--six-img": {
+    "title": "Imagen",
+    "props": {
+      "blockClass": "beneficios-icon",
+      "src": "assets/icons/garantia_beneficio.png",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "rich-text#home--beneficios-six-text": {
+    "title": "texto",
+    "props": {
+      "text": "[garantía, cambios \n y devoluciones](/)",
+      "textAlignment": "CENTER",
+      "blockClass": "beneficios-text"
+    }
+  }
+}
