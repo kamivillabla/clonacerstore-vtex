@@ -50,7 +50,7 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
-      "product-summary-price",
+      "product-selling-price",
       "add-to-cart-button#products__shelf-home"
     ]
   },

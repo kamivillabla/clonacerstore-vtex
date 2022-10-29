@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#banner-plp": {
+    "title": "banner de PLP",
+    "children": ["flex-layout.col#banner-plp"],
+    "props": {
+      "fullWidth": true,
+      "paddingBottom": 8
+    }
+  },
+  "flex-layout.col#banner-plp": {
+    "children": ["image#banner-plp"]
+  },
+  "image#banner-plp": {
+    "title": "Imagen de banner PLP",
+    "props": {
+      "src": "assets/img/banner-plp.png"
+    }
+  }
+}

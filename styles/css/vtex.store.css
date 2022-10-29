@@ -7,3 +7,18 @@
   --fonts-primary: "Roboto', sans-serif";
   /* fonts */
 }
+
+:global(.vtex-reviews-and-ratings-3-x-stars) {
+  color: var(--secondary-color);
+}
+:global(.vtex-reviews-and-ratings-3-x-inlineContainer) {
+  margin-left: 0 !important;
+}
+:global(.vtex-button) {
+  border: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
