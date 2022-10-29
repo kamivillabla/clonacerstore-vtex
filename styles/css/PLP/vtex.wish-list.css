@@ -2,14 +2,9 @@
   z-index: 1000;
   display: flex;
   justify-content: end;
+  width: 109%;
 }
 
 .wishlistIconContainer :global(.vtex-button) {
   background-color: transparent;
 }
-
-/* .wishlistIcon {
-  -webkit-filter: grayscale(100%);
-  -webkit-filter: grayscale(1);
-  filter: grayscale(100%);
-} */

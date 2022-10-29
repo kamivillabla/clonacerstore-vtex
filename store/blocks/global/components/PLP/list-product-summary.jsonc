@@ -16,15 +16,16 @@
     }
   },
   // muestra los productos
-  "product-summary.shelf": {
+  "product-summary.shelf#products": {
     "title": "productos shelf",
     "children": [
       "add-to-list-btn",
       "product-summary-image",
       "product-summary-name",
+      "product-identifier.product",
       "product-rating-inline",
       "product-summary-description",
-      "product-summary-price",
+      /*    "product-specifications", */
       "product-selling-price",
       "add-to-cart-button",
       "modal-trigger#global__quick-view"
@@ -59,9 +60,17 @@
       "add-to-list-btn",
       "vtex.store-components:product-name",
       "vtex.store-components:product-description",
+
       "share",
       "product-quantity",
       "add-to-cart-button"
     ]
+  },
+  "product-identifier.product": {
+    "props": {
+      "label": "custom",
+      "customLabel": "sku",
+      "idField": "skuReferenceId"
+    }
   }
 }
