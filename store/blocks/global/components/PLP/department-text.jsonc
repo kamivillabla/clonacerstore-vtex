@@ -1,0 +1,72 @@
+{
+  "flex-layout.row#results__text": {
+    "children": ["flex-layout.col#results__text"],
+    "props": {
+      "paddingTop": 8,
+      "horizontalAlign": "center",
+      "blockClass": "container__results__text",
+      "marginBottom": "8"
+    }
+  },
+  "flex-layout.col#results__text": {
+    "title": "Más información de texto",
+    "children": [
+      "rich-text#results__text-title",
+      "rich-text#results__text-content",
+      "disclosure-layout#results__text-content-two"
+    ],
+    "props": {
+      "blockClass": "results__text"
+    }
+  },
+  "rich-text#results__text-title": {
+    "title": "Título de texto",
+    "props": {
+      "text": "Encuentra lo mejor del mundo gamer en netnow.cl",
+      "blockClass": "results__text-title"
+    }
+  },
+  "rich-text#results__text-content": {
+    "title": "Contenido de texto",
+    "props": {
+      "text": "Si te gusta disfrutar de los mejores juegos online con tus amigos, necesitas un buen equipo con los componentes adecuados para jugar todo tipo de videojuegos. En nuestro catálogo online encontrarás todos los artículos de última tecnología como desktops, notebooks y una completa selección de accesorios gamer para que tengas la mejor experiencia de juego.",
+      "blockClass": "results__text-content"
+    }
+  },
+  "disclosure-layout#results__text-content-two": {
+    "children": [
+      "disclosure-content#results__text-hidden",
+      "disclosure-trigger#results__text-button"
+    ]
+  },
+  "disclosure-content#results__text-hidden": {
+    "children": [
+      "rich-text#results__title-hidden",
+      "rich-text#results__text-hidden"
+    ]
+  },
+  "disclosure-trigger#results__text-button": {
+    "children": ["rich-text#results__text-button"]
+  },
+  "rich-text#results__title-hidden": {
+    "title": "Título oculto",
+    "props": {
+      "text": "Conoce las características de los computadores gamer",
+      "blockClass": "results__title-hidden"
+    }
+  },
+  "rich-text#results__text-hidden": {
+    "title": "Texto oculto",
+    "props": {
+      "text": "Si eres fanático de los  <span class='b'>videojuegos </span> y quieres vivir al máximo cada aventura, el <span class='b'>computado</span> o <span class='b'> notebook </span> que elijas debe ofrecerte toda la emoción que necesitas, sin interrupciones. Por esto es fundamental que el procesador o CPU, considerado el corazón de un computador o <span class='b'>notebook gamer</span>, cuente con sistema overclock o “sobre reloj” que permita aumentar la velocidad de los procesos para asegurar un alto rendimiento. \n \n Te sugerimos los procesadores <span class='b'> AMD </span> e <span class='b'>Intel </span>, en particular los modelos [AMD Ryzen 5](https://www.acerstore.cl/notebook?_q=notebook&map=ft), [AMD Ryzen 7](https://www.acerstore.cl/notebook?_q=notebook&map=ft), [Intel Core i5](https://www.acerstore.cl/notebook?_q=notebook&map=ft) y el [Intel Core i7](https://www.acerstore.cl/notebook?_q=notebook&map=ft), que te garantizarán disfrutar de la mejor velocidad. \n \n Además, el componente que se encarga de procesar la información visual, es decir, “mover” los gráficos del juego es la tarjeta gráfica o GPU. Cuanto mayor sea su potencia, mejor será la nitidez con la que podrás apreciar cada detalle del juego. Te sugerimos elegir una que tenga al menos 4GB para disfrutar de la mejor calidad en imagen de tus juegos. Las principales marcas de tarjetas gráficas que encontrarás en nuestro catálogo online son <span class='b'> Nvidia </span>, reconocida mundialmente por ofrecer un rendimiento superior, y <span class='b'> AMD</span>, que combina eficiencia con un precio más accesible. \n \n No te olvides de la <span class='b'>memoria RAM</span>, la que te permite que entren y salgan los datos con gran velocidad, garantizando un rendimiento superior de tu PC y permitiendo que se mantenga más estable el CPU. Te sugerimos armar tu PC gamer con un mínimo de 8GB de RAM, pero el óptimo sería contar con 16GB para que disfrutes al máximo cada uno de tus juegos. \n \nY en cuanto a almacenamiento, sabemos que no puedes permitirte esperar a que arranque el juego o cargue la pantalla si estás en línea con tus amigos. Por eso, te sugerimos probar con unidades de estado sólido (SSD) con una capacidad mínima de 256GB, combinadas con discos duros de tamaño sobre 1TB, que ayudarán a tu <span class='b'>computador o notebook gamer</span> a acelerar los tiempos de tus juegos.\n \n Además, tu equipo gamer no está completo sin el monitor. Conoce en nuestro catálogo online múltiples modelos de [monitores gamer](/), que poseen un campo de visión completo y una gran resolución que te asegurarán una experiencia única con tus juegos preferidos. Te recomendamos probar con un monitor de 144 Hz, ideal para jugar ya que tiene más capacidad de respuesta que uno tradicional de 60Gz y ofrece, a la vez, una imagen más real.\n \nPara jugar cómodamente en casa, aprovecha nuestros poderosos [desktops gamer](/) con un alto rendimiento, ideales para las partidas con amigos. Y si quieres llevar tu experiencia de juego a todos lados, entonces prueba con los [notebooks](/) que te darán la movilidad que necesitas. Descubre también todos los [accesorios gamer](/) como [teclados](/), [mouse](/), [sillas](/), [audífonos](/) y mucho más, que serán el complemento perfecto para vivir la experiencia completa. \n \nSi eres más clásico, no te puedes perder la gran variedad de [consolas y videojuegos](/) que tenemos en nuestro catálogo online para que armes divertidos torneos con tus amigos y compartan un agradable momento. \n \n Ya sabes, en Paris.cl encuentras todo los productos que necesitas para llevar la experiencia virtual al máximo nivel.",
+      "blockClass": "results__text-hidden"
+    }
+  },
+  "rich-text#results__text-button": {
+    "title": "Button",
+    "props": {
+      "text": "Ver más",
+      "blockClass": "results__text-button"
+    }
+  }
+}
