@@ -1,0 +1,13 @@
+.container--description--row-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #999;
+}
+.container--description--row-text {
+    text-align: center !important;
+    color: #999;
+    padding: 0 120px;
+}
+.link--description--row-link {
+    color: #999;
+}
