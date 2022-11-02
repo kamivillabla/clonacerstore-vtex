@@ -1,10 +1,32 @@
-.wishlistIconContainer {
-  z-index: 1000;
-  display: flex;
-  justify-content: end;
-  width: 109%;
-}
-
 .wishlistIconContainer :global(.vtex-button) {
   background-color: transparent !important;
+}
+
+/* grid list */
+.wishlistIconContainer--gridlist-add-btn {
+  position: absolute;
+  margin-left: auto; 
+  width: 100%; 
+  z-index: 2; 
+  display: flex; 
+  justify-content: flex-end; 
+  padding-top: 5px; 
+  padding-left: 5px;
+}
+
+.wishlistIcon--grid-add-btn,
+.wishlistIcon--gridlist-add-btn {
+  -webkit-filter: grayscale(1);
+    filter: gray;
+    filter: grayscale(1);
+}
+
+/*  grid */
+
+.wishlistIconContainer--grid-add-btn {
+  text-align: left;
+  width: 100%;
+  z-index: 2;
+  padding-top: 5px;
+  padding-left: 5px;
 }

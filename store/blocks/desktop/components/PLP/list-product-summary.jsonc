@@ -1,0 +1,105 @@
+{
+/* grid */
+  "product-summary.shelf#products": {
+    "title": "productos shelf",
+    "children": [
+      "add-to-list-btn#grid",
+      "product-summary-image#grid",
+      "product-summary-name#plp",
+      "product-identifier.product",
+      "product-rating-inline",
+      "product-summary-description",
+      "product-selling-price",
+      "add-to-cart-button",
+      "modal-trigger#global__quick-view"
+    ],
+    "props": {
+      "blockClass": "grid-list-plp"
+    }
+  },
+  "product-identifier.product": {
+    "props": {
+      "label": "custom",
+      "customLabel": "sku"
+    }
+  },
+  "add-to-list-btn#grid": {
+    "props": {
+      "blockClass": "grid-add-btn"
+    }
+  },
+  "product-summary-image#grid": {
+    "props": {
+      "blockClass": "summary-image-grid"
+    }
+  },
+
+
+  // grid list
+
+  "product-summary.shelf#gridList": {
+    "title": "productos shelf",
+    "children": ["add-to-list-btn#gridlist","flex-layout.row#gridlist"],
+    "props": {
+      "blockClass": "grid-list-plp"
+    }
+  },
+  "flex-layout.row#gridlist": {
+    "children": [
+      "flex-layout.col#gridlist-image",
+      "flex-layout.col#gridlist-descript",
+      "flex-layout.col#gridlist-price"
+    ],
+    "props": {
+      "colSizing": "equal"
+    }
+  },
+  "add-to-list-btn#gridlist": {
+    "props": {
+      "blockClass": "gridlist-add-btn"
+    }
+  },
+  "flex-layout.col#gridlist-image": {
+    "children": ["product-summary-image"],
+    "props": {
+      "blockClass": "gridlist-image"
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "blockClass": "grid-list-plp--image"
+    }
+  },
+  "flex-layout.col#gridlist-descript": {
+    "children": [
+      "product-summary-name#plp",
+      "product-identifier.product",
+      "product-summary-description"
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "paddingLeft": 5,
+      "blockClass": "gridlist-descript",
+      "width": "43%"
+      
+    }
+  },
+  "product-summary-name#plp": {
+  "props": {
+    "blockClass": "summary-name-plp"
+  }
+  },
+  "flex-layout.col#gridlist-price": {
+    "children": [
+
+      "product-selling-price",
+      "add-to-cart-button",
+      "modal-trigger#global__quick-view"
+    ],
+    "props": {
+      "blockClass": "gridlist-price",
+      "horizontalAlign": "left",
+      "verticalAlign": "bottom"
+    }
+  }
+}
