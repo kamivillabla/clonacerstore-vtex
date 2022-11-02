@@ -8,12 +8,16 @@
     }
   },
   "flex-layout.col#banner-plp": {
-    "children": ["image#banner-plp"]
+    "children": ["image#banner-plp"],
+    "props": {
+      "width": "100%"
+    }
   },
   "image#banner-plp": {
     "title": "Imagen de banner PLP",
     "props": {
-      "src": "assets/img/banner-plp.png"
+      "src": "assets/img/banner-plp.png",
+      "fullWidth": true
     }
   }
 }

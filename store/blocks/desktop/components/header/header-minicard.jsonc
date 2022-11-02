@@ -50,20 +50,37 @@
     ]
   },
   "flex-layout.col#minicart__col--image": {
-    "children": ["product-list-image"]
+    "children": ["product-list-image#minicart-img"]
   },
   "flex-layout.col#minicart__col--info": {
     "children": [
-      "vtex.product-list@0.x:product-name",
-      "price",
-      "quantity-selector#minicart"
+      "vtex.product-list@0.x:product-name#name-minicart",
+      "price#minicart",
+      "quantity-selector#minicart-selector"
     ]
   },
-  "quantity-selector#minicart": {
+  "product-list-image#minicart-img": {
     "props": {
-      "mode": "stepper"
+      "blockClass": "minicart-img"
     }
   },
+  "vtex.product-list@0.x:product-name#name-minicart": {
+    "props": {
+      "blockClass": "name-minicart"
+    }
+  },
+  "quantity-selector#minicart-selector": {
+    "props": {
+      "mode": "stepper",
+      "blockClass": "minicart-selector"
+    }
+  },
+  "price#minicart": {
+    "props": {
+      "blockClass": "price-minicart"
+    }
+  },
+
   "flex-layout.col#minicart__col--remove": {
     "children": ["remove-button"]
   },

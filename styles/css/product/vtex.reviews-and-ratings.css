@@ -1,0 +1,15 @@
+.container :global(.vtex__icon-caret-down),
+.writeReviewButton {
+  color: var(--secondary-color) !important;
+}
+
+.container  {
+  text-align: center;
+}
+
+.reviewCommentsContainer .review__comment,
+.container .review__title { 
+  border-color: var(--secondary-color) !important
+}
+
+

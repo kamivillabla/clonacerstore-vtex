@@ -1,0 +1,49 @@
+.headingLevel3--section-content-title {
+    margin-top: 0;
+    font-weight: 400;
+    color: #6a6a6a;
+    font-size: 2.25rem;
+}
+.paragraph--section-content-title {
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #6a6a6a;
+}
+
+.strong--section-content-info {
+    font-size: 18px;
+    color: #6a6a6a;
+}
+.paragraph--section-content-info {
+    font-size: 14px;
+}
+.link--section-content-info {
+    color: var(--secondary-color)
+}
+.listItem--about-us__section-menu {
+    list-style: none;
+     border-bottom: 1px solid var(--secondary-color);
+     padding: 1rem 0;
+}
+
+.link--about-us__section-menu {
+    text-decoration: none;
+    color: #505050;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+.link--about-us__section-menu:hover {
+   color: var(--secondary-color)
+}
+
+.listItem--about-us__section-menu:first-child {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+@media (max-width: 650px) {
+    .wrapper--about-us__section-menu {
+        width: 90%;
+    }
+}

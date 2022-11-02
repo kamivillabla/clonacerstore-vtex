@@ -24,7 +24,7 @@
     "title": "Imagen 1",
     "props": {
       "src": "assets/img/home-slider-one-mobile.png",
-      "blockClass": "slider--image",
+      "blockClass": "slider__image-promotion",
       "link": {
         "url": "https://www.google.com",
         "openNewTab": true,
@@ -36,7 +36,7 @@
     "title": "Imagen 2",
     "props": {
       "src": "assets/img/home-slider-two-mobile.png",
-      "blockClass": "slider--image",
+      "blockClass": "slider__image-promotion",
       "link": {
         "url": "https://www.google.com",
         "openNewTab": true,
@@ -49,6 +49,7 @@
     "props": {
       "src": "assets/img/home-slider-three-mobile.png",
       "label": "More details >",
+      "blockClass": "slider__image-promotion",
       "link": {
         "label": "soy un texto",
         "url": "https://www.google.com",

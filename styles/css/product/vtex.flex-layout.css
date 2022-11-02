@@ -1,0 +1,11 @@
+.flexColChild--product__info-data:first-child {
+  padding-bottom: 8rem;
+}
+
+.flexCol--product__info--button :global(.vtex-button) {
+  background-color: var(--secondary-color);
+}
+
+.flexCol--product__info-data-left {
+  border-right: 1px solid var(--secondary-color);
+}

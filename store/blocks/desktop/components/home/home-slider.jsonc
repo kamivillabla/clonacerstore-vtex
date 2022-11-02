@@ -29,7 +29,7 @@
   "image#desktop__home--slider--one": {
     "title": "primera imagen",
     "props": {
-      "src": "assets/img/home-slider-one.jpg",
+      "src": "assets/img/home-slider-one.png",
       "blockClass": "slider--image",
       "link": {
         "url": "https://www.google.com",
@@ -41,7 +41,7 @@
   "image#desktop__home--slider--two": {
     "title": "Segunda imagen ",
     "props": {
-      "src": "assets/img/home-slider-two.jpg",
+      "src": "assets/img/home-slider-two.png",
       "blockClass": "slider--image",
       "link": {
         "url": "https://www.google.com",
@@ -53,7 +53,7 @@
   "image#desktop__home--slider--three": {
     "title": "Tercera imagen",
     "props": {
-      "src": "assets/img/home-slider-three.jpg",
+      "src": "assets/img/home-slider-three.png",
       "label": "More details >",
       "link": {
         "label": "soy un texto",

@@ -15,7 +15,8 @@
     "title": "Filtro de busqueda de PLP",
     "children": ["filter-navigator.v3"],
     "props": {
-      "width": "15%"
+      "width": "15%",
+      "blockClass": "department-filter-navigator"
     }
   },
   "flex-layout.col#department__results--content": {
@@ -39,7 +40,8 @@
       "horizontalAlign": "center",
       "fullWidth": true,
       "paddingBottom": 8,
-      "blockClass": "results__filter"
+      "blockClass": "results__filter",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#results__filter--productCount": {
@@ -76,19 +78,41 @@
     "children": [
       "gallery-layout-option#grid__result--gallerySwitcher",
       "gallery-layout-option#listProduct__result--gallerySwitcher"
-    ]
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
   },
   "gallery-layout-option#grid__result--gallerySwitcher": {
     "props": {
-      "name": "grid"
+      "name": "grid",
+      "blockClass": "grid__result--gallerySwitcher"
     },
-    "children": ["icon-grid"]
+    "children": ["icon-grid", "rich-text#option-gridtitle"]
+  },
+  "rich-text#option-gridtitle": {
+    "props": {
+      "text": "Grid",
+      "blockClass": "gridlisttitle"
+    }
   },
   "gallery-layout-option#listProduct__result--gallerySwitcher": {
     "props": {
-      "name": "list"
+      "name": "list",
+      "blockClass": "listProduct__result--gallerySwitcher"
     },
-    "children": ["icon-inline-grid"]
+    "children": ["icon-inline-grid", "rich-text#option-gridlisttitle"]
+  },
+  "rich-text#option-gridlisttitle": {
+    "props": {
+      "text": "List",
+      "blockClass": "gridlisttitle"
+    }
+  },
+  "icon-inline-grid": {
+    "props": {
+      "blockClass": "icon-inline-grid"
+    }
   },
   "flex-layout.row#results__products": {
     "children": ["search-content"],
@@ -120,7 +144,7 @@
           "itemsPerRow": 1
         }
       ],
-      "ListSummary": "product-summary.shelf",
+      "ListSummary": "product-summary.shelf#gridList",
       "GridSummary": "product-summary.shelf#products"
     }
   }
