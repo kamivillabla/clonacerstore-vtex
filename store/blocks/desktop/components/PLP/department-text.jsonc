@@ -46,7 +46,7 @@
     ]
   },
   "disclosure-trigger#results__text-button": {
-    "children": ["rich-text#results__text-button"]
+    "children": ["rich-text#results__text-button"] 
   },
   "rich-text#results__title-hidden": {
     "title": "Título oculto",
@@ -65,7 +65,7 @@
   "rich-text#results__text-button": {
     "title": "Button",
     "props": {
-      "text": "Ver más",
+      "text": "Ver",
       "blockClass": "results__text-button"
     }
   }
