@@ -1,13 +1,19 @@
 {
   "flex-layout.row#product__tabs": {
     "title": "Información adicional",
-    "children": ["tab-layout#product__tabs"]
+    "children": ["tab-layout#product__tabs"],
+    "props": {
+      "blockClass": "product__tabs-container"
+    }
   },
   "tab-layout#product__tabs": {
     "children": [
       "tab-list#product__tabs--list",
       "tab-content#product__tabs--content"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__tabs"
+    }
   },
   "tab-list#product__tabs--list": {
     "children": [
@@ -20,21 +26,24 @@
     "props": {
       "tabId": "description",
       "label": "Descripción",
-      "defaultActiveTab": true
+      "defaultActiveTab": true,
+      "blockClass": "product__tabs--description"
     }
   },
   "tab-list.item#tabs__list--product-specification": {
     "props": {
       "tabId": "specification",
       "label": "Especificaciones",
-      "defaultActiveTab": false
+      "defaultActiveTab": false,
+      "blockClass": "product__tabs--speci"
     }
   },
   "tab-list.item#tabs__list-reviews-and-ratings": {
     "props": {
       "tabId": "reviews-and-ratings",
       "label": "Comentarios",
-      "defaultActiveTab": false
+      "defaultActiveTab": false,
+      "blockClass": "product__tabs--rating"
     }
   },
   "tab-content#product__tabs--content": {
@@ -42,25 +51,35 @@
       "tab-content.item#tabs__content--description",
       "tab-content.item#tabs__content--specification",
       "tab-content.item#tabs__content--reviews-and-ratings"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__tabs--content"
+    }
   },
 
   "tab-content.item#tabs__content--specification": {
     "props": {
-      "tabId": "specification"
+      "tabId": "specification",
+      "blockClass": "product__tabs--spec-content"
     },
     "children": ["product-specifications"]
+  },
+  "product-specifications": {
+    "props": {
+      "blockClass": "product__tabs--spec"
+    }
   },
 
   "tab-content.item#tabs__content--description": {
     "props": {
       "tabId": "description"
     },
-    "children": ["product-description"]
+    "children": ["flex-layout.row#products-tabs--description"]
   },
   "tab-content.item#tabs__content--reviews-and-ratings": {
     "props": {
-      "tabId": "reviews-and-ratings"
+      "tabId": "reviews-and-ratings",
+      "blockClass": "product__tabs--reviews"
     },
     "children": ["product-reviews"]
   }

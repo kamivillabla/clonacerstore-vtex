@@ -1,1 +1,437 @@
-{}
+{
+  "flex-layout.row#products-tabs--description": {
+    "title": "Contenido pestaña descripción",
+    "children": ["flex-layout.col#products-tabs--description"]
+  },
+  "flex-layout.col#products-tabs--description": {
+    "children": [
+      "flex-layout.row#tabs-description--rowone",
+      "flex-layout.row#tabs-description--rowtwo",
+      "flex-layout.row#tabs-description--rowthree",
+      "flex-layout.row#tabs-description--rowfour",
+      "flex-layout.row#tabs-description--rowfive",
+      "flex-layout.row#tabs-description--rowsix",
+      "flex-layout.row#tabs-description--rowseven",
+      "flex-layout.row#tabs-description--roweight",
+      "flex-layout.row#tabs-description--rownine",
+      "flex-layout.row#tabs-description--rowten",
+      "flex-layout.row#tabs-description--eleven",
+      "flex-layout.row#tabs-description--twelve"
+    ]
+  },
+  // row 1
+  "flex-layout.row#tabs-description--rowone": {
+    "title": "Contenido fila 1",
+    "children": ["flex-layout.col#tabs-description--rowone-colone"],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#tabs-description--rowone-colone": {
+    "children": ["image#description--rowone--image"]
+  },
+  "image#description--rowone--image": {
+    "title": "Imagen producto",
+    "props": {
+      "src": "assets/img/pdp/products-description-banner.png"
+    }
+  },
+  // row 2
+  "flex-layout.row#tabs-description--rowtwo": {
+    "title": "Contenido fila 2",
+    "children": [
+      "flex-layout.col#tabs-description--rowtwo-colone",
+      "flex-layout.col#tabs-description--rowtwo-coltwo"
+    ],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#tabs-description--rowtwo-colone": {
+    "children": ["image#description--rowtwo--image"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#description--rowtwo--image": {
+    "title": "Imagen producto",
+    "props": {
+      "src": "assets/img/pdp/products-description-image1.png"
+    }
+  },
+  "flex-layout.col#tabs-description--rowtwo-coltwo": {
+    "children": [
+      "rich-text#description--rowtwo-title",
+      "rich-text#description--rowtwo-text",
+      "rich-text#description--rowtwo-link"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+   
+    }
+  },
+  "rich-text#description--rowtwo-title": {
+    "title": "title producto fila 2",
+    "props": {
+      "text": "TUS JUEGOS FAVORITOS AL MÁXIMO NIVEL",
+      "blockClass": "description--row-title"
+    }
+  },
+  "rich-text#description--rowtwo-text": {
+    "title": "text producto fila 2",
+    "props": {
+      "text": "Gracias a la aceleración Turbo, tienes toda la potencia que necesitas y la libertad para jugar en cualquier lugar.",
+      "blockClass": ["description--row-text", "description-layout"]
+    }
+  },
+  "rich-text#description--rowtwo-link": {
+    "title": "link producto fila 2",
+    "props": {
+      "text": "[▶ Ver video](https://www.youtube.com/watch?v=AMEtnPj3Np4)",
+      "blockClass": "description--row-link"
+    }
+  },
+  // row 3
+  "flex-layout.row#tabs-description--rowthree": {
+    "title": "Contenido fila 3",
+    "children": [
+      "flex-layout.col#tabs-description--rowthree-colone",
+      "flex-layout.col#tabs-description--rowthree-coltwo"
+    ],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#tabs-description--rowthree-colone": {
+    "children": [
+      "rich-text#description--rowthree-title",
+      "rich-text#description--rowthree-text"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "background-color-text"
+    }
+  },
+  "rich-text#description--rowthree-title": {
+    "title": "title producto fila 3",
+    "props": {
+      "text": "POTENCIADO CON INTEL®",
+      "blockClass": "description--row-title"
+    }
+  },
+  "rich-text#description--rowthree-text": {
+    "title": "text producto fila 3",
+    "props": {
+      "text": "El procesador Intel® Core™ i5 de 11va Generación está fabricado para acelerar los FPS de tus juegos favoritos entregando el mejor rendimiento portatil.",
+      "blockClass": "description--row-text"
+    }
+  },
+  "flex-layout.col#tabs-description--rowthree-coltwo": {
+    "children": ["image#description--rowthree--image"]
+  },
+  "image#description--rowthree--image": {
+    "title": "Imagen producto",
+    "props": {
+      "src": "assets/img/pdp/products-description-image2.png"
+    }
+  },
+
+  // row 4
+  "flex-layout.row#tabs-description--rowfour": {
+    "title": "Contenido fila 4",
+    "children": ["flex-layout.col#tabs-description--rowfour-colone"],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#tabs-description--rowfour-colone": {
+    "children": ["image#description--rowfour--image"]
+  },
+  "image#description--rowfour--image": {
+    "title": "Imagen producto fila 4",
+    "props": {
+      "src": "assets/img/pdp/products-description-image3.png"
+    }
+  },
+  // row 5
+  "flex-layout.row#tabs-description--rowfive": {
+    "title": "Contenido fila 5",
+    "children": [
+      "flex-layout.col#tabs-description--rowfive-colone",
+      "flex-layout.col#tabs-description--rowfive-coltwo"
+    ],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#tabs-description--rowfive-colone": {
+    "children": [
+      "rich-text#description--rowfive-title",
+      "rich-text#description--rowfive-text"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "description-layout"
+    }
+  },
+  "rich-text#description--rowfive-title": {
+    "title": "title producto fila 5",
+    "props": {
+      "text": "TODO LO QUE NECESITAS PARA GANAR",
+      "blockClass": "description--row-title"
+    }
+  },
+  "rich-text#description--rowfive-text": {
+    "title": "text producto fila 5",
+    "props": {
+      "text": "Gracias a los gráficos dedicados NVIDIA® GeForce® GTX 1650 podrás editar videos, transmitir en ultra HD 4K y disfrutar una experiencia gamer sin interrupciones en los juegos más populares.",
+      "blockClass": "description--row-text"
+    }
+  },
+  "flex-layout.col#tabs-description--rowfive-coltwo": {
+    "children": ["image#description--rowfive--image"]
+    },
+  "image#description--rowfive--image": {
+    "title": "Imagen producto fila 5",
+    "props": {
+      "src": "assets/img/pdp/products-description-image4.png"
+    }
+  },
+  // row 6
+  "flex-layout.row#tabs-description--rowsix": {
+    "title": "Contenido fila 6",
+    "children": ["flex-layout.col#tabs-description--rowsix-colone"],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#tabs-description--rowsix-colone": {
+    "children": ["image#description--rowsix--image"]
+  },
+  "image#description--rowsix--image": {
+    "title": "Imagen producto fila 6",
+    "props": {
+      "src": "assets/img/pdp/products-description-image5.png"
+    }
+  },
+  // row 7
+  "flex-layout.row#tabs-description--rowseven": {
+    "title": "Contenido fila 7",
+    "children": [
+      "flex-layout.col#tabs-description--rowseven-colone",
+      "flex-layout.col#tabs-description--rowseven-coltwo"
+    ],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#tabs-description--rowseven-colone": {
+    "children": ["image#description--rowseven--image"]
+  },
+  "image#description--rowseven--image": {
+    "title": "Imagen producto fila 7",
+    "props": {
+      "src": "assets/img/pdp/products-description-image6.png"
+    }
+  },
+  "flex-layout.col#tabs-description--rowseven-coltwo": {
+    "children": [
+      "rich-text#description--rowseven-title",
+      "rich-text#description--rowseven-text"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "background-color-text"
+    }
+  },
+  "rich-text#description--rowseven-title": {
+    "title": "title producto fila 7",
+    "props": {
+      "text": "LA MEJOR RESOLUCIÓN EN TUS PARTIDASL",
+      "blockClass": "description--row-title"
+    }
+  },
+  "rich-text#description--rowseven-text": {
+    "title": "text producto fila 7",
+    "props": {
+      "text": "Una pantalla con frecuencia de actualización de 144Hz y tiempos de respuesta mínimos para que tu juego se disfrute al máximo.",
+      "blockClass": "description--row-text"
+    }
+  },
+
+  // row 8
+  "flex-layout.row#tabs-description--roweight": {
+    "title": "Contenido fila 8",
+    "children": [
+      "flex-layout.col#tabs-description--roweight-colone",
+      "flex-layout.col#tabs-description--roweight-colotwo"
+    ],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#tabs-description--roweight-colone": {
+    "children": [
+      "rich-text#description--roweight-title",
+      "rich-text#description--roweight-text"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "background-color-text"
+    }
+  },
+  "rich-text#description--roweight-title": {
+    "title": "title producto fila 8",
+    "props": {
+      "text": "TUS JUGADAS SIN INTERRUPCIONES",
+      "blockClass": "description--row-title"
+    }
+  },
+  "rich-text#description--roweight-text": {
+    "title": "text producto fila 8",
+    "props": {
+      "text": "La tecnología Killer detecta, clasifica y prioriza automáticamente el tráfico de red.",
+      "blockClass": "description--row-text"
+    }
+  },
+  "flex-layout.col#tabs-description--roweight-colotwo": {
+    "children": ["image#description--roweight--image"]
+  },
+  "image#description--roweight--image": {
+    "title": "Imagen producto fila 8",
+    "props": {
+      "src": "assets/img/pdp/products-description-image7.png"
+    }
+  },
+  // row 9
+  "flex-layout.row#tabs-description--rownine": {
+    "title": "Contenido fila 9",
+    "children": ["flex-layout.col#tabs-description--rownine-colone"],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#tabs-description--rownine-colone": {
+    "children": ["image#description--rownine--image"]
+  },
+  "image#description--rownine--image": {
+    "title": "Imagen producto fila 9",
+    "props": {
+      "src": "assets/img/pdp/products-description-image8.png"
+    }
+  },
+  // row 10
+  "flex-layout.row#tabs-description--rowten": {
+    "title": "Contenido fila 10",
+    "children": [
+      "flex-layout.col#tabs-description--rowten-colone",
+      "flex-layout.col#tabs-description--rowten-coltwo"
+    ],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#tabs-description--rowten-colone": {
+    "children": ["image#description--rowten--image"]
+  },
+  "image#description--rowten--image": {
+    "title": "Imagen producto fila 10",
+    "props": {
+      "src": "assets/img/pdp/products-description-image9.png"
+    }
+  },
+  "flex-layout.col#tabs-description--rowten-coltwo": {
+    "children": [
+      "rich-text#description--rowten-title",
+      "rich-text#description--rowten-text"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+       "blockClass": "background-color-text"
+    }
+  },
+  "rich-text#description--rowten-title": {
+    "title": "title producto fila 10",
+    "props": {
+      "text": "VENTILACION EXTREMA",
+      "blockClass": "description--row-title"
+    }
+  },
+  "rich-text#description--rowten-text": {
+    "title": "text producto fila 10",
+    "props": {
+      "text": "Cuando el uso intensivo requiere un impulso adicional, utiliza Acer CoolBoost™ con ventiladores dobles para un mayor flujo de aire sin preocuparte de la temperatura ni del ruido.",
+      "blockClass": "description--row-text"
+    }
+  },
+  // row 11
+  "flex-layout.row#tabs-description--eleven": {
+    "title": "Contenido fila 11",
+    "children": [
+      "flex-layout.col#tabs-description--eleven-colone",
+      "flex-layout.col#tabs-description--eleven-coltwo"
+    ],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#tabs-description--eleven-colone": {
+    "children": [
+      "rich-text#description--eleven-title",
+      "rich-text#description--eleven-text"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "background-color-text"
+    }
+  },
+  "rich-text#description--eleven-title": {
+    "title": "title producto fila 11",
+    "props": {
+      "text": "NITRO KILLER CENTER",
+      "blockClass": "description--row-title"
+    }
+  },
+  "rich-text#description--eleven-text": {
+    "title": "text producto fila 11",
+    "props": {
+      "text": "Personaliza todos los parámetros del equipo con un solo clic en una sola consola de control.",
+      "blockClass": "description--row-text"
+    }
+  },
+  "flex-layout.col#tabs-description--eleven-coltwo": {
+    "children": ["image#description--eleven--image"]
+  },
+  "image#description--eleven--image": {
+    "title": "Imagen producto fila 11",
+    "props": {
+      "src": "assets/img/pdp/products-description-image10.png"
+    }
+  },
+
+  // row caracteristicas tecnicas
+  "flex-layout.row#tabs-description--twelve": {
+    "title": "Contenido fila 9",
+    "children": ["flex-layout.col#tabs-description--twelve-colone"],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "flex-layout.col#tabs-description--twelve-colone": {
+    "children": ["image#description--twelve--image"]
+  },
+  "image#description--twelve--image": {
+    "title": "Imagen producto fila 9",
+    "props": {
+      "src": "assets/img/pdp/caracteristicas-tecnicas.png"
+    }
+  }
+}

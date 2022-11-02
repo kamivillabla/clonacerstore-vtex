@@ -1,0 +1,23 @@
+.container--product__tabs :global(.vtex-button) {
+  background-color: transparent;
+
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.listItem--product__tabs--speci :global(.vtex-button),
+.listItem--product__tabs--rating :global(.vtex-button),
+.listItem--product__tabs--description :global(.vtex-button) {
+  color: #a4a4a4;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0 10px !important;
+  font-size: 20px;
+}
+
+.listItemActive :global(.vtex-button__label) {
+  color: var(--secondary-color) !important;
+}
+
+.listItemActive :global(.vtex-button) {
+  border-bottom: 2px solid var(--secondary-color);
+}
