@@ -1,8 +1,0 @@
-{
-  "rich-text#menu__desktop": {
-    "props": {
-      "text": "Menú",
-      "blockClass": "menu__desktop"
-    }
-  }
-}
