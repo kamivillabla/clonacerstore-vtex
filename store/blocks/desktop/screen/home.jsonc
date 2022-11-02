@@ -1,13 +1,15 @@
 {
   "responsive-layout.desktop#home__desktop": {
     "children": [
+
       "flex-layout.row#desktop__home--slider",
       "flex-layout.row#desktop__home--infoitem",
       "slider-layout#desktop__home-promotion-slider",
       "flex-layout.row#desktop__home--mediospagos",
       "flex-layout.row#section--product-imagesLink",
       "flex-layout.row#home__slider-product",
-      "flex-layout.row#desktop__home--beneficios"
+      "flex-layout.row#desktop__home--beneficios",
+      "whatsapp-button"
     ]
   }
 }

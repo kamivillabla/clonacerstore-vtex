@@ -1,0 +1,11 @@
+{
+    "whatsapp-button": {
+        "props": {
+            "logo": "assets/img/whatsapp-logo.png",
+            "phone": "232165132",
+            "mesagge": "Asesor Acer",
+            "width": 20,
+            "height": 20
+        }
+    }
+}
