@@ -1,0 +1,30 @@
+.triggerContainer  {
+    color: var(--secondary-color)
+}
+.triggerContainer::after {
+    content: 'Menú';
+    color: rgb(66, 69, 70);
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.menuContainer  {
+    width: 330px;
+}
+.styledLinkText {
+    color: #3f3f40;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+}
+.styledLinkText:hover {
+ color: var(--secondary-color)
+}
+.seeAllLink {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(44,46,47,.7);
+}
