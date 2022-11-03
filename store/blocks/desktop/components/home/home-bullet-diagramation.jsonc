@@ -1,22 +1,15 @@
 {
- /*  "list-context.bullet-group": {
+  "list-context.bullet-group": {
     "props": {
-      "bullet": [
+      "bullets": [
         {
-          "image": "logo__footer.png",
-          "titleBullet": "Logo",
+          "image": "miimagen.png",
+          "titleBullet": "soy la imagen de prenda",
           "link": {
             "url": "/"
           }
-        },
-        {
-            "image": "logo__footer.png",
-            "titleBullet": "prenda",
-            "link": {
-              "url": "/"
-            }
-          }
+        }
       ]
     }
-  } */
+  }
 }

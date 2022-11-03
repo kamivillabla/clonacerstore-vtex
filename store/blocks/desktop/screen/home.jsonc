@@ -9,7 +9,7 @@
       "flex-layout.row#section--product-imagesLink",
       "flex-layout.row#home__slider-product",
       "flex-layout.row#desktop__home--beneficios",
-      "bullets-diagramation",
+      "list-context.bullet-group",
       "whatsapp-button"
     ]
   }
