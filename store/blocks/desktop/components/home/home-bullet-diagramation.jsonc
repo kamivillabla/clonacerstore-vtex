@@ -1,0 +1,22 @@
+{
+ /*  "list-context.bullet-group": {
+    "props": {
+      "bullet": [
+        {
+          "image": "logo__footer.png",
+          "titleBullet": "Logo",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+            "image": "logo__footer.png",
+            "titleBullet": "prenda",
+            "link": {
+              "url": "/"
+            }
+          }
+      ]
+    }
+  } */
+}
