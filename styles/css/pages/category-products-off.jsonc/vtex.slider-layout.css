@@ -1,0 +1,17 @@
+
+.bullet__item--link--slider-bullets-group {
+    text-decoration: none;
+}
+
+.bullet__item--title--slider-bullets-group {
+text-align: center;
+color: #2c2e2f
+}
+.bullet__item--title--slider-bullets-group:hover {
+    color: var(--secondary-color)
+}
+
+.bullet__item--image--slider-bullets-group {
+    width: 150px;
+    height: 150px; 
+}
