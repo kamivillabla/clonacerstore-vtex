@@ -107,7 +107,8 @@
       "menu-item#create-account",
       "menu-item#all-shipment",
       "menu-item#exchanges-returns",
-      "menu-item#warranty"
+      "menu-item#warranty",
+      "menu-item#bullet-group"
     ],
     "props": {
       "orientation": "vertical"
@@ -164,6 +165,19 @@
         "text": "Garantías"
       }
     }
+  },
+  "menu-item#bullet-group": {
+    "title": "Menú uno: link cinco",
+    "props": {
+      "id": "menu-bullet-group",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Bullet Group",
+        "text": "Bullet Group"
+      }
+    } 
   },
   /* Disclosure 2 */
   "disclosure-layout#customer-service": {
@@ -303,7 +317,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "https://kamivillabla--itgloberspartnercl.myvtex.com/quienes-somos",
         "tagTitle": "quienes somos",
         "text": "Quiénes Somos"
       }
