@@ -157,24 +157,6 @@
       "text": "SOLO PAGANDO CON MERCADO PAGO",
       "blockClass": "product__info-text-mercadopago"
     }
-  },
-  "modal-trigger#add-to-cart-info": {
-    "children": ["modal-layout#add-to-cart-info"],
-    "props": {
-      "customPixelEventName": "addToCart"
-    }
-  },
-  "modal-layout#add-to-cart-info": {
-    "children": [
-      "modal-header#add-to-cart-info",
-      "add-to-cart-info"
-    ]
-  },
-  "modal-header#add-to-cart-info": {
-    "props": {
-      "showCloseButton": true,
-      "iconCloseSize": 24
-    }
   }
 
 }

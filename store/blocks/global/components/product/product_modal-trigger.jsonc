@@ -1,0 +1,29 @@
+{
+  "modal-trigger#add-to-cart-info": {
+    "title": "Modal de PDP",
+    "children": [
+      "modal-layout#add-to-cart-info"
+    ],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info": {
+    "title": "Cabecera de modal y contenido",
+    "children": [
+      "modal-header#add-to-cart-info",
+      "add-to-cart-info"
+    ]
+  },
+  "modal-header#add-to-cart-info": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
+    }
+  },
+  "add-to-cart-info": {
+    "props": {
+      "blockClass": "add-to-cart-classCustom"
+    }
+  }
+}
