@@ -18,7 +18,9 @@
   },
   "flex-layout.col#footer__container_two": {
     "title": "Footer dos ",
-    "children": ["image#footer__container_logo"],
+    "children": [
+      "image#footer__container_logo"
+    ],
     "props": {
       "blockClass": "footer__container_one-two"
     }
@@ -52,7 +54,6 @@
     }
   },
   /* MENU 1 */
-
   "flex-layout.col#footer__container-col-one": {
     "title": "Contenedor titulo menú uno en desktop ",
     "children": [
@@ -93,7 +94,10 @@
   /* MENU 3 */
   "flex-layout.col#footer__container-col-three": {
     "title": "Contenedor titulo menú tres en desktop ",
-    "children": ["rich-text#footer__container-col-three-title", "menu#company"],
+    "children": [
+      "rich-text#footer__container-col-three-title",
+      "menu#company"
+    ],
     "props": {
       "blocKClass": "footer__container-col",
       "preventVerticalStretch": true
@@ -151,7 +155,9 @@
   /* MENU 5 */
   "flex-layout.col#footer__container-col-five": {
     "title": "Contenedor newsletter",
-    "children": ["rich-text#footer__container-col-five-title"],
+    "children": [
+      "rich-text#footer__container-col-five-title"
+    ],
     "props": {
       "horizontalAlign": "center",
       "preventVerticalStretch": true
@@ -164,7 +170,6 @@
       "blockClass": "footer__container-col-title-one"
     }
   },
-
   /* Footer 3 */
   "flex-layout.row#footer__container_three": {
     "title": "Footer sección tres",
