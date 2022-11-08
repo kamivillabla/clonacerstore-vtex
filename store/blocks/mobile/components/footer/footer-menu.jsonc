@@ -173,7 +173,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/bullet-group",
         "tagTitle": "Bullet Group",
         "text": "Bullet Group"
       }

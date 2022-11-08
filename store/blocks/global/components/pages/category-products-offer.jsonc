@@ -1,123 +1,123 @@
 {
-    "flex-layout.row#category-off-bullet": {
-        "title": "Contenedor Bullet Group",
-        "children": [
-            "flex-layout.col#category-off-bullet"
-        ]
-    },
-    "flex-layout.col#category-off-bullet": {
-        "children": [
-            "flex-layout.row#category-off-bullet--title",
-            "flex-layout.row#category-off-bullet-group"
-        ]
-    },
-    "flex-layout.row#category-off-bullet--title": {
-        "title": "Contenedor de texto",
-        "children": [
-            "rich-text#bullet_group--title"
-        ],
-        "props": {
-            "marginTop":7,
-            "marginBottom": 9
-        }
-    },
-    "flex-layout.row#category-off-bullet-group": {
-        "title": "Contenedor de Bullet Group",
-        "children": [
-            "list-context.bullet-group"
-        ],
-        "props": {
-            "marginBottom": 9,
-            "blockClass": "category-off-bullet-group"
-        }
-    },
-    "rich-text#bullet_group--title": {
-        "title": "Titulo de página",
-        "props": {
-            "text": "Categorias",
-            "blockClass": "bullet_group--title",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
-        }
-    },
-    "list-context.bullet-group": {
-        "title": "List context categories",
-        "children": [
-            "slider-layout#bullets-group"
-        ],
-        "props": {
-            "bullets": [
-                {
-                    "image": "assets/img/bullet/imagen1.png",
-                    "titleBullet": "Notebook 1",
-                    "link": {
-                        "url": "/"
-                    }
-                },
-                {
-                    "image": "assets/img/bullet/imagen2.png",
-                    "titleBullet": "Notebook 2",
-                    "link": {
-                        "url": "/"
-                    }
-                },
-                {
-                    "image": "assets/img/bullet/imagen3.png",
-                    "titleBullet": "Notebook 3",
-                    "link": {
-                        "url": "/"
-                    }
-                },
-                {
-                    "image": "assets/img/bullet/imagen4.png",
-                    "titleBullet": "Notebook 4",
-                    "link": {
-                        "url": "/"
-                    }
-                },
-                {
-                    "image": "assets/img/bullet/imagen5.png",
-                    "titleBullet": "Notebook 5",
-                    "link": {
-                        "url": "/"
-                    }
-                },
-                {
-                    "image": "assets/img/bullet/imagen5.png",
-                    "titleBullet": "Notebook 6",
-                    "link": {
-                        "url": "/"
-                    }
-                },
-                {
-                    "image": "assets/img/bullet/imagen1.png",
-                    "titleBullet": "Notebook 7",
-                    "link": {
-                        "url": "/"
-                    }
-                },
-                {
-                    "image": "assets/img/bullet/imagen3.png",
-                    "titleBullet": "Notebook 8",
-                    "link": {
-                        "url": "/"
-                    }
-                }
-            ]
-        }
-    },
-    "slider-layout#bullets-group": {
-        "title": "Slider de bullets group desktop",
-        "props": {
-            "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 5,
-                "mobile": 3
-            },
-            "blockClass": "slider-bullets-group",
-            "infinite": true,
-            "showPaginationDots": "never",
-            "fullWidth": false
-        }
+  "flex-layout.row#category-off-bullet": {
+    "title": "Contenedor Bullet Group",
+    "children": [
+      "flex-layout.col#category-off-bullet"
+    ]
+  },
+  "flex-layout.col#category-off-bullet": {
+    "children": [
+      "flex-layout.row#category-off-bullet--title",
+      "flex-layout.row#category-off-bullet-group"
+    ]
+  },
+  "flex-layout.row#category-off-bullet--title": {
+    "title": "Contenedor de texto",
+    "children": [
+      "rich-text#bullet_group--title"
+    ],
+    "props": {
+      "marginTop": 7,
+      "marginBottom": 9
     }
+  },
+  "flex-layout.row#category-off-bullet-group": {
+    "title": "Contenedor de Bullet Group",
+    "children": [
+      "list-context.bullet-group"
+    ],
+    "props": {
+      "marginBottom": 9,
+      "blockClass": "category-off-bullet-group"
+    }
+  },
+  "rich-text#bullet_group--title": {
+    "title": "Titulo de página",
+    "props": {
+      "text": "Categorias",
+      "blockClass": "bullet_group--title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "list-context.bullet-group": {
+    "title": "List context categories",
+    "children": [
+      "slider-layout#bullets-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/bullet/imagen1.png",
+          "titleBullet": "Notebook 1",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/imagen2.png",
+          "titleBullet": "Notebook 2",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/imagen3.png",
+          "titleBullet": "Notebook 3",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/imagen4.png",
+          "titleBullet": "Notebook 4",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/imagen5.png",
+          "titleBullet": "Notebook 5",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/imagen5.png",
+          "titleBullet": "Notebook 6",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/imagen1.png",
+          "titleBullet": "Notebook 7",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet/imagen3.png",
+          "titleBullet": "Notebook 8",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullets-group": {
+    "title": "Slider de bullets group desktop",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 3
+      },
+      "blockClass": "slider-bullets-group",
+      "infinite": true,
+      "showPaginationDots": "never",
+      "fullWidth": false
+    }
+  }
 }
