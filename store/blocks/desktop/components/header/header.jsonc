@@ -26,7 +26,7 @@
     "props": { "verticalAlign": "middle" }
   }, */
   "flex-layout.col#header__desktop--search-bar": {
-    "children": ["search-bar#header__desktop--search-bar"],
+    "children": ["search-bar#header__desktop--search-bar" /* "department-search" */],
     "props": { "verticalAlign": "middle" }
   },
   "flex-layout.col#header__desktop--other": {

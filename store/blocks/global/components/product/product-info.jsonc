@@ -39,8 +39,9 @@
       "product-rating-inline",
       "product-selling-price#product-details",
       "flex-layout.row#product__info--selectorandbutton",
-      "flex-layout.row#product__info--imageandtext"
-    ],
+      "flex-layout.row#product__info--imageandtext",
+      "modal-trigger#add-to-cart-info"
+     ],
     "props": {
       "preventVerticalStretch": true,
       "rowGap": 0,
@@ -102,7 +103,7 @@
     }
   },
   "flex-layout.col#product__info--button": {
-    "children": ["buy-button"],
+    "children": ["add-to-cart-button"],
     "props": {
       "verticalAlign": "middle",
       "width": "100%",
@@ -157,4 +158,5 @@
       "blockClass": "product__info-text-mercadopago"
     }
   }
+
 }
