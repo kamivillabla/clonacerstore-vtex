@@ -8,7 +8,8 @@
   "flex-layout.col#category-off-bullet": {
     "children": [
       "flex-layout.row#category-off-bullet--title",
-      "flex-layout.row#category-off-bullet-group"
+      "flex-layout.row#category-off-bullet-group",
+      "pdf-reader"
     ]
   },
   "flex-layout.row#category-off-bullet--title": {
@@ -118,6 +119,13 @@
       "infinite": true,
       "showPaginationDots": "never",
       "fullWidth": false
+    }
+  },
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/docs/codigo-limpio.pdf",
+      "width": 500,
+      "height": 800
     }
   }
 }

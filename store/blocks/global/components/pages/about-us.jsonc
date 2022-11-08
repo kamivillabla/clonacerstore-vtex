@@ -1,71 +1,84 @@
 {
-    
-    "flex-layout.row#about-us": {
-        "children": [
-            "flex-layout.col#about-us__section-menu", "flex-layout.col#about-us__section-content"
-        ],
-        "props": {
-            "colSizing": "auto",
-            "marginTop": "8",
-            "marginBottom": "8"
-        }
-    },
-    "flex-layout.col#about-us__section-menu": {
-        "children": [
-            "rich-text#about-us__section-menu"
-        ],
-        "props": {
-            "width": "20%"
-        }
-    },
-    "rich-text#about-us__section-menu": {
-        "props": {
-            "text": "- Empresa \n- [Quienes Somos](/) \n- [Politica de Cookies](https://www.acerstore.cl/institucional/politica-cookies) \n- [Términos y condiciones](https://www.acerstore.cl/institucional/terminos-condiciones) \n- [Compra Facil y Segura](/) \n- [Despacho a Domicilio](/) \n- [Callcenter Propio](/) \n- [Servicio Soporte Técnico](/) \n- [Beneficio Compra Online](/) \n- [Earthion](/)",
-            "blockClass": "about-us__section-menu"
-        }
-    },
-    "flex-layout.col#about-us__section-content": {
-        "children": ["flex-layout.row#section-content-title", "flex-layout.row#section-content-info"], 
-        "props": {
-            "horizontalAlign": "center",
-            "width": "80%"
-        }
-    },
-    "flex-layout.row#section-content-title": {
-        "children": ["flex-layout.col#section-content-title"]
-    },
-    "flex-layout.col#section-content-title": {
-        "children": ["rich-text#section-content-title"]
-    },
-    "rich-text#section-content-title": {
-        "props": {
-            "text": "tienda virtual acerstore.cl \n ### quienes somos",
-            "blockClass": "section-content-title",
-            "textAlignment": "CENTER"
-        }
-    },
-    "flex-layout.row#section-content-info": {
-        "children": ["flex-layout.col#section-content-info"]
-    },
-    "flex-layout.col#section-content-info": {
-        "children": ["rich-text#section-content-info-one", "rich-text#section-content-info-two", "rich-text#section-content-info-three"]
-    },
-    "rich-text#section-content-info-one": {
-        "props": {
-            "text": "AcerStore.cl es una tienda virtual de electrónica, tecnología y audio video, donde el cliente y su satisfacción es lo más importante. \n\n Somos una empresa transparente y con altos niveles de seguridad para aquellos exigentes clientes que gustan de comprar on-line. Buscamos ofrecerte la mejor experiencia de compra y una satisfacción total a través de herramientas tecnológicas de última generación. \n\n Nuestras oficinas comerciales se encuentran en Avenida Los Jardines 976, Ciudad Empresarial  Huechuraba.\n\n La tienda virtual [www.AcerStore.cl](www.AcerStore.cl) es administrado por Netnow Tecnología y Computación S.A. y sus representantes legales son Don Jorge Tuñón Subercaseaux y Don Francisco de Castro Mackenna, ambos domiciliados en Avenida Los Jardines 976, Ciudad Empresarial Huechu",
-            "blockClass": "section-content-info"
-        }
-    },
-    "rich-text#section-content-info-two": {
-        "props": {
-            "text": "**NUESTRA MISIÓN** \n\n  A través de nuestra visión de futuro y compromiso con el progreso, queremos llegar a ser la empresa líder en el mercado de la tecnología de última generación, destacándonos por calidad, flexibilidad y vanguardia. Generando con nuestros clientes, empleados, proveedores y accionistas, una relación estrecha y duradera.\n\n  **NUESTRA VISIÓN**\n\n  Nuestro sueño es mostrar el futuro a través de nuestras tecnologías a todos quienes se relacionan con nosotros, ya sea para hogares o empresas, promoviendo así nuestro espíritu de progreso y vanguardia. Anticipándonos a los cambios que nos depara el futuro y participando activamente del desarrollo global, regidos por los más altos estándares de calidad.\n\n  **NUESTROS VALORES**\n\n  Nuestro ideal es que todos quienes forman parte de nuestra compañía sean personas con visión de futuro, flexibles y adaptables a los cambios, y enfocados íntegramente al profesionalismo, calidad en el desempeño de sus funciones y el constante perfeccionamiento y espíritu de superación.\n\n  Es por esto que cada uno de los integrantes de Acer Store debe tener presente los valores necesarios para lograr este objetivo, es decir:\n\n  Generar un ambiente de trabajo grato y todas las condiciones que favorezcan un óptimo desempeño profesional y desarrollo personal.\n\n  Mantener relaciones directas y abiertas (empowerment).\n\n  Estar Comprometidos con la excelencia en el trato humano y las relaciones con los clientes, internos y externos.\n\n  Tener un constante espíritu de superación.\n\n  **POLÍTICA DE CALIDAD**\n\n  La satisfacción de nuestros clientes y colaboradores, los beneficios de nuestra compañía, y la realización personal de todos los integrantes que conforman Acer Store, requieren de una permanente adaptación de los conceptos de compromiso con la mejora continua y la calidad, lo que incluye el compromiso con el cumplimiento de todos los requisitos aplicables a los productos y/o servicios.\n\n  Estos ideales se basan en 5 años de experiencia en la implementación del programa IMPAQT, por NEC CI, política que desde hoy integraremos a Nuestra compañía como propia.",
-            "blockClass": "section-content-info"
-         }
-    },
-    "rich-text#section-content-info-three": {
-        "props": {
-            "text": "**IMPAQT**\n\n **I**, Sistemas de Información, que permitan la fluidez de las comunicaciones y de los procesos en todos los niveles de la compañía.\n\n **M**, Excelencia en la Manufactura, lo que permite asegurar el máximo performance y calidad de todos nuestros productos y/o servicios.\n\n **P**, Productos y/o servicios innovadores, que marquen permanentemente las tendencias del mercado.\n\n **A**, Manejo Gerencial Activo, que promueva todas las capacidades, habilidades y el desarrollo profesional de su equipo humano teniendo siempre presente la continúa preocupación por el servicio a nuestros clientes.\n\n **Q**, Qalidad, promoviendo la confianza en nuestros productos y/o servicios a través de la implementación de los más altos estándares de la industria.\n\n **T**, Justo a Tiempo para responder a los requerimientos del mercado, reduciendo costos de abastecimiento, producción y servicios." ,
-            "blockClass": "section-content-info"
-        }
+  "flex-layout.row#about-us": {
+    "children": [
+      "flex-layout.col#about-us__section-menu",
+      "flex-layout.col#about-us__section-content"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "marginTop": "8",
+      "marginBottom": "8"
     }
+  },
+  "flex-layout.col#about-us__section-menu": {
+    "children": [
+      "rich-text#about-us__section-menu"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "rich-text#about-us__section-menu": {
+    "props": {
+      "text": "- Empresa \n- [Quienes Somos](/) \n- [Politica de Cookies](https://www.acerstore.cl/institucional/politica-cookies) \n- [Términos y condiciones](https://www.acerstore.cl/institucional/terminos-condiciones) \n- [Compra Facil y Segura](/) \n- [Despacho a Domicilio](/) \n- [Callcenter Propio](/) \n- [Servicio Soporte Técnico](/) \n- [Beneficio Compra Online](/) \n- [Earthion](/)",
+      "blockClass": "about-us__section-menu"
+    }
+  },
+  "flex-layout.col#about-us__section-content": {
+    "children": [
+      "flex-layout.row#section-content-title",
+      "flex-layout.row#section-content-info"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "80%"
+    }
+  },
+  "flex-layout.row#section-content-title": {
+    "children": [
+      "flex-layout.col#section-content-title"
+    ]
+  },
+  "flex-layout.col#section-content-title": {
+    "children": [
+      "rich-text#section-content-title"
+    ]
+  },
+  "rich-text#section-content-title": {
+    "props": {
+      "text": "tienda virtual acerstore.cl \n ### quienes somos",
+      "blockClass": "section-content-title",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#section-content-info": {
+    "children": [
+      "flex-layout.col#section-content-info"
+    ]
+  },
+  "flex-layout.col#section-content-info": {
+    "children": [
+      "rich-text#section-content-info-one",
+      "rich-text#section-content-info-two",
+      "rich-text#section-content-info-three"
+    ]
+  },
+  "rich-text#section-content-info-one": {
+    "props": {
+      "text": "AcerStore.cl es una tienda virtual de electrónica, tecnología y audio video, donde el cliente y su satisfacción es lo más importante. \n\n Somos una empresa transparente y con altos niveles de seguridad para aquellos exigentes clientes que gustan de comprar on-line. Buscamos ofrecerte la mejor experiencia de compra y una satisfacción total a través de herramientas tecnológicas de última generación. \n\n Nuestras oficinas comerciales se encuentran en Avenida Los Jardines 976, Ciudad Empresarial  Huechuraba.\n\n La tienda virtual [www.AcerStore.cl](www.AcerStore.cl) es administrado por Netnow Tecnología y Computación S.A. y sus representantes legales son Don Jorge Tuñón Subercaseaux y Don Francisco de Castro Mackenna, ambos domiciliados en Avenida Los Jardines 976, Ciudad Empresarial Huechu",
+      "blockClass": "section-content-info"
+    }
+  },
+  "rich-text#section-content-info-two": {
+    "props": {
+      "text": "**NUESTRA MISIÓN** \n\n  A través de nuestra visión de futuro y compromiso con el progreso, queremos llegar a ser la empresa líder en el mercado de la tecnología de última generación, destacándonos por calidad, flexibilidad y vanguardia. Generando con nuestros clientes, empleados, proveedores y accionistas, una relación estrecha y duradera.\n\n  **NUESTRA VISIÓN**\n\n  Nuestro sueño es mostrar el futuro a través de nuestras tecnologías a todos quienes se relacionan con nosotros, ya sea para hogares o empresas, promoviendo así nuestro espíritu de progreso y vanguardia. Anticipándonos a los cambios que nos depara el futuro y participando activamente del desarrollo global, regidos por los más altos estándares de calidad.\n\n  **NUESTROS VALORES**\n\n  Nuestro ideal es que todos quienes forman parte de nuestra compañía sean personas con visión de futuro, flexibles y adaptables a los cambios, y enfocados íntegramente al profesionalismo, calidad en el desempeño de sus funciones y el constante perfeccionamiento y espíritu de superación.\n\n  Es por esto que cada uno de los integrantes de Acer Store debe tener presente los valores necesarios para lograr este objetivo, es decir:\n\n  Generar un ambiente de trabajo grato y todas las condiciones que favorezcan un óptimo desempeño profesional y desarrollo personal.\n\n  Mantener relaciones directas y abiertas (empowerment).\n\n  Estar Comprometidos con la excelencia en el trato humano y las relaciones con los clientes, internos y externos.\n\n  Tener un constante espíritu de superación.\n\n  **POLÍTICA DE CALIDAD**\n\n  La satisfacción de nuestros clientes y colaboradores, los beneficios de nuestra compañía, y la realización personal de todos los integrantes que conforman Acer Store, requieren de una permanente adaptación de los conceptos de compromiso con la mejora continua y la calidad, lo que incluye el compromiso con el cumplimiento de todos los requisitos aplicables a los productos y/o servicios.\n\n  Estos ideales se basan en 5 años de experiencia en la implementación del programa IMPAQT, por NEC CI, política que desde hoy integraremos a Nuestra compañía como propia.",
+      "blockClass": "section-content-info"
+    }
+  },
+  "rich-text#section-content-info-three": {
+    "props": {
+      "text": "**IMPAQT**\n\n **I**, Sistemas de Información, que permitan la fluidez de las comunicaciones y de los procesos en todos los niveles de la compañía.\n\n **M**, Excelencia en la Manufactura, lo que permite asegurar el máximo performance y calidad de todos nuestros productos y/o servicios.\n\n **P**, Productos y/o servicios innovadores, que marquen permanentemente las tendencias del mercado.\n\n **A**, Manejo Gerencial Activo, que promueva todas las capacidades, habilidades y el desarrollo profesional de su equipo humano teniendo siempre presente la continúa preocupación por el servicio a nuestros clientes.\n\n **Q**, Qalidad, promoviendo la confianza en nuestros productos y/o servicios a través de la implementación de los más altos estándares de la industria.\n\n **T**, Justo a Tiempo para responder a los requerimientos del mercado, reduciendo costos de abastecimiento, producción y servicios.",
+      "blockClass": "section-content-info"
+    }
+  }
 }
