@@ -208,7 +208,7 @@
       "menu-item#deliveries",
       "menu-item#support",
       "menu-item#download-drivers",
-      "menu-item#download-asked-questions"
+      "menu-item#questions-asked"
     ],
     "props": {
       "orientation": "vertical"
@@ -266,14 +266,14 @@
       }
     }
   },
-  "menu-item#download-asked-questions": {
+  "menu-item#questions-asked": {
     "title": "Menú dos: link cinco",
     "props": {
-      "id": "menu-asked-questions",
+      "id": "menu-questions-asked",
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/questions-asked",
         "tagTitle": "preguntas frecuentes",
         "text": "Preguntas frecuentes"
       }

@@ -2,6 +2,7 @@
   "responsive-layout.mobile#home__mobile": {
     "children": [
       "slider-layout#mobile__home--slider",
+      "flex-layout.row#container__quick-order",
       "flex-layout.row#mobile__home--infoitem",
       "flex-layout.row#mobile__home--infoitem-dos",
       "slider-layout#mobile__home-promotion-slider",
