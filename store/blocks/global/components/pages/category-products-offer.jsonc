@@ -9,6 +9,7 @@
     "children": [
       "flex-layout.row#category-off-bullet--title",
       "flex-layout.row#category-off-bullet-group",
+      "department-search",
       "pdf-reader"
     ]
   },
@@ -122,6 +123,7 @@
     }
   },
   "pdf-reader": {
+    "title": "Pdf reader",
     "props": {
       "pdfUrl": "assets/docs/codigo-limpio.pdf",
       "width": 500,

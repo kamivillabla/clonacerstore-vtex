@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#container__quick-order": {
+    "children": [
+      "flex-layout.col#container__quick-order"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+       "marginTop": "8",
+      "marginBottom": "8",
+      "blockClass": "container__quick-order-layout"
+    }
+  },
+  "flex-layout.col#container__quick-order": {
+    "children": [
+      "quick-order"
+    ],
+    "props": {
+      "width": "60%"
+    }
+  }
+}
