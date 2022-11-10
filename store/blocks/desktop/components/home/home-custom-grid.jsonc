@@ -1,36 +1,71 @@
 {
+
+  "flex-layout.row#custom-grid": {
+    "children": [
+      "flex-layout.col#custom-grid"
+    ],
+    "props": {
+      "marginTop": 8,
+      "marginBottom": 8
+    }
+  },
+  "flex-layout.col#custom-grid": {
+    "children": ["custom-grid"]
+  },
  "custom-grid": {
    "children": [
-    "rich-text#custom1",
-    "rich-text#custom2",
-   "rich-text#custom3",
-    "rich-text#custom4",
-    "rich-text#custom5"
+    "image#grid-one",
+    "image#grid-two",
+    "image#grid-three",
+    "image#grid-four",
+    "image#grid-five"
    ]
-},
-  "rich-text#custom1": {
-      "props": {
-          "text": "Grilla 1"
-      }
-  },
-  "rich-text#custom2": {
-      "props": {
-          "text":  "Grilla 2"
-      }
-  },
-  "rich-text#custom3": {
-    "props": {
-        "text":  "Grilla 3"
-    }
-  },
-  "rich-text#custom4": {
-      "props": {
-          "text": "Grilla 4"
-      }
-  },
-  "rich-text#custom5": {
-    "props": {
-        "text": "Grilla 5"
-    }
 }
+,
+  "image#grid-one": {
+    "props": {
+      "blockClass": "grid-one",
+      "src": "assets/img/home-img-product-one.png",
+      "link": {
+        "url": "https://kamivillabla--itgloberspartnercl.myvtex.com/electrodomesticos/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#grid-two": {
+    "props": {
+      "src": "assets/img/home-img-product-two.png",
+      "link": {
+        "url": "https://kamivillabla--itgloberspartnercl.myvtex.com/electrodomesticos/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#grid-three": {
+    "props": {
+      "src": "assets/img/home-img-product-three.png",
+      "link": {
+        "url": "https://kamivillabla--itgloberspartnercl.myvtex.com/electrodomesticos/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#grid-four": {
+    "props": {
+      "src": "assets/img/home-img-product-four.png",
+      "link": {
+        "url": "https://kamivillabla--itgloberspartnercl.myvtex.com/electrodomesticos/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#grid-five": {
+    "props": {
+      "src": "assets/img/home-img-product-five.png",
+      "link": {
+        "url": "https://kamivillabla--itgloberspartnercl.myvtex.com/electrodomesticos/",
+        "openNewTab": true
+      }
+    }
+  }
 }
