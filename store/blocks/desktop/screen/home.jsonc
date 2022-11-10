@@ -8,6 +8,7 @@
       "flex-layout.row#desktop__home--mediospagos",
       "flex-layout.row#section--product-imagesLink",
       "flex-layout.row#home__slider-product",
+      "custom-grid",
       "flex-layout.row#desktop__home--beneficios",
       "whatsapp-button"
     ]

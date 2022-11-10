@@ -1,0 +1,36 @@
+{
+ "custom-grid": {
+   "children": [
+    "rich-text#custom1",
+    "rich-text#custom2",
+   "rich-text#custom3",
+    "rich-text#custom4",
+    "rich-text#custom5"
+   ]
+},
+  "rich-text#custom1": {
+      "props": {
+          "text": "Grilla 1"
+      }
+  },
+  "rich-text#custom2": {
+      "props": {
+          "text":  "Grilla 2"
+      }
+  },
+  "rich-text#custom3": {
+    "props": {
+        "text":  "Grilla 3"
+    }
+  },
+  "rich-text#custom4": {
+      "props": {
+          "text": "Grilla 4"
+      }
+  },
+  "rich-text#custom5": {
+    "props": {
+        "text": "Grilla 5"
+    }
+}
+}
