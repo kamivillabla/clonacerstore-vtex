@@ -9,8 +9,7 @@
     "children": [
       "flex-layout.row#category-off-bullet--title",
       "flex-layout.row#category-off-bullet-group",
-      "department-search",
-      "pdf-reader"
+      "department-search"
     ]
   },
   "flex-layout.row#category-off-bullet--title": {

@@ -115,8 +115,10 @@
     "title": "Contenedor redes sociales",
     "children": [
       "rich-text#footer__container-col-four-title",
-      "social-networks"
-    ],
+      "flex-layout.row#footer__container-rs"
+
+
+       ],
     "props": {
       "blocKClass": "footer__container-col",
       "preventVerticalStretch": true
@@ -129,38 +131,98 @@
       "blockClass": "footer__container-col-title"
     }
   },
-  "social-networks": {
-    "title": "Redes sociales",
+  "flex-layout.row#footer__container-rs": {
+    "title": "Contenedor redes socials",
+    "children": [
+      "link#icon-facebook",
+      "link#icon-instagram",
+      "link#icon-twitter",
+      "link#icon-youtube"
+    ],
     "props": {
-      "socialNetworks": [
-        {
-          "url": "https://www.facebook.com/AcerChile/",
-          "name": "facebook"
-        },
-        {
-          "url": "https://www.instagram.com/acerchile/",
-          "name": "instagram"
-        },
-        {
-          "url": "https://twitter.com/acer_chile",
-          "name": "twitter"
-        },
-        {
-          "url": "https://www.youtube.com/user/AcerChile",
-          "name": "youtube"
-        }
-      ]
+      "blockClass": "footer__container-rs",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "link#icon-facebook": {
+    "title": "Link a facebook",
+    "children": ["icon#icon-facebook"],
+    "props": {
+      "blockClass": "icons-rs",
+      "href": "https://www.facebook.com/AcerChile/",
+      "target": "_blank"
+    }
+  },
+  "icon#icon-facebook": {
+    "title": "Icono de facebook",
+    "props": {
+      "id": "icon-facebook",
+      "blockClass": "icon-rs",
+      "viewBox": "0 0 16 16"
+    }
+  },
+  "link#icon-instagram": {
+    "title": "Link de Instagram",
+    "children": ["icon#icon-instagram"],
+    "props": {
+      "blockClass": "icons-rs",
+      "href": "https://www.instagram.com/acerchile/",
+      "target": "_blank"
+    }
+  },
+  "icon#icon-instagram": {
+    "title": "Icono de Instagram",
+    "props": {
+      "id": "icon-instagram",
+      "blockClass": "icon-rs",
+      "viewBox": "0 0 16 16"
+    }
+  },
+  "link#icon-twitter": {
+    "title": "Link a Twitter",
+    "children": ["icon#icon-twitter"],
+    "props": {
+      "blockClass": "icons-rs",
+      "href": "https://twitter.com/acer_chile",
+      "target": "_blank"
+      }
+  },
+  "icon#icon-twitter": {
+    "title": "Icono de Twitter",
+    "props": {
+      "id": "icon-twitter",
+      "blockClass": "icon-rs",
+      "viewBox": "0 0 16 16"
+    }
+  },
+  "link#icon-youtube": {
+    "title": "Link de Youtube",
+    "children": ["icon#icon-youtube"],
+    "props": {
+      "blockClass": "icons-rs",
+      "href": "https://www.youtube.com/user/AcerChile",
+      "target": "_blank"
+    }
+  },
+  "icon#icon-youtube": {
+    "title": "Icono de Youtube",
+    "props": {
+      "id": "icon-youtube",
+      "blockClass": "icon-rs",
+      "viewBox": "0 0 16 16"
     }
   },
   /* MENU 5 */
   "flex-layout.col#footer__container-col-five": {
     "title": "Contenedor newsletter",
     "children": [
-      "rich-text#footer__container-col-five-title"
+      "rich-text#footer__container-col-five-title",
+      "newsletter"
     ],
     "props": {
       "horizontalAlign": "center",
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass": "footer__container-col-five-mobile"
     }
   },
   "rich-text#footer__container-col-five-title": {
@@ -168,6 +230,13 @@
     "props": {
       "text": "¡SÉ EL PRIMERO EN CONOCER LAS OFERTAS SEMANALES!",
       "blockClass": "footer__container-col-title-one"
+    }
+  },
+  "newsletter": {
+    "props": {
+      "hideLabel": true,
+      "submit": "suscribirme",
+      "blockClass": "newsletter"
     }
   },
   /* Footer 3 */
