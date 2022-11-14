@@ -4,5 +4,9 @@
     },
     "store.custom#category-off-bullet": {
         "path": "/bullet-group"
+    },
+    "store.custom#warranty": {
+        "path": "/garantias"
     }
+    
 }

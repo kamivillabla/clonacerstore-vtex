@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#warranty": {
+    "children": ["flex-layout.col#warranty"],
+    "props": {
+      "marginTop": 8,
+      "marginBottom": 9
+    }
+  },
+  "flex-layout.col#warranty": {
+    "children": [
+        "rich-text#warranty",
+        "pdf-reader"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#warranty": {
+    "props": {
+      "text": "Garantias",
+      "blockClass": "warranty"
+    }
+  }
+}

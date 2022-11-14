@@ -45,7 +45,7 @@
   // segundo bloque
   "flex-layout.row#footer__container_two-mobile": {
     "title": "Footer dos",
-    "children": ["rich-text#footer__container-title-mobile"],
+    "children": ["rich-text#footer__container-title-mobile", "newsletter#newsletter--mobile"],
     "props": {
       "horizontalAlign": "true",
       "blockClass": "footer__container_two-mobile"
@@ -56,6 +56,13 @@
     "props": {
       "text": "¡SÉ EL PRIMERO EN CONOCER LAS \n  OFERTAS SEMANALES!",
       "blockClass": "footer__container-title-mobile"
+    }
+  },
+  "newsletter#newsletter--mobile": {
+    "props": {
+      "hideLabel": true,
+      "submit": "suscribirme",
+      "blockClass": "newsletter"
     }
   },
   // tercer footer
@@ -160,7 +167,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/garantias",
         "tagTitle": "garantias",
         "text": "Garantías"
       }
@@ -367,9 +374,8 @@
     "title": "Contenedor redes sociales mobile",
     "children": [
       "rich-text#footer__container-col-four-title",
-      "social-networks",
-      "accepted-payment-methods"
-    ],
+      "flex-layout.row#footer__container-rs"
+        ],
     "props": {
       "blockClass": "footer__container__four-mobile"
     }
