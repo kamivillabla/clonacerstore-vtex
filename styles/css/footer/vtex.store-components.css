@@ -1,3 +1,44 @@
 .imageElement--footer__container-logo {
   width: 15rem;
 }
+
+.buttonContainer--newsletter {
+  padding-left: 0;
+}
+.buttonContainer--newsletter :global(.vtex-button){
+  border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 0;
+    background-color: #7fbe24;
+    border: 1px solid #7fbe24;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+
+}
+
+.inputGroup--newsletter :global(.vtex-input-prefix__group) {
+  border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #7fbe24;
+    background-color: #fff;
+}
+
+.container--newsletter {
+  padding-top: 0 !important;
+}
+
+@media screen and (max-width:1024px) {
+  .buttonContainer--newsletter{
+    padding-top: 0;
+  }
+  .inputGroup--newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

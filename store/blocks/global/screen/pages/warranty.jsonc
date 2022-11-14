@@ -1,0 +1,7 @@
+{
+  "store.custom#warranty": {
+    "blocks": [
+      "flex-layout.row#warranty"
+    ]
+  }
+}
