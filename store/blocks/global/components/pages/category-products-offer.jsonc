@@ -9,8 +9,8 @@
     "children": [
       "flex-layout.row#category-off-bullet--title",
       "flex-layout.row#category-off-bullet-group",
-      "department-search"
-    ]
+      "flex-layout.row#department-search"
+       ]
   },
   "flex-layout.row#category-off-bullet--title": {
     "title": "Contenedor de texto",
@@ -35,10 +35,10 @@
   "rich-text#bullet_group--title": {
     "title": "Titulo de página",
     "props": {
-      "text": "Categorias",
+      "text": "Encuentra los mejores productos",
       "blockClass": "bullet_group--title",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
     }
   },
   "list-context.bullet-group": {
@@ -121,12 +121,25 @@
       "fullWidth": false
     }
   },
-  "pdf-reader": {
-    "title": "Pdf reader",
+
+  "flex-layout.row#department-search": {
+    "children": [
+      "flex-layout.col#department-search"
+    ],
     "props": {
-      "pdfUrl": "assets/docs/codigo-limpio.pdf",
-      "width": 500,
-      "height": 800
+      "marginBottom": 8,
+      "marginTop": 8
+    }
+  },
+  "flex-layout.col#department-search": {
+    "children": [
+      "department-search"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "department-search-custom"
+
     }
   }
 }

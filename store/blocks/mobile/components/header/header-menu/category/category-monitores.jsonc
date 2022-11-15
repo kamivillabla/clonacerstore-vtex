@@ -11,6 +11,10 @@
         "noFollow": false,
         "tagTitle": "Monitores",
         "text": "Monitores"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right"
       }
     },
     "blocks": ["submenu.accordion#category--monitores-submenu"]

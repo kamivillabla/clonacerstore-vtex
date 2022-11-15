@@ -10,6 +10,10 @@
         "noFollow": false,
         "tagTitle": "notebook gamer",
         "text": "Notebook Gamer"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right"
       }
     },
     "blocks": ["submenu.accordion#department__notebookGamer-submenu"]

@@ -5,7 +5,10 @@
 
 .bullet__item--title--slider-bullets-group {
 text-align: center;
-color: #2c2e2f
+color: #2c2e2f;
+text-decoration: underline;
+text-decoration-color: #80c342;
+padding-top: 1rem;
 }
 .bullet__item--title--slider-bullets-group:hover {
     color: var(--secondary-color)

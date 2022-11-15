@@ -11,6 +11,10 @@
         "noFollow": false,
         "tagTitle": "Notebook Tradicional",
         "text": "Notebook Tradicional"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right"
       }
     },
     "blocks": ["submenu.accordion#category--notebook-tradicional-submenu"]
@@ -42,6 +46,11 @@
         "noFollow": false,
         "tagTitle": "Notebook Ultraliviano",
         "text": "Ultraliviano"
+       
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right"
       }
     },
     "blocks": ["submenu.accordion#category--notebook-ultraliv-submenu"]

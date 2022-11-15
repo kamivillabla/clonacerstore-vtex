@@ -20,5 +20,11 @@
       "text": "Garantias",
       "blockClass": "warranty"
     }
+  },
+    "pdf-reader": {
+    "title": "Pdf reader",
+    "props": {
+      "pdfUrl": "assets/docs/codigo-limpio.pdf"
+    }
   }
 }
