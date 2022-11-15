@@ -4,7 +4,7 @@ Acerstore-vtex es un clon de la tienda oficial Acerstore Chile.
 
 **Preview**
 
-<img src="../assets/img/proyecto/proyecto-desktop.png" alt="JuveR" width="300px">
+<img src="../assets/img/proyecto/proyecto-desktop.png" alt="JuveR" width="500px">
 
 
 ## Configuración
