@@ -1,0 +1,11 @@
+.trigger--trigger-company:last-child {
+    position: absolute;
+    right   : 50px;
+    width   : 10px;
+}
+
+.trigger--trigger-company--hidden:last-child {
+    position: absolute !important;
+    right   : 50px !important;
+    width   : 10px !important;
+}

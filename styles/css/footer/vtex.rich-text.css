@@ -3,6 +3,7 @@
   margin-left: 1.5rem;
   font-weight: bold;
   text-align: center;
+  font-size: 14px;
 }
 .paragraph--footer__container-text-two,
 .paragraph--footer__container-text-one {
@@ -14,10 +15,11 @@
 .paragraph--footer__container-col-title-mobile {
   color: white;
   font-weight: bold;
+  font-size: 14px;
 }
 
 .container--footer__container-col-title-mobile {
-  border-bottom: 1px solid white;
+  width: 100%;
 }
 
 .wrapper--footer__container-title-mobile {
@@ -45,4 +47,24 @@
   color: white;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.footer__container-col-title-rs .paragraph--footer__container-col-title {
+  margin-left: 10px;
+}
+
+.paragraph--footer__container-col-title-rs {
+color: white;
+font-weight: bold;
+font-size: 14px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .container--footer__container-col-title-rs {
+    padding-left: 1.5rem;
+  }
+  .flexRowContent--footer__container-rs {
+    width: 10rem;
+  }
 }

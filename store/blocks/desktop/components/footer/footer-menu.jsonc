@@ -116,19 +116,18 @@
     "children": [
       "rich-text#footer__container-col-four-title",
       "flex-layout.row#footer__container-rs"
-
-
        ],
     "props": {
-      "blocKClass": "footer__container-col",
-      "preventVerticalStretch": true
+      "blockClass": ["footer__container-col", "footer__container-col-four"],
+      "preventVerticalStretch": true,
+      "width": "10%"
     }
   },
   "rich-text#footer__container-col-four-title": {
     "title": "Título redes sociales",
     "props": {
       "text": "SÍGUENOS EN:",
-      "blockClass": "footer__container-col-title"
+      "blockClass": "footer__container-col-title-rs"
     }
   },
   "flex-layout.row#footer__container-rs": {
