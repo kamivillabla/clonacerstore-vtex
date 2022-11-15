@@ -2,8 +2,9 @@
 
 .flexRowContent--footer__container-one {
   text-align: center;
-  height: 10rem;
+  height: auto;
   align-items: center;
+  padding-top: 4rem;
 }
 .flexRowContent--footer__container :global(.vtex-menu-2-x-styledLinkContent) {
   color: #b4b4b4;
@@ -35,7 +36,7 @@
 }
 
 .flexRowContent--footer__container {
-  padding: 3rem 1rem;
+  padding: 3rem 0;
 }
 .flexRowContent--footer__container-three {
   position: absolute;
@@ -52,7 +53,8 @@
 
 .flexRowContent--footer__container__three-mobile
   :global(.vtex-disclosure-layout-1-x-trigger) {
-  border: none;
+    border: none;
+   border-bottom: 1px solid #ffffff38;
   background-color: transparent;
 }
 
@@ -124,3 +126,15 @@
   justify-content: center;
   align-items: center;
 }
+
+.flexRowContent--footer__container__three-mobile {
+  padding: 0 1rem;
+}
+
+.flexRowContent--footer__container__three-mobile :global(.vtex-disclosure-layout-1-x-trigger) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+

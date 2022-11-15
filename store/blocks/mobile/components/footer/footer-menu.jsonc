@@ -20,7 +20,9 @@
   },
   "flex-layout.col#footer__container_two-mobile": {
     "title": "Footer contenedor imagen ",
-    "children": ["image#footer__container_logo-mobile"],
+    "children": [
+      "image#footer__container_logo-mobile"
+    ],
     "props": {
       "blockClass": "footer__container_one-two"
     }
@@ -41,11 +43,13 @@
       "blockClass": "footer__container_one-line"
     }
   },
-
   // segundo bloque
   "flex-layout.row#footer__container_two-mobile": {
     "title": "Footer dos",
-    "children": ["rich-text#footer__container-title-mobile", "newsletter#newsletter--mobile"],
+    "children": [
+      "rich-text#footer__container-title-mobile",
+      "newsletter#newsletter--mobile"
+    ],
     "props": {
       "horizontalAlign": "true",
       "blockClass": "footer__container_two-mobile"
@@ -68,7 +72,9 @@
   // tercer footer
   "flex-layout.row#footer__container__three-mobile": {
     "title": "Footer tres",
-    "children": ["disclosure-layout-group#footer__group"],
+    "children": [
+      "disclosure-layout-group#footer__group"
+    ],
     "props": {
       "blockClass": "footer__container__three-mobile"
       /*       "preventHorizontalStretch": true,
@@ -92,11 +98,17 @@
     "children": [
       "disclosure-trigger#purchasing-guide",
       "disclosure-content#purchasing-guide"
-    ]
+    ],
+    "props": {
+      "blockClass": "disclosure-layout"
+    }
   },
   "disclosure-trigger#purchasing-guide": {
     "title": "Menú contenedor título",
-    "children": ["rich-text#purchasing-guide"]
+    "children": [
+      "rich-text#purchasing-guide",
+      "icon#icon-close"
+    ]
   },
   "rich-text#purchasing-guide": {
     "title": "Menú uno: title",
@@ -106,7 +118,9 @@
     }
   },
   "disclosure-content#purchasing-guide": {
-    "children": ["menu#purchasing-guide"]
+    "children": [
+      "menu#purchasing-guide"
+    ]
   },
   "menu#purchasing-guide": {
     "title": "Menú uno: contenedor",
@@ -184,7 +198,7 @@
         "tagTitle": "Bullet Group",
         "text": "Bullet Group"
       }
-    } 
+    }
   },
   /* Disclosure 2 */
   "disclosure-layout#customer-service": {
@@ -192,11 +206,17 @@
     "children": [
       "disclosure-trigger#customer-service",
       "disclosure-content#customer-service"
-    ]
+    ],
+    "props": {
+      "blockClass": "disclosure-layout"
+    }
   },
   "disclosure-trigger#customer-service": {
     "title": "Menú dos: contenedor texto",
-    "children": ["rich-text#customer-service"]
+    "children": [
+      "rich-text#customer-service",
+      "icon#icon-close"
+    ]
   },
   "rich-text#customer-service": {
     "title": "Menú dos: title",
@@ -206,7 +226,9 @@
     }
   },
   "disclosure-content#customer-service": {
-    "children": ["menu#customer-service"]
+    "children": [
+      "menu#customer-service"
+    ]
   },
   "menu#customer-service": {
     "title": "Menú dos: contenedor",
@@ -289,11 +311,23 @@
   /* Disclosure 3 */
   "disclosure-layout#company": {
     "title": "Menú tres",
-    "children": ["disclosure-trigger#company", "disclosure-content#company"]
+    "children": [
+      "disclosure-trigger#company",
+      "disclosure-content#company"
+    ],
+    "props": {
+      "blockClass": "disclosure-layout"
+    }
   },
   "disclosure-trigger#company": {
     "title": "Menú tres: contenedor texto",
-    "children": ["rich-text#company"]
+    "children": [
+      "rich-text#company",
+      "icon#icon-close"
+    ],
+    "props": {
+      "blockClass": "trigger-company"
+    }
   },
   "rich-text#company": {
     "title": "Menú tres: title",
@@ -302,8 +336,19 @@
       "blockClass": "footer__container-col-title-mobile"
     }
   },
+  "icon#icon-close": {
+    "title": "Icono close",
+    "props": {
+      "id": "nav-plus",
+      "width":"10px",
+      "size": 10,
+      "viewBox": "0 0 16 16"
+    }
+  },
   "disclosure-content#company": {
-    "children": ["menu#company"]
+    "children": [
+      "menu#company"
+    ]
   },
   "menu#company": {
     "title": "Menú tres: contenedor menú",
@@ -375,7 +420,7 @@
     "children": [
       "rich-text#footer__container-col-four-title",
       "flex-layout.row#footer__container-rs"
-        ],
+    ],
     "props": {
       "blockClass": "footer__container__four-mobile"
     }
@@ -383,7 +428,9 @@
   //row 5
   "flex-layout.row#footer__container__five-mobile": {
     "title": "Contenedor newsletter mobile",
-    "children": ["rich-text#footer__container__five-mobile"],
+    "children": [
+      "rich-text#footer__container__five-mobile"
+    ],
     "props": {
       "blockClass": "footer__container__five-mobile"
     }
