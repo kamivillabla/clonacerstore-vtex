@@ -7,8 +7,9 @@
       "header-spacer#spacer",
       "logo#header__top-mobile",
       "header-spacer#spacer",
-      "minicart.v2",
+      "icon#icon-phone",
       "login#header__top-mobile",
+      "minicart.v2",
       "header-spacer#spacer"
     ],
     "props": {
@@ -18,5 +19,13 @@
       "blockClass": "header__top-mobile"
     }
   },
-  "header-spacer#spacer": {}
+  "header-spacer#spacer": {},
+  "icon#icon-phone": {
+    "title": "Icono de celular",
+    "props": {
+      "id": "icon-phone",
+      "blockClass": "icon-phone",
+      "viewBox": "0 0 16 16"
+    }
+  }
 }

@@ -13,7 +13,8 @@
       "menu-item#department__sale"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "header__menu-navbar"
     }
   },
   "rich-text#header__menu-title": {
@@ -23,4 +24,5 @@
       "blockClass": "header__menu-title"
     }
   }
+
 }

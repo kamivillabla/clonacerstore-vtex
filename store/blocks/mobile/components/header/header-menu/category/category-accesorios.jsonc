@@ -11,6 +11,10 @@
         "noFollow": false,
         "tagTitle": "Accesorios",
         "text": "Accesorios PC"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right"
       }
     },
     "blocks": ["submenu.accordion#category--accesorios-submenu"]

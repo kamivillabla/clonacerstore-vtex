@@ -17,3 +17,7 @@
   -moz-box-shadow: 0 18px -6px rgb(161 161 161 / 75%);
   box-shadow: 0 18px -6px rgb(161 161 161 / 75%);
 }
+
+.headerRowContainer--header__top-mobile :global(.vtex-store-drawer-0-x-menuIcon) {
+  color: #80c342
+}

@@ -70,3 +70,13 @@
   color: rgba(44, 46, 47, 0.7);
   font-size: 14px;
 }
+.menuContainer--header__menu-navbar .accordionIcon {
+  display: none;
+}
+
+.menuContainer--header__menu-navbar .styledLinkIcon {
+  color: #cacbcc
+}
+.menuContainer--header__menu-navbar .styledLinkIcon:last-child {
+  color: #3f3f40
+}
