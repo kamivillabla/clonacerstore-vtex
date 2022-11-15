@@ -2,8 +2,9 @@
 
 .flexRowContent--footer__container-one {
   text-align: center;
-  height: 10rem;
+  height: auto;
   align-items: center;
+  padding-top: 4rem;
 }
 .flexRowContent--footer__container :global(.vtex-menu-2-x-styledLinkContent) {
   color: #b4b4b4;
@@ -35,7 +36,7 @@
 }
 
 .flexRowContent--footer__container {
-  padding: 3rem 1rem;
+  padding: 3rem 0;
 }
 .flexRowContent--footer__container-three {
   position: absolute;
