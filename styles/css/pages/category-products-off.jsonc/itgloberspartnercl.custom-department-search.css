@@ -1,0 +1,32 @@
+.externalSearchButtonWrapper  {
+    border: none;
+}
+
+.searchIcon {
+    color: var(--secondary-color)
+}
+
+.searchBarIcon--clear  {
+    display: none;
+}
+
+.searchBarIcon {
+    background: transparent;
+}
+
+.departmentGroup__element {
+    margin-right: 2rem;
+    height: 3rem;
+    border-color: var(--secondary-color);
+}
+
+.departmentGroup__option:hover {
+    background-color: var(--secondary-color);
+}
+
+.departmentGroup__option:focus {
+    background-color: var(--secondary-color);
+}
+.departmentGroup__option:active {
+    background-color: var(--secondary-color);
+}

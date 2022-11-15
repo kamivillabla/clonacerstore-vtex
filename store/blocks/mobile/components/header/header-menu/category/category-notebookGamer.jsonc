@@ -11,6 +11,10 @@
         "noFollow": false,
         "tagTitle": "Notebook Tradicional",
         "text": "Notebook Tradicional"
+      },
+      "iconPosition": "right",
+      "iconProps": {
+        "id": "nav-caret--right"
       }
     },
     "blocks": ["submenu.accordion#category--notebookGamer-submenu-1"]
@@ -38,7 +42,11 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Nitro",
-        "text": "Nitro"
+        "text": "Nitro",
+        "iconPosition": "right"
+      },
+      "iconProps": {
+        "id": "nav-caret--right"
       }
     },
     "blocks": ["submenu.accordion#category--notebookGamer-submenu-2"]

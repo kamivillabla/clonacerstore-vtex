@@ -1,6 +1,6 @@
-# Clone Tienda Acerstore-vtex
+# clonacerstore-vtex
 
-Acerstore-vtex es un clon de la tienda oficial Acerstore Chile. 
+clonacerstore-vtex es un clon de la tienda oficial Acerstore Chile. 
 
 **Preview**
 
