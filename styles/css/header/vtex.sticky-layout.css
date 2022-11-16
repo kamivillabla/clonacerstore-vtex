@@ -2,6 +2,8 @@
 .container--header__desktop {
   padding: 5px;
   background-color: white;
+  box-shadow: 0 6px 21px -6px rgb(161 161 161 / 75%);
+    -webkit-box-shadow: 0 6px 21px -6px rgb(161 161 161 / 75%)
 }
 
 /* ------------------------ Versión Mobile -------------------------- */

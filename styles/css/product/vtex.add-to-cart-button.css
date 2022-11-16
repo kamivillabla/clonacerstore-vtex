@@ -1,0 +1,15 @@
+.buttonDataContainer {
+    align-items: center;
+}
+
+.buttonDataContainer::before {
+    content: "";
+    width: 18px;
+    height: 17px;
+    background: url(assets/icons/icon-cart.png);
+    background-size: contain;
+} 
+
+.buttonText {
+    padding-left: 1rem;
+}
