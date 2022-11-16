@@ -1,8 +1,8 @@
 {
-  "minicart.v2#header__desktop--minicart": {
+  "minicart.v2#header__minicart": {
     "children": ["minicart-base-content"],
     "props": {
-      "blockClass": "header__desktop--minicart",
+      "blockClass": "header__minicart",
       "itemCountMode": "total"
     }
   },

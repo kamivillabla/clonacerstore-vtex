@@ -31,7 +31,7 @@
   "flex-layout.row#header__top-container-icon": {
     "children": ["icon#icon-phone-mobile",
     "login#header__top-mobile",
-    "minicart.v2"
+    "minicart.v2#header__minicart"
     ],
     "props": {
       "blockClass": "header__top-container-icon",
