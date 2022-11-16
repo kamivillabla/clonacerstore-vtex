@@ -1,0 +1,77 @@
+{
+  /* Mobile */
+  "flex-layout.row#product__info-mobile": {
+    "title": "Información Producto en Mobile",
+    "children": [
+      "flex-layout.col#product__info--mobile"
+    ]
+  },
+  "flex-layout.col#product__info--mobile": {
+    "children": [
+      "flex-layout.row#product__info--image--mobile",
+      "flex-layout.row#product__info--data--mobile",
+      "flex-layout.row#product__info--button--mobile",
+      "flex-layout.row#product__info--imageandtext",
+      "flex-layout.row#product__info-description-mobile"
+    ],
+    "props": {
+      "blockClass": "product__info--mobile"
+    }
+  },
+  "flex-layout.row#product__info--image--mobile": {
+    "title": "Imagen de producto en mobile",
+    "children": [
+      "flex-layout.col#product__info--image--mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#product__info--image--mobile": {
+    "title": "Imágenes de Producto",
+    "children": ["add-to-list-btn","product-images"],
+    "props": {
+      "width": "100%",
+      "rowGap": 0,
+      "blockClass": "product__info-container--image"
+    }
+  },
+  "flex-layout.row#product__info--data--mobile": {
+    "title": "Información de Producto en mobile",
+    "children": [
+      "flex-layout.col#product__info-left--mobile",
+      "flex-layout.col#product__info-right--mobile"
+    ],
+    "props": {
+      "blockClass": "product__info--data--mobile"
+    }
+  },
+  "flex-layout.col#product__info-left--mobile": {
+    "children": [
+      "vtex.store-components:product-name",
+      "rich-text#description-product"
+    ]
+  },
+  "flex-layout.col#product__info-right--mobile": {
+    "title": "Información de Producto en mobile",
+    "children": [
+      "product-identifier.product#product__info",
+      "product-rating-inline",
+      "product-selling-price#product-details"
+    ]
+  },
+  "flex-layout.row#product__info--button--mobile": {
+    "title": "Boton selector y enviar a carrito",
+    "children": [
+      "flex-layout.col#product__info--selector",
+      "flex-layout.col#product__info--button"
+    ],
+    "props": {
+      "blockClass": "product__info--button--mobile"
+    }
+  },
+  "flex-layout.row#product__info-description-mobile": {
+    "children": ["vtex.store-components:product-description"]
+  }
+ }

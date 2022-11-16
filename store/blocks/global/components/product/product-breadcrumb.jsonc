@@ -1,9 +1,19 @@
 {
   "flex-layout.row#product__breadcrumb": {
     "title": "Miga de pan de producto",
-    "children": ["flex-layout.col#product__breadcrumb"]
+    "children": ["flex-layout.col#product__breadcrumb"],
+    "props": {
+      "marginTop": 8,
+      "blockClass": "product__breadcrumb",
+      "preserveLayoutOnMobile": true
+    }
   },
   "flex-layout.col#product__breadcrumb": {
     "children": ["breadcrumb"]
+  },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
   }
 }

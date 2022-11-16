@@ -14,3 +14,10 @@
 .specificationsTablePropertyHeading--product__tabs--spec {
   border: none;
 }
+
+
+@media screen and (max-width:1024px) {
+   .productDescriptionContainer{
+    margin-top: 3rem;
+  }
+}

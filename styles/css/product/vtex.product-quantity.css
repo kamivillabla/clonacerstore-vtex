@@ -1,0 +1,18 @@
+.quantitySelectorStepper--product-qunatity :global(.vtex-numeric-stepper__input),
+.quantitySelectorStepper--product-qunatity :global(.vtex-numeric-stepper__minus-button),
+.quantitySelectorStepper--product-qunatity :global(.vtex-numeric-stepper__plus-button) {
+    height: 50px;
+}
+
+
+.quantitySelectorStepper--product-qunatity :global(.vtex-numeric-stepper__minus-button),
+.quantitySelectorStepper--product-qunatity :global(.vtex-numeric-stepper__plus-button) {
+    color: var(--secondary-color)
+}
+
+@media screen and (max-width:768px) {
+    .quantitySelectorStepper--product-qunatity :global(.vtex-numeric-stepper__input) {
+        width: 100%;
+    
+    }
+}

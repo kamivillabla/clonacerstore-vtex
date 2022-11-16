@@ -13,13 +13,13 @@
       "paddingTop": 7,
       "paddingBottom": 7,
       "blockClass": "product__info-container"
-    }
+        }
   },
   "flex-layout.col#product__info--image": {
     "title": "Imágenes de Producto",
-    "children": ["product-images"],
+    "children": ["add-to-list-btn","product-images"],
     "props": {
-      "width": "60%",
+      "width": "50%",
       "rowGap": 0,
       "blockClass": "product__info-container--image"
     }
@@ -43,9 +43,10 @@
       "modal-trigger#add-to-cart-info"
      ],
     "props": {
-      "preventVerticalStretch": true,
+      /* "preventVerticalStretch": true, */
       "rowGap": 0,
-      "blockClass": "product__info-data"
+      "blockClass": "product__info-data",
+      "width": "50%"
     }
   },
   "product-quantity": {
@@ -68,6 +69,7 @@
   "flex-layout.col#product__info-left": {
     "children": [
       "vtex.store-components:product-name",
+      "rich-text#description-product",
       "product-identifier.product#product__info"
     ],
     "props": {
@@ -79,9 +81,17 @@
       "blockClass": "producto-name"
     }
   },
+  "rich-text#description-product": {
+    "title": "Descripción corta de producto",
+    "props": {
+      "text": "Notebook Gamer Nitro 5 AN515-57 / Intel® \n Core™ i5 11400H / NVIDIA® GeForce® GTX \n 1650 / 16GB RAM / 1TB HDD + 128GB SSD / \n Pantalla 15,6' Full HD @144Hz ",
+      "blockClass": "description-product"
+    }
+  },
   "product-identifier.product#product__info": {
     "props": {
-      "blockClass": "identifier-product"
+      "label": "hide", //'default' | 'custom' | 'hide',
+        "blockClass": "identifier-product"
     }
   },
   "flex-layout.row#product__info--selectorandbutton": {
@@ -99,7 +109,8 @@
   "flex-layout.col#product__info--selector": {
     "children": ["product-quantity"],
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "product__info--selector"
     }
   },
   "flex-layout.col#product__info--button": {
@@ -135,7 +146,8 @@
   "flex-layout.col#product__info--image-pagos": {
     "children": ["image#product__info--image-pagos"],
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "product__info--image-pages"
     }
   },
   "image#product__info--image-pagos": {
@@ -158,5 +170,4 @@
       "blockClass": "product__info-text-mercadopago"
     }
   }
-
 }

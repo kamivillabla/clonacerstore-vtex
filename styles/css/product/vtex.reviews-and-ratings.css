@@ -11,5 +11,9 @@
 .container .review__title { 
   border-color: var(--secondary-color) !important
 }
-
+@media screen and (max-width:1024px) {
+  .inlineContainer {
+    padding: 1rem 0
+  }
+}
 

@@ -4,4 +4,19 @@
   margin: 0 10px;
 }
 
+.wrapper--description-product {
+  text-align: justify;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+  font-weight: 400;
+  color: #424546;
+}
+
+@media screen and (max-width:1024px) {
+  .container--product__info-text-mercadopago {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 
