@@ -1,3 +1,10 @@
 .flexRowContent--header__desktop {
   background-color: white;
 }
+
+.flexRowContent--header__top-container-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -37,7 +37,7 @@
   "product-summary.shelf#slider-product": {
     "title": "productos shelf",
     "children": [
-      "add-to-list-btn",
+      "add-to-list-btn#slider-product-mobile",
       "product-summary-image",
       "product-summary-name",
       "product-identifier.product",
@@ -48,6 +48,11 @@
       "add-to-cart-button#products__shelf-home",
       "modal-trigger#global__quick-view"
     ]
+  },
+  "add-to-list-btn#slider-product-mobile": {
+    "props": {
+      "blockClass": "slider-product-mobile-add-to-list"
+    }
   },
   "slider-layout#slider-product--result-mobile": {
     "title": "Slider productos",

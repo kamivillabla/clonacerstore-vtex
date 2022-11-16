@@ -7,10 +7,9 @@
       "header-spacer#spacer",
       "logo#header__top-mobile",
       "header-spacer#spacer",
-      "icon#icon-phone",
-      "login#header__top-mobile",
-      "minicart.v2",
+      "flex-layout.row#header__top-container-icon",
       "header-spacer#spacer"
+      
     ],
     "props": {
       "sticky": true,
@@ -20,12 +19,24 @@
     }
   },
   "header-spacer#spacer": {},
-  "icon#icon-phone": {
+  "icon#icon-phone-mobile": {
     "title": "Icono de celular",
     "props": {
       "id": "icon-phone",
+      "size": 15,
       "blockClass": "icon-phone",
       "viewBox": "0 0 16 16"
+    }
+  },
+  "flex-layout.row#header__top-container-icon": {
+    "children": ["icon#icon-phone-mobile",
+    "login#header__top-mobile",
+    "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__top-container-icon",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
     }
   }
 }
