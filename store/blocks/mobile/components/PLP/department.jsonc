@@ -73,7 +73,8 @@
             "name": "grid",
             "component": "GridSummary",
             "itemsPerRow": {
-                "mobile": 1
+              "(min-width:623px) and (max-width:1024px)": 2,
+              "(max-width:622px)": 1
             }
           },
           {

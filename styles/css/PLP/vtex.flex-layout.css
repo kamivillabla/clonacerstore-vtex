@@ -1,7 +1,6 @@
 .flexCol--results__text {
   padding: 0 5rem;
 }
-
 .flexColChild--result__filter--productCount {
   display: flex;
 }
@@ -86,4 +85,24 @@
 
 .flexCol--gridlist-price :global(.vtex-button) {
   background-color: var(--secondary-color);
+}
+
+.flexRowContent--results__filter {
+  padding: 0;
+}
+
+@media screen and (min-width:1600px){
+  .flexRow--department__results-desktop {
+    margin: auto;
+      width: 84%;
+  }
+  
+  .flexRowContent--department__breadcrum-container {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+  .flexRow--results__products {
+    width: 90%;
+    margin: 0 auto;
+  }
 }

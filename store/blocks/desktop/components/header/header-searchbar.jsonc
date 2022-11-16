@@ -1,9 +1,12 @@
 {
   "search-bar#header__desktop--search-bar": {
-    "blocks": ["autocomplete-result-list"],
+    "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "openAutoCompleteOnFocus": true,
-      "blockClass": "searchbar__desktop"
+       "openAutoCompleteOnFocus": true,
+       "blockClass": "searchbar__desktop"
     }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf#products"]
   }
 }

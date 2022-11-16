@@ -50,3 +50,23 @@
   color: white;
 }
 
+.gallery--result-gallery--grid {
+  padding-left: 2rem;
+}
+
+.totalProducts--layout {
+  padding-left: 2.9rem;
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery  {
+    width: 90%;
+  }
+  .gallery--result-gallery--grid {
+    padding-left: 0;
+  }
+  .galleryItem--grid {
+    padding: 0 !important;
+  }
+}
