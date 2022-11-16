@@ -1,0 +1,6 @@
+.wishlistIconContainer--slider-product-mobile-add-to-list {
+    display: flex;
+    justify-content: end;
+    filter: grayscale(1);
+    z-index: 1000;
+}

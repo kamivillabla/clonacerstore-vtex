@@ -32,3 +32,10 @@
   display: flex;
   padding: 1rem 0;
 }
+
+.imageWrapper--slider-product-img-mobile :global(.vtex-store-components-3-x-discountInsideContainer) {
+  background: var(--secondary-color);
+  position: absolute;
+  left: -50px;
+  width: 20%;
+}

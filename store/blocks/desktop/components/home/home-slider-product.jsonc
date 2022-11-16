@@ -23,11 +23,13 @@
     "props": {
       "fullWidth": true,
       "paddingTop": 0,
-      "blockClass": "home__product-shelf"
+      "blockClass": "home__product-shelf",
+      "preserveLayoutOnMobile": true
     }
   },
 
   "rich-text#slider-product--title": {
+    "title": "Titulo productos recomendados",
     "props": {
       "text": "Recomendados para ti",
       "blockClass": "search-result-tittle"
@@ -35,6 +37,7 @@
   },
 
   "flex-layout.col#slider-product--result": {
+    "title": "slider productos",
     "children": ["list-context.product-list#slider-product--result"],
     "props": {
       "blockClass": "home__results--products-shelf-container"
@@ -55,11 +58,12 @@
     ]
   },
   "product-summary-name": {
+    "title": "Titulo Product Summary",
     "props": {
       "tag": "h3"
     }
   },
-  "slider-layout#slider-product--result": {
+   "slider-layout#slider-product--result": {
     "title": "Slider productos",
     "props": {
       "itemsPerPage": {

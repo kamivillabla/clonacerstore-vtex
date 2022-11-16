@@ -39,7 +39,7 @@
       "image#header--phone",
       "rich-text#header--phone-num",
       "login",
-      "minicart.v2#header__desktop--minicart"
+      "minicart.v2#header__minicart"
     ],
     "props": {
       "colSizing": "auto"
