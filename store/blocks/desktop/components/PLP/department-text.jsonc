@@ -65,7 +65,7 @@
   "rich-text#results__text-button": {
     "title": "Button",
     "props": {
-      "text": "Ver",
+      "text": "Ver Más",
       "blockClass": "results__text-button"
     }
   }

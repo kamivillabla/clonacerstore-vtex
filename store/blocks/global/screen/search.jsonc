@@ -45,6 +45,9 @@
       "search-result-layout.mobile#department",
       "search-result-layout.desktop#department",
       "search-not-found-layout"
-    ]
+    ],
+    "props": {
+      "blockClass": "search-result-layout"
+    }
   }
 }

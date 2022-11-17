@@ -1,9 +1,16 @@
 {
   "flex-layout.row#department__breadcrumb": {
     "title": "breadcrumb",
-    "children": ["flex-layout.col#department__breadcrumb"]
+    "children": ["flex-layout.col#department__breadcrumb"],
+    "props": {
+      "blockClass": "department__breadcrum-container",
+      "preventHorizontalStretch": true
+    }
   },
   "flex-layout.col#department__breadcrumb": {
-    "children": ["breadcrumb.search"]
+    "children": ["breadcrumb.search"],
+    "props": {
+      "blockClass": "department__breadcrum"
+    }
   }
 }

@@ -114,14 +114,18 @@
     }
   },
   "flex-layout.col#product__info--button": {
-    "children": ["add-to-cart-button"],
+    "children": ["add-to-cart-button#product__info-button"],
     "props": {
       "verticalAlign": "middle",
       "width": "100%",
       "blockClass": "product__info--button"
     }
   },
-
+  "add-to-cart-button#product__info-button": {
+    "props": {
+    "blockClass": "producto__info-button"
+    }
+  },
   "flex-layout.col#product__info-right": {
     "children": ["vtex.store-components:product-description"],
     "props": {

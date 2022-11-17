@@ -1,5 +1,6 @@
 {
   "flex-layout.row#mobile__home--beneficios": {
+    "title": "Sección Beneficios",
     "children": ["flex-layout.col#mobile__home--beneficios"],
     "props": {
       "horizontalAlign": "center",
@@ -7,6 +8,7 @@
     }
   },
   "flex-layout.col#mobile__home--beneficios": {
+    "title": "Contenedor beneficios",
     "children": [
       "flex-layout.row#mobile__home--beneficios-title",
       "flex-layout.row#mobile__home--beneficios-content"
@@ -19,6 +21,7 @@
     }
   },
   "rich-text#home--beneficios-title-mobile": {
+    "title": "Título Sección Beneficios",
     "props": {
       "text": "Beneficios de comprar en ACER",
       "blockClass": "home--beneficios-title-mobile"
@@ -28,6 +31,7 @@
     "children": ["flex-layout.col#mobile__home--beneficios-content"]
   },
   "flex-layout.col#mobile__home--beneficios-content": {
+    "title": "Contenedor row de beneficios",
     "children": [
       "flex-layout.row#home--beneficios-content-one",
       "flex-layout.row#home--beneficios-content-two",
@@ -48,6 +52,7 @@
     }
   },
   "flex-layout.col#beneficios-content-col-one": {
+    "title": "Beneficios uno",
     "children": [
       "image#home--beneficios--one-img",
       "rich-text#home--beneficios-one-text"
@@ -59,6 +64,7 @@
     }
   },
   "flex-layout.col#beneficios-content-col-two": {
+    "title": "beneficios dos",
     "children": [
       "image#home--beneficios--two-img",
       "rich-text#home--beneficios-two-text"
@@ -80,6 +86,7 @@
     }
   },
   "flex-layout.col#beneficios-content-col-three": {
+    "title": "Beneficios tres",
     "children": [
       "image#home--beneficios--three-img",
       "rich-text#home--beneficios-three-text"
@@ -91,6 +98,7 @@
     }
   },
   "flex-layout.col#beneficios-content-col-four": {
+    "title": "Beneficios cuatro",
     "children": [
       "image#home--beneficios--four-img",
       "rich-text#home--beneficios-four-text"
@@ -112,6 +120,7 @@
     }
   },
   "flex-layout.col#beneficios-content-col-five": {
+    "title": "Beneficios cinco",
     "children": [
       "image#home--beneficios--five-img",
       "rich-text#home--beneficios-five-text"
@@ -123,6 +132,7 @@
     }
   },
   "flex-layout.col#beneficios-content-col-six": {
+    "title": "Beneficios seis",
     "children": [
       "image#home--beneficios--six-img",
       "rich-text#home--beneficios-six-text"

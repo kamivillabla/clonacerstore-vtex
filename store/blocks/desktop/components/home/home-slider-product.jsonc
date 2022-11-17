@@ -23,8 +23,7 @@
     "props": {
       "fullWidth": true,
       "paddingTop": 0,
-      "blockClass": "home__product-shelf",
-      "preserveLayoutOnMobile": true
+      "blockClass": "home__product-shelf"
     }
   },
 
@@ -67,9 +66,7 @@
     "title": "Slider productos",
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 2
+        "desktop": 4
       },
       "blockClass": "slider-products__shelf",
       "fullWidth": false

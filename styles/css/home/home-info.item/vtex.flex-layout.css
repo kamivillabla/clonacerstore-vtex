@@ -12,5 +12,5 @@
 .flexRowContent--home__container-infoitem--mobile {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
 }

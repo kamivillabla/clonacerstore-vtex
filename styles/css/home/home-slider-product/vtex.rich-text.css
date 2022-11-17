@@ -4,3 +4,10 @@
   color: #2c2e2f;
   margin-left: 4rem;
 }
+
+@media screen and (max-width: 750px) {
+  .paragraph--search-result-tittle {
+
+    margin-left: 0;
+  }
+}

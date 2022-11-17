@@ -1,8 +1,8 @@
-.buttonDataContainer {
+.buttonDataContainer--producto__info-button {
     align-items: center;
 }
 
-.buttonDataContainer::before {
+.buttonDataContainer--producto__info-button::before {
     content: "";
     width: 18px;
     height: 17px;
@@ -10,6 +10,6 @@
     background-size: contain;
 } 
 
-.buttonText {
+.buttonText--producto__info-button {
     padding-left: 1rem;
 }

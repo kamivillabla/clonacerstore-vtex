@@ -85,7 +85,7 @@
     "title": "Item 2: icono",
     "props": {
       "blockClass": "infoitem-icon",
-      "src": "assets/icons/icono_pedido.png",
+      "src": "assets/icons/icono_cuotas.png",
       "link": {
         "url": "/"
       },
@@ -150,10 +150,10 @@
   },
   // Cuarto item
   "flex-layout.col#mobile__home--infoitem--four": {
-    "children": ["flex-layout.row#mobile__home--infoitem-two-one"]
+    "children": ["flex-layout.row#mobile__home--infoitem-four-one"]
   },
   "flex-layout.row#mobile__home--infoitem-four-one": {
-    "title": "Item 3: Icono y texto",
+    "title": "Item 4: Icono y texto",
     "children": [
       "flex-layout.col#home--infoitem-four-one-mobile",
       "flex-layout.col#home--infoitem-four-two-mobile"
@@ -167,7 +167,7 @@
     "children": ["image#home--infoitem-four-one-mobile"]
   },
   "image#home--infoitem-four-one-mobile": {
-    "title": "Item 3: icono",
+    "title": "Item 4: icono",
     "props": {
       "blockClass": "infoitem-icon",
       "src": "assets/icons/icono_contacto.png",
@@ -178,15 +178,15 @@
     }
   },
   "flex-layout.col#home--infoitem-four-two-mobile": {
-    "children": ["rich-text#home--infoitem-text-two-one"],
+    "children": ["rich-text#home--infoitem-text-four-one"],
     "props": {
       "blockClass": "infoitem-text-four-one"
     }
   },
   "rich-text#home--infoitem-text-four-one": {
-    "title": "Item 3: texto",
+    "title": "Item 4: texto",
     "props": {
-      "text": "[contáctanos(/)",
+      "text": "[Contáctanos](/)",
       "blockClass": "info__item-mobil"
     }
   }

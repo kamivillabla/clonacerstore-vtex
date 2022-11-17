@@ -1,0 +1,10 @@
+.flexRowContent--quick-view--modal {
+    padding: 1rem;
+}
+.flexRowContent--quick-view--modal :global(.vtex-button) {
+    background-color: #80c342;
+}
+
+.flexRowContent--quick-view--modal :global(.vtex-store-components-3-x-productImagesGallerySlide--product__info--image) {
+    width: 100%;
+}

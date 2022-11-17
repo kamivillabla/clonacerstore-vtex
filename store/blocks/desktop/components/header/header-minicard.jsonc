@@ -93,6 +93,11 @@
   "minicart-summary": {
     "blocks": ["checkout-summary.compact#minicart"]
   },
+  "remove-button": {
+    "props": {
+      "blockClass": "remove-button-minicart"
+    }
+  },
   // boton ir a pagar
   "minicart-checkout-button": {
     "props": {

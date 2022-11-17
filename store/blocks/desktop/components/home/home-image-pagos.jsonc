@@ -9,12 +9,14 @@
     }
   },
   "flex-layout.col#desktop__home--mediospagos": {
+    "title": "contenedor de imagen forma de pagos",
     "children": ["image#desktop__home--image-pagos"],
     "props": {
       "horizontalAlign": "center"
     }
   },
   "image#desktop__home--image-pagos": {
+    "title": "Imagen de forma de pagos",
     "props": {
       "src": "assets/img/home-mediospagos-desktop.png",
       "maxHeight": 60

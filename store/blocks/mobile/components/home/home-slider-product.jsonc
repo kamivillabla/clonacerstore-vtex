@@ -58,8 +58,9 @@
     "title": "Slider productos",
     "props": {
       "itemsPerPage": {
-        "tablet": 3,
-        "phone": 1
+        "(min-width:768px)": 3,
+        "(min-width:426px)": 2,
+        "(max-width:425px)": 1
       },
       "blockClass": "slider-products__shelf-mobile",
       "fullWidth": true,
