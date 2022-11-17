@@ -55,9 +55,10 @@
 }
 
 .totalProducts--layout {
-  padding-left: 2.9rem;
+  padding-left: 0;
   padding-bottom: 3rem;
-}
+} 
+
 
 @media screen and (max-width: 1024px) {
   .gallery  {
@@ -69,4 +70,20 @@
   .galleryItem--grid {
     padding: 0 !important;
   }
+  .filters--layout {
+    display: flex;
+    justify-content: start;
+  }
+   .totalProducts--layout {
+    padding-bottom: 3rem;
+  }
+}
+
+
+.searchResultContainer {
+  max-width: 1900px !important;
+  padding: 0;
+}
+@media screen and (min-width:1600){
+ 
 }

@@ -10,7 +10,7 @@
       "product-rating-inline",
       "product-summary-description",
       "product-selling-price",
-      "add-to-cart-button",
+      "add-to-cart-button#products",
       "modal-trigger#global__quick-view"
     ],
     "props": {
@@ -93,13 +93,19 @@
     "children": [
 
       "product-selling-price",
-      "add-to-cart-button",
+      "add-to-cart-button#products",
       "modal-trigger#global__quick-view"
     ],
     "props": {
       "blockClass": "gridlist-price",
       "horizontalAlign": "left",
       "verticalAlign": "bottom"
+    }
+  },
+  "add-to-cart-button#products": {
+    "props": {
+      "text": "Ver producto",
+      "onClickBehavior": "go-to-product-page"
     }
   }
 }

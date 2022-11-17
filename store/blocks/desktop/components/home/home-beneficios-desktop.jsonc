@@ -1,5 +1,6 @@
 {
   "flex-layout.row#desktop__home--beneficios": {
+    "title": "Sección Beneficios",
     "children": ["flex-layout.col#desktop__home--beneficios"],
     "props": {
       "fullWidth": true,
@@ -16,6 +17,7 @@
     "children": ["rich-text#home--beneficios-title"]
   },
   "rich-text#home--beneficios-title": {
+    "title": "Título Sección Beneficios",
     "props": {
       "text": "Beneficios de comprar en ACER",
       "blockClass": "home--beneficios-title"
@@ -54,7 +56,7 @@
     }
   },
   "image#home--beneficios--one-img": {
-    "title": "Imagen",
+    "title": "Imagen beneficio 1",
     "props": {
       "blockClass": "beneficios-icon",
       "src": "assets/icons/beneficios_beneficios.png",
@@ -64,7 +66,7 @@
     }
   },
   "rich-text#home--beneficios-one-text": {
-    "title": "texto",
+    "title": "texto beneficio 1",
     "props": {
       "text": "[Beneficios \n compra conline](/)",
       "textAlignment": "CENTER",
@@ -85,7 +87,7 @@
     }
   },
   "image#home--beneficios--two-img": {
-    "title": "Imagen",
+    "title": "Imagen beneficio 2",
     "props": {
       "blockClass": "beneficios-icon",
       "src": "assets/icons/call_beneficio.png",
@@ -95,7 +97,7 @@
     }
   },
   "rich-text#home--beneficios-two-text": {
-    "title": "texto",
+    "title": "texto beneficio 2",
     "props": {
       "text": "[call center](/)",
       "textAlignment": "CENTER",
@@ -116,7 +118,7 @@
     }
   },
   "image#home--beneficios--three-img": {
-    "title": "Imagen",
+    "title": "Imagen beneficio 3",
     "props": {
       "blockClass": "beneficios-icon",
       "src": "assets/icons/soporte_beneficio.png",
@@ -126,7 +128,7 @@
     }
   },
   "rich-text#home--beneficios-three-text": {
-    "title": "texto",
+    "title": "texto beneficio 3",
     "props": {
       "text": "[Soporte servicio \n técnico](/)",
       "textAlignment": "CENTER",
@@ -147,7 +149,7 @@
     }
   },
   "image#home--beneficios--four-img": {
-    "title": "Imagen",
+    "title": "Imagen beneficio 4",
     "props": {
       "blockClass": "beneficios-icon",
       "src": "assets/icons/despacho_beneficio.png",
@@ -157,7 +159,7 @@
     }
   },
   "rich-text#home--beneficios-four-text": {
-    "title": "texto",
+    "title": "texto beneficio 4",
     "props": {
       "text": "[Despacho a \n domicilio](/)",
       "textAlignment": "CENTER",
@@ -178,7 +180,7 @@
     }
   },
   "image#home--beneficios--five-img": {
-    "title": "Imagen",
+    "title": "Imagen beneficio 5",
     "props": {
       "blockClass": "beneficios-icon",
       "src": "assets/icons/comprasegu_beneficio.png",
@@ -188,7 +190,7 @@
     }
   },
   "rich-text#home--beneficios-five-text": {
-    "title": "texto",
+    "title": "texto beneficio 5",
     "props": {
       "text": "[compra fácil \n y domicilio](/)",
       "textAlignment": "CENTER",

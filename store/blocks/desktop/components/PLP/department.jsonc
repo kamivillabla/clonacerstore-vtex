@@ -49,7 +49,7 @@
     "children": ["total-products.v2"],
     "props": {
       "verticalAlign": "middle",
-      "width": "60%",
+      "width": "50%",
       "blockClass": "result__filter--productCount"
     }
   },
@@ -67,7 +67,7 @@
     "children": ["gallery-layout-switcher#result__filter--gallerySwitcher"],
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "right",
+      "horizontalAlign": "left",
       "width": "10%",
       "blockClass": "result__filter--gallerySwitcher"
     }

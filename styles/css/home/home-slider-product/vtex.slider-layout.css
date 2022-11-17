@@ -62,8 +62,8 @@
 
 .sliderTrackContainer--slider-products__shelf-mobile
   :global(.vtex-product-summary-2-x-imageContainer) {
-  width: 15rem;
-  height: 12rem;
+  width: 100%;
+  height: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;

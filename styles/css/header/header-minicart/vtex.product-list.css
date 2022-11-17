@@ -13,3 +13,18 @@
     color: #c41616;
 }
 
+
+.quantitySelectorDecrease--minicart-selector {
+    height: 2rem;
+    background: transparent;
+    width: 2.3rem;
+}
+.inputContainer {
+    height: 2rem;
+    width: 3rem;
+}
+.quantitySelectorIncrease--minicart-selector {
+    height: 2rem;
+    background: transparent;
+    width: 2.3rem;
+}

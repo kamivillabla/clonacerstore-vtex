@@ -1,11 +1,13 @@
 {
   "modal-trigger#global__quick-view": {
+    "title": "Modal de vista rapida",
     "children": [
       "rich-text#global__quick-view--trigger",
       "modal-layout#global__quick-view--modal"
     ]
   },
   "rich-text#global__quick-view--trigger": {
+    "title": "Texto de Modal de vista rapida",
     "props": {
       "text": "vista rapida",
       "blockClass": "quick-view__trigger"
@@ -15,17 +17,23 @@
     "children": ["flex-layout.row#quick-view__modal"]
   },
   "flex-layout.row#quick-view__modal": {
+    "title": "Contenedor Modal de vista rapida",
     "children": [
       "flex-layout.col#quick-view__modal--image",
       "flex-layout.col#quick-view__modal--info"
-    ]
+    ],
+    "props": {
+      "blockClass": "quick-view--modal"
+    }
   },
   "flex-layout.col#quick-view__modal--image": {
+    "title": "Imagen Modal de vista rapida",
     "children": ["product-images"]
   },
   "flex-layout.col#quick-view__modal--info": {
+    "title": "Información Modal de vista rapida",
     "children": [
-      "add-to-list-btn",
+      "add-to-list-btn#grid",
       "vtex.store-components:product-name",
       "vtex.store-components:product-description",
 

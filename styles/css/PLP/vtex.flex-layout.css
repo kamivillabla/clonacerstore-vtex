@@ -91,6 +91,16 @@
   padding: 0;
 }
 
+
+@media screen and (max-width:1024px){
+  .flexRowContent--department__results-desktop .stretchChildrenWidth {
+    width: 100% !important;
+  }
+  .flexRow--results__filter {
+    padding-bottom: 3rem;
+  }
+}
+
 @media screen and (min-width:1600px){
   .flexRow--department__results-desktop {
     margin: auto;
@@ -100,9 +110,10 @@
   .flexRowContent--department__breadcrum-container {
     max-width: 85%;
     margin: 0 auto;
+    margin-left: 0;
   }
   .flexRow--results__products {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    margin-left: 2rem !important;
   }
 }

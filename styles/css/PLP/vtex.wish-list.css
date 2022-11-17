@@ -24,9 +24,7 @@
 /*  grid */
 
 .wishlistIconContainer--grid-add-btn {
-  text-align: left;
-  width: 100%;
-  z-index: 2;
-  padding-top: 5px;
-  padding-left: 5px;
+  display: flex;
+    justify-content: end;
+    padding-top: 5px;
 }

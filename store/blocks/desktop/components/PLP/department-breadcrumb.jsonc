@@ -3,7 +3,8 @@
     "title": "breadcrumb",
     "children": ["flex-layout.col#department__breadcrumb"],
     "props": {
-      "blockClass": "department__breadcrum-container"
+      "blockClass": "department__breadcrum-container",
+      "preventHorizontalStretch": true
     }
   },
   "flex-layout.col#department__breadcrumb": {

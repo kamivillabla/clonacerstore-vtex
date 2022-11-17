@@ -17,14 +17,18 @@
       "flex-layout.row#tabs-description--rowten",
       "flex-layout.row#tabs-description--eleven",
       "flex-layout.row#tabs-description--twelve"
-    ]
+    ],
+    "props": {
+      "blockClass": "products-tabs--description-inner"
+    }
   },
   // row 1
   "flex-layout.row#tabs-description--rowone": {
     "title": "Contenido fila 1",
     "children": ["flex-layout.col#tabs-description--rowone-colone"],
     "props": {
-      "marginBottom": 4
+      "marginBottom": 4,
+      "blockClass": "products-tabs--description-rowone"
     }
   },
   "flex-layout.col#tabs-description--rowone-colone": {

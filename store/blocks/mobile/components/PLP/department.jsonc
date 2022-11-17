@@ -12,19 +12,19 @@
       }
     },
     "flex-layout.col#department__results--mobile": {
-        "children": ["flex-layout.row#department__results--filter--mobile",  "flex-layout.row#results__filter--mobile",   "flex-layout.row#results__products--mobile"]
+        "children": ["flex-layout.row#department__results--filter--mobile",  "flex-layout.row#results__filter--mobile", "flex-layout.row#results__products--mobile"]
     },
     "flex-layout.row#department__results--filter--mobile": {
-      "title": "Filtro de busqueda de PLP",
-      "children": ["filter-navigator.v3"],
+      "title": "Contador de productos",
+      "children": ["flex-layout.col#results__filter--productCount--mobile"],
       "props": {
         "blockClass": "department-filter-navigator"
       }
     },
      "flex-layout.row#results__filter--mobile": {
-      "title": "contenedor resultados de productos",
+      "title": "contenedor resultados de productos y filter",
       "children": [
-        "flex-layout.col#results__filter--productCount--mobile",
+        "filter-navigator.v3",
         "flex-layout.col#results__filter--orderby--mobile"],
       "props": {
         "horizontalAlign": "center",
@@ -39,7 +39,7 @@
       "children": ["total-products.v2"],
       "props": {
         "verticalAlign": "middle",
-        "width": "60%",
+        "width": "50%",
         "blockClass": "result__filter--productCount"
       }
     },
@@ -47,9 +47,8 @@
       "title": "Orden de productos",
       "children": ["order-by.v2"],
       "props": {
-        "verticalAlign": "middle",
         "horizontalAlign": "right",
-        "width": "30%",
+        "width": "50%",
         "blockClass": "result__filter--orderby"
       }
     },

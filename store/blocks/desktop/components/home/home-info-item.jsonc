@@ -146,7 +146,7 @@
     }
   },
   "flex-layout.col#home__container--infoitem--three-1": {
-    "children": ["image#home__container--infoitem-two-icon"],
+    "children": ["image#home__container--infoitem-three-icon"],
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "middle"
@@ -204,7 +204,7 @@
     }
   },
   "flex-layout.col#home__container--infoitem--four-1": {
-    "children": ["image#home__container--infoitem-two-icon"],
+    "children": ["image#home__container--infoitem-four-icon"],
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "middle"
@@ -213,7 +213,7 @@
   "image#home__container--infoitem-four-icon": {
     "title": "Item 4: Icono",
     "props": {
-      "blockClass": "infoitem-icon-1",
+      "blockClass": ["infoitem-icon", "infoitem-icon-1"],
       "src": "assets/icons/icono_contacto.png",
       "link": {
         "url": "/"
