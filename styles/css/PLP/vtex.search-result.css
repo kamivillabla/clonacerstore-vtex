@@ -59,6 +59,14 @@
   padding-bottom: 3rem;
 } 
 
+.filterApplyButtonWrapper :global(.vtex-button){
+  background-color: #80c342;
+  color: white;
+}
+.filterClearButtonWrapper :global(.vtex-button) {
+  color:  #80c342
+}
+
 
 @media screen and (max-width: 1024px) {
   .gallery  {
@@ -76,6 +84,25 @@
   }
    .totalProducts--layout {
     padding-bottom: 3rem;
+    border: none;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  .filterPopupTitle  {
+    font-weight: bold;
+  }
+  .filterPopupArrowIcon  {
+    display: none;
+  }
+  .orderByButton {
+    justify-content: space-around;
+    border: 1px solid #424546;
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
   }
 }
 

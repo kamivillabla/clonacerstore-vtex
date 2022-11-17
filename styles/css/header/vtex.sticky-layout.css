@@ -6,4 +6,22 @@
     -webkit-box-shadow: 0 6px 21px -6px rgb(161 161 161 / 75%)
 }
 
+@media screen and (min-width:1030px) and (max-width:1440px) {
+  .container--header__deskto {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/* @media screen and (min-width: 1366px) {
+  .container--header__desktop :global(.vtex-store-components-3-x-container) {
+    max-width: 90%;
+
+  }
+}
+.container--header__desktop :global(.vtex-store-components-3-x-container) {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+} */
 /* ------------------------ Versión Mobile -------------------------- */
+
