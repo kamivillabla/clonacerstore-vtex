@@ -8,3 +8,13 @@
   justify-content: center;
 }
 
+.flexRow--header__desktop {
+  max-width: 95%;
+}
+
+@media screen and (min-width:1600px){
+  .flexRow--header__desktop {
+    max-width: 90%;
+    margin: 0 auto
+  }
+}

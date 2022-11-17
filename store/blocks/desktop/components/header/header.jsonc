@@ -14,17 +14,15 @@
     ],
     "props": {
       "colSizing": "auto",
-      "colJustify": "around"
-    }
+      "colJustify": "around",
+      "blockClass": "header__desktop"
+        }
   },
   "flex-layout.col#header__desktop--logo": {
     "children": ["logo#header__desktop--logo"],
     "props": { "verticalAlign": "middle" }
   },
- /*  "flex-layout.col#header__desktop--menu": {
-    "children": ["mega-menu#desktop"],
-    "props": { "verticalAlign": "middle" }
-  }, */
+
   "flex-layout.col#header__desktop--search-bar": {
     "children": ["search-bar#header__desktop--search-bar"],
     "props": { "verticalAlign": "middle" }
